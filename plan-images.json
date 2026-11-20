@@ -1,0 +1,498 @@
+[
+ {
+  "source": "recu/site/logo.png",
+  "nom": "logo",
+  "role": "logo",
+  "alt": "C'est dans la boîte !, Carine Schwalm"
+ },
+ {
+  "source": "recu/site/accueil-c-est-boite.jpg",
+  "nom": "cadre-logo",
+  "role": "logo",
+  "largeurs": [
+   240,
+   480,
+   720
+  ],
+  "alt": "Le cadre façon instantané du logo : « C'est dans la boite ! », signé Carine Schwalm",
+  "beaute": 3
+ },
+ {
+  "source": "recu/harmo/just-married-again.jpg",
+  "nom": "boite-mariage",
+  "role": "galerie",
+  "ratio": "9:10",
+  "largeurs": [
+   480,
+   800,
+   1300,
+   1860
+  ],
+  "alt": "Boîte « Just married… again ! » : un couple devant la cathédrale de Milan, colombes et pétales rouges",
+  "beaute": 4
+ },
+ {
+  "source": "recu/harmo/amour-virgul-1.jpg",
+  "nom": "boite-virgul",
+  "role": "galerie",
+  "ratio": "2:3",
+  "largeurs": [
+   480,
+   800,
+   1300
+  ],
+  "alt": "Boîte « Un amour de Virgul » : un couple et son cocker dans l'herbe fleurie, une cigogne en vol",
+  "beaute": 4
+ },
+ {
+  "source": "recu/harmo/laponie-finlandaise-1.jpg",
+  "nom": "boite-laponie",
+  "role": "galerie",
+  "ratio": "2:3",
+  "largeurs": [
+   480,
+   800,
+   1300
+  ],
+  "alt": "Boîte « Laponie Finlandaise, janvier 2020 » : deux voyageurs emmitouflés, des rennes et des branches enneigées",
+  "beaute": 4
+ },
+ {
+  "source": "recu/harmo/papa-moi.jpg",
+  "nom": "boite-papa",
+  "role": "galerie",
+  "ratio": "2:3",
+  "largeurs": [
+   480,
+   800,
+   1300
+  ],
+  "alt": "Boîte « Mon Papa et Moi » : un père et sa petite fille dans un champ, une cigogne en vol",
+  "beaute": 3
+ },
+ {
+  "source": "recu/harmo/love-cats.jpg",
+  "nom": "boite-love-cats",
+  "role": "galerie",
+  "ratio": "2:3",
+  "largeurs": [
+   480,
+   800,
+   1300
+  ],
+  "alt": "Boîte « The love cats » : deux amies et leurs chats à une fenêtre fleurie",
+  "beaute": 3
+ },
+ {
+  "source": "recu/harmo/kangourou-centre-rouge-edited.jpg",
+  "nom": "boite-kangourous-desert",
+  "role": "galerie",
+  "ratio": "2:3",
+  "largeurs": [
+   480,
+   800,
+   1300
+  ],
+  "alt": "Boîte « Un jour… en Australie » : des kangourous sur la terre rouge, un panneau de route",
+  "beaute": 4
+ },
+ {
+  "source": "recu/harmo/kangourou-ocean-road-1.jpg",
+  "nom": "boite-kangourous-cascade",
+  "role": "galerie",
+  "ratio": "2:3",
+  "largeurs": [
+   480,
+   800,
+   1300
+  ],
+  "alt": "Boîte « Un jour… en Australie » : des kangourous et des cacatoès près d'une cascade",
+  "beaute": 4
+ },
+ {
+  "source": "recu/harmo/jour-australie-2-edited.jpg",
+  "nom": "boite-koala",
+  "role": "galerie",
+  "ratio": "2:3",
+  "largeurs": [
+   480,
+   800,
+   1300
+  ],
+  "alt": "Boîte « Un jour… en Australie » : un koala dans les eucalyptus",
+  "beaute": 3
+ },
+ {
+  "source": "recu/harmo/amour-sophie-edited.jpg",
+  "nom": "boite-girafes",
+  "role": "galerie",
+  "ratio": "2:3",
+  "largeurs": [
+   480,
+   800,
+   1300
+  ],
+  "alt": "Boîte « Un amour de Sophie » : une famille de girafes",
+  "beaute": 4
+ },
+ {
+  "source": "recu/harmo/boite-meuh-1-edited.jpg",
+  "nom": "boite-meuh",
+  "role": "galerie",
+  "ratio": "2:3",
+  "largeurs": [
+   480,
+   800,
+   1300
+  ],
+  "alt": "Boîte « Boîte à Meuh » : des vaches dans un pré vert et des marguerites",
+  "beaute": 3
+ },
+ {
+  "source": "recu/harmo/copains-comme-cochon-1.jpg",
+  "nom": "boite-cochons",
+  "role": "galerie",
+  "ratio": "2:3",
+  "largeurs": [
+   480,
+   800,
+   1300
+  ],
+  "alt": "Boîte « Copains comme cochons ! » : trois cochons dans les fleurs, des oiseaux dans l'arbre",
+  "beaute": 4
+ },
+ {
+  "source": "recu/harmo/lautrec-edited.jpg",
+  "nom": "boite-lautrec",
+  "role": "galerie",
+  "ratio": "2:3",
+  "largeurs": [
+   480,
+   800,
+   1300
+  ],
+  "alt": "Boîte « Toulouse à Paris » : une danseuse de cancan devant l'affiche du Moulin Rouge, d'après Toulouse-Lautrec",
+  "beaute": 4
+ },
+ {
+  "source": "recu/harmo/lautrec-1-edited.jpg",
+  "nom": "boite-lautrec-biais",
+  "role": "galerie",
+  "ratio": "2:3",
+  "largeurs": [
+   480,
+   800,
+   1300
+  ],
+  "alt": "La boîte « Toulouse à Paris » vue de biais : on voit la profondeur des plans",
+  "beaute": 4
+ },
+ {
+  "source": "recu/harmo/lautrec-2-edited.jpg",
+  "nom": "boite-lautrec-profil",
+  "role": "galerie",
+  "ratio": "2:3",
+  "largeurs": [
+   480,
+   800,
+   1300
+  ],
+  "alt": "La boîte « Toulouse à Paris » de trois quarts, sur un mur de briques",
+  "beaute": 4
+ },
+ {
+  "source": "recu/harmo/big-apple-1-edited.jpg",
+  "nom": "boite-big-apple",
+  "role": "galerie",
+  "ratio": "2:3",
+  "largeurs": [
+   480,
+   800,
+   1300
+  ],
+  "alt": "Boîte « Big Apple » : la statue de la Liberté devant Manhattan, dans une pomme",
+  "beaute": 3
+ },
+ {
+  "source": "recu/harmo/big-apple-edited.jpg",
+  "nom": "boite-big-apple-cadres",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1000,
+   1600
+  ],
+  "alt": "La boîte « Big Apple » posée parmi des cadres en noir et blanc",
+  "beaute": 3
+ },
+ {
+  "source": "recu/harmo/insoumis-5-edited-edited.jpg",
+  "nom": "boite-dos",
+  "role": "galerie",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800,
+   1300
+  ],
+  "alt": "Le dos d'une boîte : l'anneau pour l'accrocher, l'étiquette « Mis en boîte par » et la carte de Carine Schwalm",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   30
+  ]
+ },
+ {
+  "source": "recu/harmo/cimg4933-edited.jpg",
+  "nom": "emballage-face",
+  "role": "galerie",
+  "ratio": "3:4",
+  "largeurs": [
+   480,
+   800,
+   1300
+  ],
+  "alt": "Le carton d'envoi en kraft, avec l'étiquette « C'est dans la boite ! »",
+  "beaute": 3
+ },
+ {
+  "source": "recu/harmo/cimg4934-edited.jpg",
+  "nom": "emballage-biais",
+  "role": "galerie",
+  "ratio": "3:4",
+  "largeurs": [
+   480,
+   800,
+   1300
+  ],
+  "alt": "Le carton d'envoi fermé, vu de biais",
+  "beaute": 3
+ },
+ {
+  "source": "recu/scenes/scene-mariage.jpg",
+  "nom": "scene-mariage",
+  "role": "vignette",
+  "ratio": "15:16",
+  "largeurs": [
+   480,
+   900
+  ],
+  "beaute": 3,
+  "alt": "L'intérieur de la boîte « Just married… again ! »"
+ },
+ {
+  "source": "recu/scenes/scene-animal.jpg",
+  "nom": "scene-animal",
+  "role": "vignette",
+  "ratio": "15:16",
+  "largeurs": [
+   480,
+   900
+  ],
+  "beaute": 3,
+  "alt": "L'intérieur de la boîte « Un amour de Virgul »"
+ },
+ {
+  "source": "recu/scenes/scene-vacances.jpg",
+  "nom": "scene-vacances",
+  "role": "vignette",
+  "ratio": "15:16",
+  "largeurs": [
+   480,
+   900
+  ],
+  "beaute": 3,
+  "alt": "L'intérieur de la boîte « Laponie Finlandaise »"
+ },
+ {
+  "source": "recu/scenes/scene-famille.jpg",
+  "nom": "scene-famille",
+  "role": "vignette",
+  "ratio": "15:16",
+  "largeurs": [
+   480,
+   900
+  ],
+  "beaute": 3,
+  "alt": "L'intérieur de la boîte « Mon Papa et Moi »"
+ },
+ {
+  "source": "recu/scenes/scene-amis.jpg",
+  "nom": "scene-amis",
+  "role": "vignette",
+  "ratio": "15:16",
+  "largeurs": [
+   480,
+   900
+  ],
+  "beaute": 3,
+  "alt": "L'intérieur de la boîte « The love cats »"
+ },
+ {
+  "source": "recu/scenes/boite-face.jpg",
+  "nom": "boite-face",
+  "role": "vignette",
+  "ratio": "16:21",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3,
+  "alt": "La boîte « Un jour… en Australie », de face"
+ },
+ {
+  "source": "recu/grok/atelier-ouverture.jpg",
+  "nom": "grok/atelier-ouverture",
+  "page": "atelier",
+  "emplacement": "Ouverture de la page L'atelier (pleine largeur, texte à gauche)",
+  "role": "ouverture",
+  "priorite": "Indispensable",
+  "beaute": 4,
+  "ratio": "16:9",
+  "mobile": "9:16",
+  "source_mobile": "recu/grok/atelier-ouverture-mobile.jpg",
+  "zone_texte": "gauche",
+  "gabarit": "scene-metier",
+  "alt": "Des mains découpent une photo imprimée au cutter sur un tapis de coupe",
+  "scene": "cutting out a printed photograph of a sunny coastline with a precision craft knife on a green self-healing cutting mat, a steel ruler, small paper cut-outs of clouds and palm leaves, a sheet of white mount board, everything placed in the right half of the frame"
+ },
+ {
+  "source": "recu/grok/etape-boitier.jpg",
+  "nom": "grok/etape-boitier",
+  "page": "atelier",
+  "emplacement": "Étape 1 : le boîtier",
+  "role": "carte-service",
+  "priorite": "Indispensable",
+  "beaute": 4,
+  "gabarit": "scene-metier",
+  "alt": "Une planche de carton blanc rainurée au cutter le long d'une règle",
+  "scene": "scoring a sheet of thick white mount board with a craft knife along a steel ruler, a few precisely cut white board strips and corner pieces of a small shallow box laid out unassembled next to it"
+ },
+ {
+  "source": "recu/grok/etape-verre.jpg",
+  "nom": "grok/etape-verre",
+  "page": "atelier",
+  "emplacement": "Étape 2 : le verre",
+  "role": "carte-service",
+  "priorite": "Indispensable",
+  "beaute": 4,
+  "gabarit": "scene-metier",
+  "alt": "Une petite vitre rayée au coupe-verre le long d'une règle",
+  "scene": "scoring a small rectangular pane of clear glass with a glass cutter along a steel ruler on a grey felt-covered table, a soft reflection on the glass"
+ },
+ {
+  "source": "recu/grok/etape-plans.jpg",
+  "nom": "grok/etape-plans",
+  "page": "atelier",
+  "emplacement": "Étape 3 : les plans du photomontage",
+  "role": "carte-service",
+  "priorite": "Indispensable",
+  "beaute": 4,
+  "gabarit": "scene-metier",
+  "alt": "Des éléments découpés dans des photos, rangés sur l'établi, une pince fine",
+  "scene": "picking up a small paper cut-out with fine tweezers among neat rows of cut-out photo paper elements: clouds, leaves, tiny birds, a strip of green hills, a little sailboat, nothing assembled, no people in the prints"
+ },
+ {
+  "source": "recu/grok/etape-matieres.jpg",
+  "nom": "grok/etape-matieres",
+  "page": "atelier",
+  "emplacement": "Étape 4 : les éléments ludiques",
+  "role": "carte-service",
+  "priorite": "Indispensable",
+  "beaute": 4,
+  "gabarit": "scene-metier",
+  "alt": "Une pincée de sable versée dans un petit plateau, des coquillages et du gazon à côté",
+  "scene": "pouring a pinch of fine golden sand from a small glass jar into a shallow white paper tray, a few small seashells and a tuft of artificial grass next to it"
+ },
+ {
+  "source": "recu/grok/matiere-sable.jpg",
+  "nom": "grok/matiere-sable",
+  "page": "atelier",
+  "emplacement": "Matière : le sable",
+  "role": "vignette",
+  "priorite": "Conseillée",
+  "beaute": 3,
+  "gabarit": "texture",
+  "alt": "Du sable fin et doré, en gros plan",
+  "consigne_scene": "Straight-on macro photograph of fine golden beach sand with a few tiny pale pebbles, filling the whole frame edge to edge, soft raking light revealing every grain."
+ },
+ {
+  "source": "recu/grok/matiere-coquillages.jpg",
+  "nom": "grok/matiere-coquillages",
+  "page": "atelier",
+  "emplacement": "Matière : les coquillages",
+  "role": "vignette",
+  "priorite": "Conseillée",
+  "beaute": 4,
+  "gabarit": "texture",
+  "alt": "De petits coquillages clairs",
+  "consigne_scene": "Top-down macro photograph of dozens of small pale seashells, cockles and tiny spirals, scattered evenly over fine sand, filling the whole frame edge to edge, soft raking light."
+ },
+ {
+  "source": "recu/grok/matiere-gazon.jpg",
+  "nom": "grok/matiere-gazon",
+  "page": "atelier",
+  "emplacement": "Matière : le gazon synthétique",
+  "role": "vignette",
+  "priorite": "Conseillée",
+  "beaute": 3,
+  "gabarit": "texture",
+  "alt": "Du gazon synthétique vert, en gros plan",
+  "consigne_scene": "Straight-on macro photograph of short bright green artificial grass, dense even blades, filling the whole frame edge to edge, soft raking light, slight depth of field."
+ },
+ {
+  "source": "recu/grok/matiere-fourrure.jpg",
+  "nom": "grok/matiere-fourrure",
+  "page": "atelier",
+  "emplacement": "Matière : la fausse fourrure",
+  "role": "vignette",
+  "priorite": "Conseillée",
+  "beaute": 4,
+  "gabarit": "texture",
+  "alt": "De la fausse fourrure crème, toute douce",
+  "consigne_scene": "Straight-on macro photograph of soft cream faux fur with long silky fibres gently swirling, filling the whole frame edge to edge, warm soft raking light."
+ },
+ {
+  "source": "recu/grok/atelier-etabli.jpg",
+  "nom": "grok/atelier-etabli",
+  "page": "accueil",
+  "emplacement": "Section « Carine et l'atelier » (photo en hauteur)",
+  "role": "galerie",
+  "priorite": "Conseillée",
+  "beaute": 4,
+  "ratio": "4:5",
+  "gabarit": "section-fond",
+  "alt": "Un coin d'établi : bocaux de sable et de coquillages, chutes de carton blanc, cutter et tapis de coupe",
+  "consigne_scene": "A corner of a tidy home craft workbench seen from slightly above: small glass jars of golden sand and seashells, offcuts of white mount board, a roll of kraft paper, a green cutting mat with a craft knife and a steel ruler, nothing being made, no people, no hands."
+ },
+ {
+  "source": "recu/grok/contact-ouverture.jpg",
+  "nom": "grok/contact-ouverture",
+  "page": "contact",
+  "emplacement": "Ouverture de la page Contact (à droite du texte)",
+  "role": "galerie",
+  "priorite": "Conseillée",
+  "beaute": 4,
+  "ratio": "4:5",
+  "gabarit": "scene-metier",
+  "alt": "Une enveloppe kraft, des photos imprimées retournées et un stylo sur un bureau clair",
+  "consigne_scene": "A kraft paper envelope, a small stack of printed photographs lying face down so that nothing is visible on them, a fountain pen and a blank note card on a pale oak desk, nothing else, no people, no hands, no text anywhere."
+ },
+ {
+  "source": "recu/grok/404.jpg",
+  "nom": "grok/404",
+  "page": "404",
+  "emplacement": "Ouverture de la page 404 (pleine largeur, texte en haut)",
+  "role": "404",
+  "priorite": "Indispensable",
+  "beaute": 4,
+  "ratio": "16:9",
+  "mobile": "9:16",
+  "source_mobile": "recu/grok/404-mobile.jpg",
+  "zone_texte": "haut",
+  "gabarit": "404",
+  "alt": "Un carton kraft ouvert et vide, du papier de soie froissé",
+  "consigne_scene": "An empty open kraft cardboard shipping box on a pale wooden table, crumpled white tissue paper spilling out of it, nothing at all inside the box, a gentle touch of humour, the box in the lower half of the frame."
+ }
+]

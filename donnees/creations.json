@@ -1,0 +1,16 @@
+[
+  { "id": "un-amour-de-virgul", "image": "boite-virgul", "legende": "Un amour de Virgul", "categorie": "sur-mesure" },
+  { "id": "just-married-again", "image": "boite-mariage", "legende": "Just married… again !", "categorie": "sur-mesure" },
+  { "id": "laponie-finlandaise", "image": "boite-laponie", "legende": "Laponie Finlandaise, janvier 2020", "categorie": "sur-mesure" },
+  { "id": "mon-papa-et-moi", "image": "boite-papa", "legende": "Mon Papa et Moi", "categorie": "sur-mesure" },
+  { "id": "the-love-cats", "image": "boite-love-cats", "legende": "The love cats", "categorie": "sur-mesure" },
+  { "id": "australie-desert", "image": "boite-kangourous-desert", "legende": "Un jour… en Australie", "categorie": "voyages" },
+  { "id": "australie-cascade", "image": "boite-kangourous-cascade", "legende": "Un jour… en Australie", "categorie": "animaux" },
+  { "id": "australie-koala", "image": "boite-koala", "legende": "Un jour… en Australie", "categorie": "animaux" },
+  { "id": "un-amour-de-sophie", "image": "boite-girafes", "legende": "Un amour de Sophie", "categorie": "animaux" },
+  { "id": "boite-a-meuh", "image": "boite-meuh", "legende": "Boîte à Meuh", "categorie": "animaux" },
+  { "id": "copains-comme-cochons", "image": "boite-cochons", "legende": "Copains comme cochons !", "categorie": "animaux" },
+  { "id": "toulouse-a-paris", "image": "boite-lautrec", "legende": "Toulouse à Paris", "categorie": "art" },
+  { "id": "toulouse-a-paris-biais", "image": "boite-lautrec-biais", "legende": "Toulouse à Paris, vue de biais", "categorie": "art" },
+  { "id": "big-apple", "image": "boite-big-apple", "legende": "Big Apple", "categorie": "voyages" }
+]

@@ -1,0 +1,202 @@
+{
+  "client": "C'est dans la boîte",
+  "activite": "artisanat",
+  "direction": "L'instantané",
+  "date": "2026-11-20T19:38:41.452Z",
+  "images": [
+    {
+      "nom": "grok/atelier-ouverture",
+      "fichier": "atelier-ouverture.jpg",
+      "page": "atelier",
+      "emplacement": "Ouverture de la page L'atelier (pleine largeur, texte à gauche) (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "mains en trop"
+      ],
+      "consigne": "Over-the-shoulder view of anonymous hands cutting out a printed photograph of a sunny coastline with a precision craft knife on a green self-healing cutting mat, a steel ruler, small paper cut-outs of clouds and palm leaves, a sheet of white mount board, everything placed in the right half of the frame, only hands and forearms visible, face out of frame, tools without any brand marking, careful and precise work. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Photorealistic editorial still life for a high-end craft workshop, warm, playful and tender, like a family photo album mood, palette of warm photo-paper white, natural kraft cardboard brown, deep ink black and a single touch of tomato red, soft late-afternoon window light from the left, tactile white mount board, kraft cardboard, clear glass, printed photo paper, set in a small home craft studio in a quiet French town on an ordinary autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/atelier-ouverture",
+      "fichier": "atelier-ouverture-mobile.jpg",
+      "page": "atelier",
+      "emplacement": "Ouverture de la page L'atelier (pleine largeur, texte à gauche) (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "mains en trop"
+      ],
+      "consigne": "Over-the-shoulder view of anonymous hands cutting out a printed photograph of a sunny coastline with a precision craft knife on a green self-healing cutting mat, a steel ruler, small paper cut-outs of clouds and palm leaves, a sheet of white mount board, everything placed in the right half of the frame, only hands and forearms visible, face out of frame, tools without any brand marking, careful and precise work. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Photorealistic editorial still life for a high-end craft workshop, warm, playful and tender, like a family photo album mood, palette of warm photo-paper white, natural kraft cardboard brown, deep ink black and a single touch of tomato red, soft late-afternoon window light from the left, tactile white mount board, kraft cardboard, clear glass, printed photo paper, set in a small home craft studio in a quiet French town on an ordinary autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/etape-boitier",
+      "fichier": "etape-boitier.jpg",
+      "page": "atelier",
+      "emplacement": "Étape 1 : le boîtier",
+      "role": "carte-service",
+      "format": "16:10",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "mains en trop"
+      ],
+      "consigne": "Over-the-shoulder view of anonymous hands scoring a sheet of thick white mount board with a craft knife along a steel ruler, a few precisely cut white board strips and corner pieces of a small shallow box laid out unassembled next to it, only hands and forearms visible, face out of frame, tools without any brand marking, careful and precise work. Aspect ratio 16:10, main subject well inside the central area with generous margins on every side, so the image can be cropped. Photorealistic editorial still life for a high-end craft workshop, warm, playful and tender, like a family photo album mood, palette of warm photo-paper white, natural kraft cardboard brown, deep ink black and a single touch of tomato red, soft late-afternoon window light from the left, tactile white mount board, kraft cardboard, clear glass, printed photo paper, set in a small home craft studio in a quiet French town on an ordinary autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/etape-verre",
+      "fichier": "etape-verre.jpg",
+      "page": "atelier",
+      "emplacement": "Étape 2 : le verre",
+      "role": "carte-service",
+      "format": "16:10",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "mains en trop"
+      ],
+      "consigne": "Over-the-shoulder view of anonymous hands scoring a small rectangular pane of clear glass with a glass cutter along a steel ruler on a grey felt-covered table, a soft reflection on the glass, only hands and forearms visible, face out of frame, tools without any brand marking, careful and precise work. Aspect ratio 16:10, main subject well inside the central area with generous margins on every side, so the image can be cropped. Photorealistic editorial still life for a high-end craft workshop, warm, playful and tender, like a family photo album mood, palette of warm photo-paper white, natural kraft cardboard brown, deep ink black and a single touch of tomato red, soft late-afternoon window light from the left, tactile white mount board, kraft cardboard, clear glass, printed photo paper, set in a small home craft studio in a quiet French town on an ordinary autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/etape-plans",
+      "fichier": "etape-plans.jpg",
+      "page": "atelier",
+      "emplacement": "Étape 3 : les plans du photomontage",
+      "role": "carte-service",
+      "format": "16:10",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "mains en trop"
+      ],
+      "consigne": "Over-the-shoulder view of anonymous hands picking up a small paper cut-out with fine tweezers among neat rows of cut-out photo paper elements: clouds, leaves, tiny birds, a strip of green hills, a little sailboat, nothing assembled, no people in the prints, only hands and forearms visible, face out of frame, tools without any brand marking, careful and precise work. Aspect ratio 16:10, main subject well inside the central area with generous margins on every side, so the image can be cropped. Photorealistic editorial still life for a high-end craft workshop, warm, playful and tender, like a family photo album mood, palette of warm photo-paper white, natural kraft cardboard brown, deep ink black and a single touch of tomato red, soft late-afternoon window light from the left, tactile white mount board, kraft cardboard, clear glass, printed photo paper, set in a small home craft studio in a quiet French town on an ordinary autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/etape-matieres",
+      "fichier": "etape-matieres.jpg",
+      "page": "atelier",
+      "emplacement": "Étape 4 : les éléments ludiques",
+      "role": "carte-service",
+      "format": "16:10",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "mains en trop"
+      ],
+      "consigne": "Over-the-shoulder view of anonymous hands pouring a pinch of fine golden sand from a small glass jar into a shallow white paper tray, a few small seashells and a tuft of artificial grass next to it, only hands and forearms visible, face out of frame, tools without any brand marking, careful and precise work. Aspect ratio 16:10, main subject well inside the central area with generous margins on every side, so the image can be cropped. Photorealistic editorial still life for a high-end craft workshop, warm, playful and tender, like a family photo album mood, palette of warm photo-paper white, natural kraft cardboard brown, deep ink black and a single touch of tomato red, soft late-afternoon window light from the left, tactile white mount board, kraft cardboard, clear glass, printed photo paper, set in a small home craft studio in a quiet French town on an ordinary autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/matiere-sable",
+      "fichier": "matiere-sable.jpg",
+      "page": "atelier",
+      "emplacement": "Matière : le sable",
+      "role": "vignette",
+      "format": "4:3",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "texture",
+      "pieges": [],
+      "consigne": "Straight-on macro photograph of fine golden beach sand with a few tiny pale pebbles, filling the whole frame edge to edge, soft raking light revealing every grain. Horizontal composition, aspect ratio 4:3, main subject well inside the central area with generous margins on every side, so the image can be cropped. Photorealistic editorial still life for a high-end craft workshop, warm, playful and tender, like a family photo album mood, palette of warm photo-paper white, natural kraft cardboard brown, deep ink black and a single touch of tomato red, soft late-afternoon window light from the left, tactile white mount board, kraft cardboard, clear glass, printed photo paper, set in a small home craft studio in a quiet French town on an ordinary autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/matiere-coquillages",
+      "fichier": "matiere-coquillages.jpg",
+      "page": "atelier",
+      "emplacement": "Matière : les coquillages",
+      "role": "vignette",
+      "format": "4:3",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "texture",
+      "pieges": [],
+      "consigne": "Top-down macro photograph of dozens of small pale seashells, cockles and tiny spirals, scattered evenly over fine sand, filling the whole frame edge to edge, soft raking light. Horizontal composition, aspect ratio 4:3, main subject well inside the central area with generous margins on every side, so the image can be cropped. Photorealistic editorial still life for a high-end craft workshop, warm, playful and tender, like a family photo album mood, palette of warm photo-paper white, natural kraft cardboard brown, deep ink black and a single touch of tomato red, soft late-afternoon window light from the left, tactile white mount board, kraft cardboard, clear glass, printed photo paper, set in a small home craft studio in a quiet French town on an ordinary autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/matiere-gazon",
+      "fichier": "matiere-gazon.jpg",
+      "page": "atelier",
+      "emplacement": "Matière : le gazon synthétique",
+      "role": "vignette",
+      "format": "4:3",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "texture",
+      "pieges": [],
+      "consigne": "Straight-on macro photograph of short bright green artificial grass, dense even blades, filling the whole frame edge to edge, soft raking light, slight depth of field. Horizontal composition, aspect ratio 4:3, main subject well inside the central area with generous margins on every side, so the image can be cropped. Photorealistic editorial still life for a high-end craft workshop, warm, playful and tender, like a family photo album mood, palette of warm photo-paper white, natural kraft cardboard brown, deep ink black and a single touch of tomato red, soft late-afternoon window light from the left, tactile white mount board, kraft cardboard, clear glass, printed photo paper, set in a small home craft studio in a quiet French town on an ordinary autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/matiere-fourrure",
+      "fichier": "matiere-fourrure.jpg",
+      "page": "atelier",
+      "emplacement": "Matière : la fausse fourrure",
+      "role": "vignette",
+      "format": "4:3",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "texture",
+      "pieges": [],
+      "consigne": "Straight-on macro photograph of soft cream faux fur with long silky fibres gently swirling, filling the whole frame edge to edge, warm soft raking light. Horizontal composition, aspect ratio 4:3, main subject well inside the central area with generous margins on every side, so the image can be cropped. Photorealistic editorial still life for a high-end craft workshop, warm, playful and tender, like a family photo album mood, palette of warm photo-paper white, natural kraft cardboard brown, deep ink black and a single touch of tomato red, soft late-afternoon window light from the left, tactile white mount board, kraft cardboard, clear glass, printed photo paper, set in a small home craft studio in a quiet French town on an ordinary autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/atelier-etabli",
+      "fichier": "atelier-etabli.jpg",
+      "page": "accueil",
+      "emplacement": "Section « Carine et l'atelier » (photo en hauteur)",
+      "role": "galerie",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Conseillée",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "A corner of a tidy home craft workbench seen from slightly above: small glass jars of golden sand and seashells, offcuts of white mount board, a roll of kraft paper, a green cutting mat with a craft knife and a steel ruler, nothing being made, no people, no hands. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Photorealistic editorial still life for a high-end craft workshop, warm, playful and tender, like a family photo album mood, palette of warm photo-paper white, natural kraft cardboard brown, deep ink black and a single touch of tomato red, soft late-afternoon window light from the left, tactile white mount board, kraft cardboard, clear glass, printed photo paper, set in a small home craft studio in a quiet French town on an ordinary autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/contact-ouverture",
+      "fichier": "contact-ouverture.jpg",
+      "page": "contact",
+      "emplacement": "Ouverture de la page Contact (à droite du texte)",
+      "role": "galerie",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A kraft paper envelope, a small stack of printed photographs lying face down so that nothing is visible on them, a fountain pen and a blank note card on a pale oak desk, nothing else, no people, no hands, no text anywhere. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Photorealistic editorial still life for a high-end craft workshop, warm, playful and tender, like a family photo album mood, palette of warm photo-paper white, natural kraft cardboard brown, deep ink black and a single touch of tomato red, soft late-afternoon window light from the left, tactile white mount board, kraft cardboard, clear glass, printed photo paper, set in a small home craft studio in a quiet French town on an ordinary autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/404",
+      "fichier": "404.jpg",
+      "page": "404",
+      "emplacement": "Ouverture de la page 404 (pleine largeur, texte en haut) (ordinateur)",
+      "role": "404",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "404",
+      "pieges": [],
+      "consigne": "An empty open kraft cardboard shipping box on a pale wooden table, crumpled white tissue paper spilling out of it, nothing at all inside the box, a gentle touch of humour, the box in the lower half of the frame. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Photorealistic editorial still life for a high-end craft workshop, warm, playful and tender, like a family photo album mood, palette of warm photo-paper white, natural kraft cardboard brown, deep ink black and a single touch of tomato red, soft late-afternoon window light from the left, tactile white mount board, kraft cardboard, clear glass, printed photo paper, set in a small home craft studio in a quiet French town on an ordinary autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/404",
+      "fichier": "404-mobile.jpg",
+      "page": "404",
+      "emplacement": "Ouverture de la page 404 (pleine largeur, texte en haut) (téléphone)",
+      "role": "404",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "404",
+      "pieges": [],
+      "consigne": "An empty open kraft cardboard shipping box on a pale wooden table, crumpled white tissue paper spilling out of it, nothing at all inside the box, a gentle touch of humour, the box in the lower half of the frame. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Photorealistic editorial still life for a high-end craft workshop, warm, playful and tender, like a family photo album mood, palette of warm photo-paper white, natural kraft cardboard brown, deep ink black and a single touch of tomato red, soft late-afternoon window light from the left, tactile white mount board, kraft cardboard, clear glass, printed photo paper, set in a small home craft studio in a quiet French town on an ordinary autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "Autre langue",
+    "actionEntete": "Commander",
+    "appeler": "Appeler",
+    "sommaire": "Sommaire",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette de présentation : formulaire simulé, rien n'est envoyé.",
+    "mentions": "Mentions légales : à compléter",
+    "confidentialite": "Politique de confidentialité : à compléter",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Photomontages 3D faits main",
+    "signature": "Carine Schwalm, créatrice",
+    "ecrire": "Écrire à Carine",
+    "schema": "Schéma illustratif",
+    "fermerVisionneuse": "Fermer",
+    "precedente": "Boîte précédente",
+    "suivante": "Boîte suivante"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "C'est dans la boîte : photomontages 3D faits main en Alsace",
+      "description": "Carine Schwalm met vos photos en relief dans une boîte façon Polaroïd de 21 × 16 cm : mariage, vacances, animal, famille. 35 €, prête en 10 à 15 jours.",
+      "nav": "Accueil",
+      "partageAlt": "C'est dans la boîte : une boîte en relief, un couple et son cocker dans l'herbe fleurie",
+      "accroche": "Donnez vie à vos images !"
+    },
+    "creations": {
+      "titre": "Créations : les boîtes de Carine · C'est dans la boîte",
+      "description": "Mariages, voyages, animaux, hommage à Toulouse-Lautrec : des photomontages 3D faits main, mis en boîte en Alsace.",
+      "nav": "Créations",
+      "partageAlt": "Des boîtes en relief accrochées au mur",
+      "accroche": "Des souvenirs, mis en boîte"
+    },
+    "atelier": {
+      "titre": "L'atelier : tout est fait main · C'est dans la boîte",
+      "description": "Le boîtier, le verre, les plans du photomontage, le sable et les coquillages : comment Carine fabrique chaque boîte, depuis 2016.",
+      "nav": "L'atelier",
+      "partageAlt": "Des mains découpent une photo au cutter dans l'atelier",
+      "accroche": "Tout est fait main"
+    },
+    "sur-mesure": {
+      "titre": "Votre boîte sur mesure, 35 € · C'est dans la boîte",
+      "description": "Composez votre boîte : occasion, éléments ludiques, légende, envoi ou click & collect. 35 €, 21 × 16 cm, prête en 10 à 15 jours.",
+      "nav": "Sur mesure",
+      "partageAlt": "Votre boîte sur mesure, 35 €",
+      "accroche": "Votre boîte sur mesure, 35 €"
+    },
+    "contact": {
+      "titre": "Contact : Carine Schwalm · C'est dans la boîte",
+      "description": "Écrivez à Carine pour votre boîte sur mesure : carineschwalm@orange.fr, 06 87 82 62 99, Lingolsheim (67380).",
+      "nav": "Contact",
+      "partageAlt": "Une enveloppe kraft et des photos prêtes à partir",
+      "accroche": "Écrivez à Carine"
+    },
+    "404": {
+      "titre": "Cette boîte est vide · C'est dans la boîte",
+      "description": "Cette page n'existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Cette boîte est vide",
+      "accroche": "Cette boîte est vide"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "Photomontages 3D faits main en Alsace",
+      "titre1": "Donnez <em>vie</em>",
+      "titre2": "à vos images !",
+      "texte": "Carine découpe vos photos, les pose sur plusieurs plans et les met en boîte : un souvenir en relief, sous verre, à accrocher ou à poser.",
+      "action": "Raconter mon souvenir",
+      "secondaire": "Voir les créations",
+      "info": "35 € · 21 × 16 cm · prête en 10 à 15 jours"
+    },
+    "occasions": {
+      "rangee1": "Mariage · Anniversaire · Vacances ·",
+      "rangee2": "Animal de compagnie · Moment important ·",
+      "surtitre": "Sur mesure",
+      "titre": "Quel souvenir mettez-vous <em>en boîte</em> ?",
+      "texte": "Un mariage, un anniversaire, des vacances, votre animal ou tout autre moment important : vous envoyez vos photos, Carine compose la boîte.",
+      "mariage": "Un mariage",
+      "animal": "Un animal adoré",
+      "vacances": "Des vacances",
+      "famille": "Un moment en famille",
+      "autreTitre": "Votre idée",
+      "autreTexte": "Un anniversaire ou tout autre moment important : racontez-le, Carine imagine la boîte.",
+      "autreLien": "Composer ma boîte",
+      "exemple": "Exemple"
+    },
+    "plans": {
+      "surtitre": "Dans la boîte",
+      "titre": "Un souvenir en <em>relief</em>, plan par plan",
+      "texte": "Vos photos sont découpées puis posées sur plusieurs plans : c'est ce qui donne la profondeur. Faites défiler pour ouvrir la boîte.",
+      "listeTitre": "De l'avant vers le fond",
+      "c1": "Le verre",
+      "c1t": "Un verre clair, découpé à la main, protège le montage.",
+      "c2": "Le cadre et sa légende",
+      "c2t": "Le bord façon Polaroïd, avec la légende de votre souvenir.",
+      "c3": "Le premier plan",
+      "c3t": "Les éléments ludiques : sable, coquillages, gazon, fausse fourrure…",
+      "c4": "Les personnages",
+      "c4t": "Vos photos découpées : les gens, les animaux, ce qui compte.",
+      "c5": "Le décor",
+      "c5t": "Le paysage ou le lieu, tout au fond.",
+      "c6": "Le boîtier",
+      "c6t": "Découpé et assemblé à la main, avec un anneau au dos.",
+      "legende": "Votre légende ici",
+      "aria": "Schéma d'une boîte ouverte en six plans : verre, cadre, premier plan, personnages, décor, boîtier"
+    },
+    "offre": {
+      "surtitre": "Le format",
+      "titre": "Une boîte de <span class=\"insecable\">21 × 16 cm</span>,",
+      "prix": "35 €",
+      "f1": "Un verre clair devant le photomontage",
+      "f2": "Un anneau au dos pour l'accrocher, ou posée sur un meuble",
+      "f3": "Faite à la main, du boîtier au montage",
+      "f4": "Emballée dans un carton épais, à son logo",
+      "delais": "Sur mesure : 10 à 15 jours. Pièce en stock : 24 à 48 h. Envoi à l'adresse de votre choix (frais de port en plus) ou click & collect.",
+      "action": "Composer ma boîte",
+      "dosLegende": "Vue de dos : l'anneau et la carte de Carine",
+      "emballageLegende": "Le carton d'envoi"
+    },
+    "rangee": {
+      "surtitre": "Créations",
+      "titre": "Déjà <em>mises en boîte</em>",
+      "texte": "Des voyages, des animaux, un hommage à Toulouse-Lautrec : chaque boîte raconte une histoire.",
+      "region": "Créations de Carine, rangée qui défile",
+      "tout": "Toutes les créations",
+      "toutTexte": "Mariages, voyages, animaux : la galerie complète."
+    },
+    "etapes": {
+      "surtitre": "Commander",
+      "titre": "Trois étapes, <em>sans bouger</em> de chez vous",
+      "e1": "Racontez-moi",
+      "e1t": "Envoyez vos photos et votre histoire par e-mail. Pas besoin de vous déplacer.",
+      "e2": "Carine compose",
+      "e2t": "Découpe, plans, éléments ludiques, verre : tout est fait main à l'atelier, en 10 à 15 jours.",
+      "e3": "La boîte arrive",
+      "e3t": "Envoi à l'adresse de votre choix (frais de port en plus), ou retrait en click & collect.",
+      "action": "Commencer par l'étape 1"
+    },
+    "carine": {
+      "surtitre": "L'atelier",
+      "titre": "Derrière chaque boîte, <em>Carine</em>",
+      "texte": "Arts plastiques, puis décoratrice, encadreuse et mosaïste : Carine crée depuis toujours. Enfant, dans les années 80, elle reçoit un appareil Polaroïd : dix photos par pellicule, chacune précieuse. Ses boîtes en viennent, depuis 2016.",
+      "citation": "La création est mon moteur depuis ma naissance.",
+      "lien": "Découvrir l'atelier"
+    },
+    "fin": {
+      "titre": "Votre souvenir mérite sa <em>boîte</em>.",
+      "texte": "Racontez-le à Carine : elle vous répond par e-mail ou par téléphone.",
+      "action": "Composer ma boîte",
+      "logoAlt": "Le cadre du logo : « C'est dans la boite ! », signé Carine Schwalm"
+    }
+  },
+  "creations": {
+    "tete": {
+      "surtitre": "Créations",
+      "titre": "Des souvenirs, <em>mis en boîte</em>",
+      "texte": "Mariages, voyages, animaux, hommage à Toulouse-Lautrec : quelques boîtes composées par Carine. La vôtre sera unique.",
+      "action": "Composer la mienne",
+      "info": "35 € la boîte · 21 × 16 cm"
+    },
+    "galerie": {
+      "titre": "Toutes les boîtes",
+      "texte": "Touchez une boîte pour la voir en grand.",
+      "textePointeur": "Cliquez sur une boîte pour la voir en grand.",
+      "filtres": "Filtrer les créations",
+      "tout": "Toutes",
+      "sur-mesure": "Sur mesure",
+      "animaux": "Animaux du monde",
+      "voyages": "Voyages",
+      "art": "Hommage à l'art",
+      "nombre": "{n} boîtes",
+      "ouvrir": "Voir en grand : {legende}",
+      "lienPropre": "Lien vers cette boîte"
+    },
+    "echelle": {
+      "surtitre": "À la vraie taille",
+      "titre": "Elle tient <em>dans la main</em>",
+      "texte": "21 cm de haut, 16 cm de large : assez grande pour qu'on s'y penche, assez petite pour une étagère. Choisissez : au mur ou posée.",
+      "mur": "Accrochée",
+      "pose": "Posée",
+      "choix": "Pose de la boîte",
+      "cartel": "Boîte de 21 × 16 cm, {pose}, à côté d'un interrupteur de 8 cm.",
+      "poseMur": "accrochée au mur par son anneau",
+      "posePose": "posée sur une étagère",
+      "note": "Échelle indicative.",
+      "aria": "La boîte à sa vraie taille, à côté d'un interrupteur"
+    },
+    "fin": {
+      "titre": "Et la <em>vôtre</em> ?",
+      "texte": "Un mariage, des vacances, votre chat : envoyez vos photos, Carine compose une boîte qui n'existera qu'une fois.",
+      "action": "Composer ma boîte"
+    }
+  },
+  "atelier": {
+    "tete": {
+      "surtitre": "L'atelier",
+      "titre": "Tout est fait <em>main</em>",
+      "texte": "En Alsace, Carine découpe, assemble et met en boîte chaque souvenir. Du carton au verre, rien n'est acheté tout fait.",
+      "action": "Commander une boîte",
+      "info": "Créations depuis 2016"
+    },
+    "carine": {
+      "surtitre": "La créatrice",
+      "titre": "Un Polaroïd, <em>dix photos</em>",
+      "texte1": "Carine a étudié les arts plastiques, puis elle a été décoratrice, encadreuse et mosaïste.",
+      "texte2": "Enfant, dans les années 80, elle reçoit un appareil Polaroïd. La magie de l'image qui apparaît, la rareté des pellicules de dix photos : chaque cliché comptait. Ce sont ces moments précieux qu'elle met aujourd'hui « dans une boîte », pour mieux les garder.",
+      "citation": "La création est mon moteur depuis ma naissance.",
+      "inspirations": "Ses inspirations : l'actualité, ses voyages, des personnalités qu'elle aime."
+    },
+    "etapes": {
+      "surtitre": "La fabrication",
+      "titre": "Quatre gestes, <em>une boîte</em>",
+      "e1": "Le boîtier",
+      "e1t": "Découpé dans un carton blanc épais et assemblé à la main, sur le modèle du Polaroïd.",
+      "e2": "Le verre",
+      "e2t": "Un verre clair, découpé à la taille de la fenêtre.",
+      "e3": "Le photomontage",
+      "e3t": "Les photos sont découpées et assemblées sur plusieurs plans : c'est la profondeur.",
+      "e4": "Les éléments ludiques",
+      "e4t": "Souvent, une touche en plus : un peu de sable, des coquillages, du gazon."
+    },
+    "matieres": {
+      "surtitre": "Les matières",
+      "titre": "Du vrai sable, <em>de la vraie fourrure</em>",
+      "texte": "Carine mêle des éléments naturels et d'autres qui ne le sont pas, selon le souvenir.",
+      "sable": "Sable",
+      "coquillages": "Coquillages",
+      "gazon": "Gazon synthétique",
+      "fourrure": "Fausse fourrure",
+      "naturel": "Naturel",
+      "pasNaturel": "Pas naturel"
+    },
+    "emballage": {
+      "surtitre": "L'envoi",
+      "titre": "Bien protégée, <em>jusqu'à vous</em>",
+      "texte": "Chaque boîte part dans un carton épais, à l'étiquette du logo. Au dos, un anneau pour l'accrocher et la carte de Carine.",
+      "legendeDos": "Le dos de la boîte",
+      "legendeCarton": "Le carton d'envoi"
+    },
+    "fin": {
+      "titre": "On en <em>fabrique</em> une pour vous ?",
+      "texte": "Envoyez vos photos : 10 à 15 jours plus tard, votre souvenir est en boîte.",
+      "action": "Composer ma boîte"
+    }
+  },
+  "surmesure": {
+    "tete": {
+      "surtitre": "Sur mesure",
+      "titre": "Votre boîte, <em>sur mesure</em>",
+      "texte": "Vous choisissez le souvenir, Carine compose la boîte. Tout se fait par e-mail, sans vous déplacer.",
+      "prix": "35 €",
+      "prixTexte": "la boîte",
+      "info": "21 × 16 cm · prête en 10 à 15 jours · envoi ou click & collect",
+      "action": "Composer ma boîte"
+    },
+    "composer": {
+      "surtitre": "Le composeur",
+      "titre": "Composez, <em>Carine réalise</em>",
+      "texte": "Quatre choix, puis un e-mail tout prêt pour Carine : vous n'avez plus qu'à joindre vos photos.",
+      "etape1": "1. L'occasion",
+      "etape2": "2. Les éléments ludiques",
+      "etape2aide": "Plusieurs choix possibles.",
+      "etape3": "3. La légende",
+      "etape3aide": "Elle s'écrit sur le bord de la boîte (34 signes au plus).",
+      "legendeLabel": "Votre légende",
+      "legendeDefaut": "Votre légende ici",
+      "etape4": "4. La remise",
+      "o-mariage": "Un mariage",
+      "o-anniversaire": "Un anniversaire",
+      "o-vacances": "Des vacances",
+      "o-animal": "Un animal de compagnie",
+      "o-autre": "Un autre moment",
+      "m-sable": "Sable",
+      "m-coquillages": "Coquillages",
+      "m-gazon": "Gazon",
+      "m-fourrure": "Fausse fourrure",
+      "r-envoi": "Envoi à domicile",
+      "r-envoiTexte": "Frais de port en plus",
+      "r-retrait": "Click & collect",
+      "r-retraitTexte": "À Lingolsheim, sans frais",
+      "recap": "Votre demande",
+      "recapPrix": "35 €",
+      "recapPort": "+ frais de port",
+      "recapRetrait": "retrait sans frais",
+      "envoyer": "Préparer mon e-mail à Carine",
+      "envoyerAide": "Votre messagerie s'ouvre avec la demande écrite : joignez vos photos et envoyez.",
+      "ouAppeler": "Ou appelez le",
+      "apercu": "Aperçu illustratif",
+      "apercuTexte": "Exemple d'une vraie boîte : la vôtre sera composée avec vos photos.",
+      "exemple": "Exemple : {legende}",
+      "sujet": "Ma boîte sur mesure : {occasion}",
+      "corps": "Bonjour Carine,\n\nJe voudrais une boîte sur mesure.\n\nOccasion : {occasion}\nÉléments ludiques : {matieres}\nLégende : {legende}\nRemise : {remise}\n\nJe joins mes photos et quelques mots sur ce souvenir.\n\nMerci !",
+      "aucun": "à votre idée",
+      "legendeVide": "à définir ensemble"
+    },
+    "delais": {
+      "surtitre": "Délais et livraison",
+      "titre": "Quand et <em>comment</em> elle arrive",
+      "d1": "10 à 15 jours",
+      "d1t": "pour une boîte personnalisée",
+      "d2": "24 à 48 h",
+      "d2t": "pour une pièce en stock",
+      "d3": "Envoi ou click & collect",
+      "d3t": "à l'adresse de votre choix (frais de port en plus) ou à retirer à Lingolsheim",
+      "legende": "Chaque boîte part dans un carton épais"
+    },
+    "faq": {
+      "surtitre": "Questions",
+      "titre": "Avant de <em>commander</em>"
+    },
+    "fin": {
+      "titre": "Une question <em>avant</em> ?",
+      "texte": "Carine répond par e-mail ou par téléphone.",
+      "action": "Écrire à Carine"
+    }
+  },
+  "contact": {
+    "tete": {
+      "surtitre": "Contact",
+      "titre": "Écrivez à <em>Carine</em>",
+      "texte": "Pour une boîte sur mesure, une question ou un retrait en click & collect : elle vous répond par e-mail ou par téléphone.",
+      "email": "E-mail",
+      "telephone": "Téléphone",
+      "info": "Lingolsheim (67380), près de Strasbourg"
+    },
+    "formulaire": {
+      "surtitre": "Formulaire",
+      "titre": "Un message <em>rapide</em>",
+      "texte": "Pour envoyer vos photos, le plus simple reste l'e-mail : ce formulaire est une démonstration, rien n'est envoyé.",
+      "nom": "Nom",
+      "email": "E-mail",
+      "tel": "Téléphone (facultatif)",
+      "sujet": "Objet",
+      "sujetBoite": "Une boîte sur mesure",
+      "sujetStock": "Une pièce en stock",
+      "sujetRetrait": "Un retrait en click & collect",
+      "sujetAutre": "Autre chose",
+      "message": "Message",
+      "envoyer": "Envoyer",
+      "donnees": "Vos données servent seulement à répondre à votre message. Politique de confidentialité : à compléter."
+    },
+    "carte": {
+      "surtitre": "Où",
+      "titre": "À Lingolsheim, <em>près de Strasbourg</em>",
+      "texte": "Le retrait en click & collect se fait à Lingolsheim : le jour et l'heure se conviennent par e-mail ou par téléphone.",
+      "aria": "Plan simplifié : Lingolsheim, à l'ouest de Strasbourg, le Rhin à l'est",
+      "strasbourg": "Strasbourg",
+      "lingolsheim": "Lingolsheim",
+      "rhin": "Rhin",
+      "allemagne": "Allemagne"
+    }
+  },
+  "introuvable": {
+    "titre": "Cette boîte est <em>vide</em>.",
+    "texte": "La page que vous cherchez n'est pas (ou plus) ici.",
+    "retour": "Revenir à l'accueil",
+    "creations": "Voir les créations"
+  }
+}

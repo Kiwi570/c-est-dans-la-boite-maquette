@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "C'est dans la boîte",
+  "founder": { "@type": "Person", "name": "Carine Schwalm" },
+  "url": "https://c-est-dans-la-boite-maquette.vercel.app/",
+  "telephone": "+33687826299",
+  "email": "carineschwalm@orange.fr",
+  "foundingDate": "2016",
+  "address": { "@type": "PostalAddress", "addressLocality": "Lingolsheim", "postalCode": "67380", "addressRegion": "Alsace", "addressCountry": "FR" },
+  "description": "Photomontages 3D faits main, présentés dans une boîte façon Polaroïd de 21 × 16 cm : mariage, anniversaire, vacances, animal de compagnie.",
+  "makesOffer": { "@type": "Offer", "price": "35", "priceCurrency": "EUR", "itemOffered": { "@type": "Product", "name": "Boîte photomontage 3D sur mesure, 21 × 16 cm" } }
+}

@@ -1,0 +1,2688 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "recu/site/logo.png",
+    "role": "logo",
+    "alt": "C'est dans la boîte !, Carine Schwalm",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "812446ebc5907c75",
+    "ratio": null,
+    "largeurs": [
+      240
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 5678
+    },
+    "media": "c.media({ nom: 'logo', alt: \"C'est dans la boîte !, Carine Schwalm\", sizes: '240px' })"
+  },
+  "cadre-logo": {
+    "nom": "cadre-logo",
+    "source": "recu/site/accueil-c-est-boite.jpg",
+    "role": "logo",
+    "alt": "Le cadre façon instantané du logo : « C'est dans la boite ! », signé Carine Schwalm",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "9ccb528ab5ae328f",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480,
+      720
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "cadre-logo-240.webp",
+      "cadre-logo-480.webp",
+      "cadre-logo-720.webp"
+    ],
+    "poids": {
+      "cadre-logo-240.webp": 5538,
+      "cadre-logo-480.webp": 13586,
+      "cadre-logo-720.webp": 22188
+    },
+    "media": "c.media({ nom: 'cadre-logo', alt: \"Le cadre façon instantané du logo : « C'est dans la boite ! », signé Carine Schwalm\", sizes: '240px' })"
+  },
+  "boite-mariage": {
+    "nom": "boite-mariage",
+    "source": "recu/harmo/just-married-again.jpg",
+    "role": "galerie",
+    "alt": "Boîte « Just married… again ! » : un couple devant la cathédrale de Milan, colombes et pétales rouges",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "994199d4617e4ccf",
+    "ratio": "9:10",
+    "largeurs": [
+      480,
+      800,
+      1300,
+      1860
+    ],
+    "mobile": null,
+    "cadrage": "50% 46%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 34,
+      "top": 0,
+      "width": 1800,
+      "height": 2000,
+      "source": [
+        1867,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "boite-mariage-480.webp",
+      "boite-mariage-800.webp",
+      "boite-mariage-1300.webp",
+      "boite-mariage-1860.webp"
+    ],
+    "poids": {
+      "boite-mariage-480.webp": 40674,
+      "boite-mariage-800.webp": 104934,
+      "boite-mariage-1300.webp": 236054,
+      "boite-mariage-1860.webp": 291862
+    },
+    "media": "c.media({ nom: 'boite-mariage', alt: \"Boîte « Just married… again ! » : un couple devant la cathédrale de Milan, colombes et pétales rouges\", cadrage: '50% 46%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '9 / 10' })"
+  },
+  "boite-virgul": {
+    "nom": "boite-virgul",
+    "source": "recu/harmo/amour-virgul-1.jpg",
+    "role": "galerie",
+    "alt": "Boîte « Un amour de Virgul » : un couple et son cocker dans l'herbe fleurie, une cigogne en vol",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "76ab40e687a30899",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      800,
+      1300
+    ],
+    "mobile": null,
+    "cadrage": "45% 52%",
+    "sujet": {
+      "x": 9.1,
+      "y": 5.7,
+      "l": 77.3,
+      "h": 81.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.02,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 12,
+      "width": 1325,
+      "height": 1988,
+      "source": [
+        1325,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "boite-virgul-480.webp",
+      "boite-virgul-800.webp",
+      "boite-virgul-1300.webp"
+    ],
+    "poids": {
+      "boite-virgul-480.webp": 53414,
+      "boite-virgul-800.webp": 103670,
+      "boite-virgul-1300.webp": 187420
+    },
+    "media": "c.media({ nom: 'boite-virgul', alt: \"Boîte « Un amour de Virgul » : un couple et son cocker dans l'herbe fleurie, une cigogne en vol\", cadrage: '45% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
+  },
+  "boite-laponie": {
+    "nom": "boite-laponie",
+    "source": "recu/harmo/laponie-finlandaise-1.jpg",
+    "role": "galerie",
+    "alt": "Boîte « Laponie Finlandaise, janvier 2020 » : deux voyageurs emmitouflés, des rennes et des branches enneigées",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c65efdc20bb57081",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      800,
+      1300
+    ],
+    "mobile": null,
+    "cadrage": "47% 49%",
+    "sujet": {
+      "x": 9.1,
+      "y": 22,
+      "l": 77.3,
+      "h": 59.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.4,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.23,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.21,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1325,
+      "height": 1988,
+      "source": [
+        1325,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "boite-laponie-480.webp",
+      "boite-laponie-800.webp",
+      "boite-laponie-1300.webp"
+    ],
+    "poids": {
+      "boite-laponie-480.webp": 52048,
+      "boite-laponie-800.webp": 107414,
+      "boite-laponie-1300.webp": 202026
+    },
+    "media": "c.media({ nom: 'boite-laponie', alt: \"Boîte « Laponie Finlandaise, janvier 2020 » : deux voyageurs emmitouflés, des rennes et des branches enneigées\", cadrage: '47% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
+  },
+  "boite-papa": {
+    "nom": "boite-papa",
+    "source": "recu/harmo/papa-moi.jpg",
+    "role": "galerie",
+    "alt": "Boîte « Mon Papa et Moi » : un père et sa petite fille dans un champ, une cigogne en vol",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c35fed49ba8066d5",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      800,
+      1300
+    ],
+    "mobile": null,
+    "cadrage": "46% 65%",
+    "sujet": {
+      "x": 0,
+      "y": 18.3,
+      "l": 95.5,
+      "h": 81.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 12,
+      "width": 1325,
+      "height": 1988,
+      "source": [
+        1325,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "boite-papa-480.webp",
+      "boite-papa-800.webp",
+      "boite-papa-1300.webp"
+    ],
+    "poids": {
+      "boite-papa-480.webp": 29938,
+      "boite-papa-800.webp": 60178,
+      "boite-papa-1300.webp": 117484
+    },
+    "media": "c.media({ nom: 'boite-papa', alt: \"Boîte « Mon Papa et Moi » : un père et sa petite fille dans un champ, une cigogne en vol\", cadrage: '46% 65%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
+  },
+  "boite-love-cats": {
+    "nom": "boite-love-cats",
+    "source": "recu/harmo/love-cats.jpg",
+    "role": "galerie",
+    "alt": "Boîte « The love cats » : deux amies et leurs chats à une fenêtre fleurie",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "bc0df1920027cb1f",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      800,
+      1300
+    ],
+    "mobile": null,
+    "cadrage": "50% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 500,
+      "top": 0,
+      "width": 1000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,3 fois (source de 1000 px après recadrage)"
+    ],
+    "fichiers": [
+      "boite-love-cats-480.webp",
+      "boite-love-cats-800.webp",
+      "boite-love-cats-1300.webp"
+    ],
+    "poids": {
+      "boite-love-cats-480.webp": 39248,
+      "boite-love-cats-800.webp": 90072,
+      "boite-love-cats-1300.webp": 169808
+    },
+    "media": "c.media({ nom: 'boite-love-cats', alt: \"Boîte « The love cats » : deux amies et leurs chats à une fenêtre fleurie\", cadrage: '50% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
+  },
+  "boite-kangourous-desert": {
+    "nom": "boite-kangourous-desert",
+    "source": "recu/harmo/kangourou-centre-rouge-edited.jpg",
+    "role": "galerie",
+    "alt": "Boîte « Un jour… en Australie » : des kangourous sur la terre rouge, un panneau de route",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "5deedfd5dcda13b4",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      800,
+      1300
+    ],
+    "mobile": null,
+    "cadrage": "43% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 2.5,
+      "l": 95.5,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 12,
+      "width": 1325,
+      "height": 1988,
+      "source": [
+        1325,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "boite-kangourous-desert-480.webp",
+      "boite-kangourous-desert-800.webp",
+      "boite-kangourous-desert-1300.webp"
+    ],
+    "poids": {
+      "boite-kangourous-desert-480.webp": 44636,
+      "boite-kangourous-desert-800.webp": 90476,
+      "boite-kangourous-desert-1300.webp": 175998
+    },
+    "media": "c.media({ nom: 'boite-kangourous-desert', alt: \"Boîte « Un jour… en Australie » : des kangourous sur la terre rouge, un panneau de route\", cadrage: '43% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
+  },
+  "boite-kangourous-cascade": {
+    "nom": "boite-kangourous-cascade",
+    "source": "recu/harmo/kangourou-ocean-road-1.jpg",
+    "role": "galerie",
+    "alt": "Boîte « Un jour… en Australie » : des kangourous et des cacatoès près d'une cascade",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "33067ef64cef9155",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      800,
+      1300
+    ],
+    "mobile": null,
+    "cadrage": "48% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 3.1,
+      "l": 95.5,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1325,
+      "height": 1988,
+      "source": [
+        1325,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "boite-kangourous-cascade-480.webp",
+      "boite-kangourous-cascade-800.webp",
+      "boite-kangourous-cascade-1300.webp"
+    ],
+    "poids": {
+      "boite-kangourous-cascade-480.webp": 78716,
+      "boite-kangourous-cascade-800.webp": 156102,
+      "boite-kangourous-cascade-1300.webp": 281776
+    },
+    "media": "c.media({ nom: 'boite-kangourous-cascade', alt: \"Boîte « Un jour… en Australie » : des kangourous et des cacatoès près d'une cascade\", cadrage: '48% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
+  },
+  "boite-koala": {
+    "nom": "boite-koala",
+    "source": "recu/harmo/jour-australie-2-edited.jpg",
+    "role": "galerie",
+    "alt": "Boîte « Un jour… en Australie » : un koala dans les eucalyptus",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "ad8526ca7a6550c3",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      800,
+      1300
+    ],
+    "mobile": null,
+    "cadrage": "49% 49%",
+    "sujet": {
+      "x": 4.5,
+      "y": 3.1,
+      "l": 90.9,
+      "h": 88
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1325,
+      "height": 1988,
+      "source": [
+        1325,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "boite-koala-480.webp",
+      "boite-koala-800.webp",
+      "boite-koala-1300.webp"
+    ],
+    "poids": {
+      "boite-koala-480.webp": 57056,
+      "boite-koala-800.webp": 108382,
+      "boite-koala-1300.webp": 191150
+    },
+    "media": "c.media({ nom: 'boite-koala', alt: \"Boîte « Un jour… en Australie » : un koala dans les eucalyptus\", cadrage: '49% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
+  },
+  "boite-girafes": {
+    "nom": "boite-girafes",
+    "source": "recu/harmo/amour-sophie-edited.jpg",
+    "role": "galerie",
+    "alt": "Boîte « Un amour de Sophie » : une famille de girafes",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e3e71d14e3bafc28",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      800,
+      1300
+    ],
+    "mobile": null,
+    "cadrage": "49% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 3.1,
+      "l": 86.4,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1325,
+      "height": 1988,
+      "source": [
+        1325,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "boite-girafes-480.webp",
+      "boite-girafes-800.webp",
+      "boite-girafes-1300.webp"
+    ],
+    "poids": {
+      "boite-girafes-480.webp": 54704,
+      "boite-girafes-800.webp": 101530,
+      "boite-girafes-1300.webp": 181510
+    },
+    "media": "c.media({ nom: 'boite-girafes', alt: \"Boîte « Un amour de Sophie » : une famille de girafes\", cadrage: '49% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
+  },
+  "boite-meuh": {
+    "nom": "boite-meuh",
+    "source": "recu/harmo/boite-meuh-1-edited.jpg",
+    "role": "galerie",
+    "alt": "Boîte « Boîte à Meuh » : des vaches dans un pré vert et des marguerites",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "dbacee3618dc1041",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      800,
+      1300
+    ],
+    "mobile": null,
+    "cadrage": "49% 43%",
+    "sujet": {
+      "x": 9.1,
+      "y": 12.6,
+      "l": 77.3,
+      "h": 75.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.15,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.08,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.07,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1325,
+      "height": 1988,
+      "source": [
+        1325,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "boite-meuh-480.webp",
+      "boite-meuh-800.webp",
+      "boite-meuh-1300.webp"
+    ],
+    "poids": {
+      "boite-meuh-480.webp": 69362,
+      "boite-meuh-800.webp": 132842,
+      "boite-meuh-1300.webp": 238368
+    },
+    "media": "c.media({ nom: 'boite-meuh', alt: \"Boîte « Boîte à Meuh » : des vaches dans un pré vert et des marguerites\", cadrage: '49% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
+  },
+  "boite-cochons": {
+    "nom": "boite-cochons",
+    "source": "recu/harmo/copains-comme-cochon-1.jpg",
+    "role": "galerie",
+    "alt": "Boîte « Copains comme cochons ! » : trois cochons dans les fleurs, des oiseaux dans l'arbre",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "248c628561332b86",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      800,
+      1300
+    ],
+    "mobile": null,
+    "cadrage": "53% 48%",
+    "sujet": {
+      "x": 9.1,
+      "y": 6.3,
+      "l": 86.4,
+      "h": 91.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1325,
+      "height": 1988,
+      "source": [
+        1325,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "boite-cochons-480.webp",
+      "boite-cochons-800.webp",
+      "boite-cochons-1300.webp"
+    ],
+    "poids": {
+      "boite-cochons-480.webp": 69902,
+      "boite-cochons-800.webp": 134526,
+      "boite-cochons-1300.webp": 233702
+    },
+    "media": "c.media({ nom: 'boite-cochons', alt: \"Boîte « Copains comme cochons ! » : trois cochons dans les fleurs, des oiseaux dans l'arbre\", cadrage: '53% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
+  },
+  "boite-lautrec": {
+    "nom": "boite-lautrec",
+    "source": "recu/harmo/lautrec-edited.jpg",
+    "role": "galerie",
+    "alt": "Boîte « Toulouse à Paris » : une danseuse de cancan devant l'affiche du Moulin Rouge, d'après Toulouse-Lautrec",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d4ab550cf2a0417b",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      800,
+      1300
+    ],
+    "mobile": null,
+    "cadrage": "44% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 12.6,
+      "l": 95.5,
+      "h": 75.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1325,
+      "height": 1988,
+      "source": [
+        1325,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "boite-lautrec-480.webp",
+      "boite-lautrec-800.webp",
+      "boite-lautrec-1300.webp"
+    ],
+    "poids": {
+      "boite-lautrec-480.webp": 69472,
+      "boite-lautrec-800.webp": 139546,
+      "boite-lautrec-1300.webp": 252264
+    },
+    "media": "c.media({ nom: 'boite-lautrec', alt: \"Boîte « Toulouse à Paris » : une danseuse de cancan devant l'affiche du Moulin Rouge, d'après Toulouse-Lautrec\", cadrage: '44% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
+  },
+  "boite-lautrec-biais": {
+    "nom": "boite-lautrec-biais",
+    "source": "recu/harmo/lautrec-1-edited.jpg",
+    "role": "galerie",
+    "alt": "La boîte « Toulouse à Paris » vue de biais : on voit la profondeur des plans",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ed4b2b7c359d3455",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      800,
+      1300
+    ],
+    "mobile": null,
+    "cadrage": "47% 53%",
+    "sujet": {
+      "x": 4.5,
+      "y": 15.1,
+      "l": 90.9,
+      "h": 78.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 12,
+      "width": 1325,
+      "height": 1988,
+      "source": [
+        1325,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "boite-lautrec-biais-480.webp",
+      "boite-lautrec-biais-800.webp",
+      "boite-lautrec-biais-1300.webp"
+    ],
+    "poids": {
+      "boite-lautrec-biais-480.webp": 67058,
+      "boite-lautrec-biais-800.webp": 135278,
+      "boite-lautrec-biais-1300.webp": 250148
+    },
+    "media": "c.media({ nom: 'boite-lautrec-biais', alt: \"La boîte « Toulouse à Paris » vue de biais : on voit la profondeur des plans\", cadrage: '47% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
+  },
+  "boite-lautrec-profil": {
+    "nom": "boite-lautrec-profil",
+    "source": "recu/harmo/lautrec-2-edited.jpg",
+    "role": "galerie",
+    "alt": "La boîte « Toulouse à Paris » de trois quarts, sur un mur de briques",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "7d5dc58c6310b300",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      800,
+      1300
+    ],
+    "mobile": null,
+    "cadrage": "46% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 9.2,
+      "l": 95.5,
+      "h": 88
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 6,
+      "width": 1325,
+      "height": 1988,
+      "source": [
+        1325,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "boite-lautrec-profil-480.webp",
+      "boite-lautrec-profil-800.webp",
+      "boite-lautrec-profil-1300.webp"
+    ],
+    "poids": {
+      "boite-lautrec-profil-480.webp": 64664,
+      "boite-lautrec-profil-800.webp": 132074,
+      "boite-lautrec-profil-1300.webp": 247596
+    },
+    "media": "c.media({ nom: 'boite-lautrec-profil', alt: \"La boîte « Toulouse à Paris » de trois quarts, sur un mur de briques\", cadrage: '46% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
+  },
+  "boite-big-apple": {
+    "nom": "boite-big-apple",
+    "source": "recu/harmo/big-apple-1-edited.jpg",
+    "role": "galerie",
+    "alt": "Boîte « Big Apple » : la statue de la Liberté devant Manhattan, dans une pomme",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "313feda44dac9be8",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      800,
+      1300
+    ],
+    "mobile": null,
+    "cadrage": "42% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.05,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1325,
+      "height": 1988,
+      "source": [
+        1325,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "boite-big-apple-480.webp",
+      "boite-big-apple-800.webp",
+      "boite-big-apple-1300.webp"
+    ],
+    "poids": {
+      "boite-big-apple-480.webp": 42132,
+      "boite-big-apple-800.webp": 88088,
+      "boite-big-apple-1300.webp": 165078
+    },
+    "media": "c.media({ nom: 'boite-big-apple', alt: \"Boîte « Big Apple » : la statue de la Liberté devant Manhattan, dans une pomme\", cadrage: '42% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
+  },
+  "boite-big-apple-cadres": {
+    "nom": "boite-big-apple-cadres",
+    "source": "recu/harmo/big-apple-edited.jpg",
+    "role": "galerie",
+    "alt": "La boîte « Big Apple » posée parmi des cadres en noir et blanc",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "91f7bd8a3783099b",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1000,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "46% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1988,
+      "height": 1325,
+      "source": [
+        2000,
+        1325
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "boite-big-apple-cadres-640.webp",
+      "boite-big-apple-cadres-1000.webp",
+      "boite-big-apple-cadres-1600.webp"
+    ],
+    "poids": {
+      "boite-big-apple-cadres-640.webp": 30450,
+      "boite-big-apple-cadres-1000.webp": 54994,
+      "boite-big-apple-cadres-1600.webp": 99158
+    },
+    "media": "c.media({ nom: 'boite-big-apple-cadres', alt: \"La boîte « Big Apple » posée parmi des cadres en noir et blanc\", cadrage: '46% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "boite-dos": {
+    "nom": "boite-dos",
+    "source": "recu/harmo/insoumis-5-edited-edited.jpg",
+    "role": "galerie",
+    "alt": "Le dos d'une boîte : l'anneau pour l'accrocher, l'étiquette « Mis en boîte par » et la carte de Carine Schwalm",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c59e16613fe4757a",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1300
+    ],
+    "mobile": null,
+    "cadrage": "50% 36%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1325,
+      "height": 1656,
+      "source": [
+        1325,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "boite-dos-480.webp",
+      "boite-dos-800.webp",
+      "boite-dos-1300.webp"
+    ],
+    "poids": {
+      "boite-dos-480.webp": 17582,
+      "boite-dos-800.webp": 37204,
+      "boite-dos-1300.webp": 73446
+    },
+    "media": "c.media({ nom: 'boite-dos', alt: \"Le dos d'une boîte : l'anneau pour l'accrocher, l'étiquette « Mis en boîte par » et la carte de Carine Schwalm\", cadrage: '50% 36%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "emballage-face": {
+    "nom": "emballage-face",
+    "source": "recu/harmo/cimg4933-edited.jpg",
+    "role": "galerie",
+    "alt": "Le carton d'envoi en kraft, avec l'étiquette « C'est dans la boite ! »",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "38dba29b6423d13c",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      800,
+      1300
+    ],
+    "mobile": null,
+    "cadrage": "54% 42%",
+    "sujet": {
+      "x": 20.8,
+      "y": 9.4,
+      "l": 70.8,
+      "h": 56.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.66,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.53,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.43,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.33,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "emballage-face-480.webp",
+      "emballage-face-800.webp",
+      "emballage-face-1300.webp"
+    ],
+    "poids": {
+      "emballage-face-480.webp": 18490,
+      "emballage-face-800.webp": 43944,
+      "emballage-face-1300.webp": 98748
+    },
+    "media": "c.media({ nom: 'emballage-face', alt: \"Le carton d'envoi en kraft, avec l'étiquette « C'est dans la boite ! »\", cadrage: '54% 42%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "emballage-biais": {
+    "nom": "emballage-biais",
+    "source": "recu/harmo/cimg4934-edited.jpg",
+    "role": "galerie",
+    "alt": "Le carton d'envoi fermé, vu de biais",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "d675ce82f20d481b",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      800,
+      1300
+    ],
+    "mobile": null,
+    "cadrage": "52% 58%",
+    "sujet": {
+      "x": 25,
+      "y": 40.6,
+      "l": 66.7,
+      "h": 37.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.75,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.62,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.6,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.56,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "emballage-biais-480.webp",
+      "emballage-biais-800.webp",
+      "emballage-biais-1300.webp"
+    ],
+    "poids": {
+      "emballage-biais-480.webp": 14290,
+      "emballage-biais-800.webp": 32664,
+      "emballage-biais-1300.webp": 72120
+    },
+    "media": "c.media({ nom: 'emballage-biais', alt: \"Le carton d'envoi fermé, vu de biais\", cadrage: '52% 58%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "scene-mariage": {
+    "nom": "scene-mariage",
+    "source": "recu/scenes/scene-mariage.jpg",
+    "role": "vignette",
+    "alt": "L'intérieur de la boîte « Just married… again ! »",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "1640bd6480f1fad7",
+    "ratio": "15:16",
+    "largeurs": [
+      480,
+      900
+    ],
+    "mobile": null,
+    "cadrage": "47% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 6.3,
+      "l": 100,
+      "h": 93.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 900,
+      "height": 960,
+      "source": [
+        900,
+        960
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "900 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "scene-mariage-480.webp",
+      "scene-mariage-900.webp"
+    ],
+    "poids": {
+      "scene-mariage-480.webp": 49100,
+      "scene-mariage-900.webp": 143544
+    },
+    "media": "c.media({ nom: 'scene-mariage', alt: \"L'intérieur de la boîte « Just married… again ! »\", cadrage: '47% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '15 / 16' })"
+  },
+  "scene-animal": {
+    "nom": "scene-animal",
+    "source": "recu/scenes/scene-animal.jpg",
+    "role": "vignette",
+    "alt": "L'intérieur de la boîte « Un amour de Virgul »",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "327cfcf90663613c",
+    "ratio": "15:16",
+    "largeurs": [
+      480,
+      900
+    ],
+    "mobile": null,
+    "cadrage": "46% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 900,
+      "height": 960,
+      "source": [
+        900,
+        960
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "900 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "scene-animal-480.webp",
+      "scene-animal-900.webp"
+    ],
+    "poids": {
+      "scene-animal-480.webp": 42864,
+      "scene-animal-900.webp": 96226
+    },
+    "media": "c.media({ nom: 'scene-animal', alt: \"L'intérieur de la boîte « Un amour de Virgul »\", cadrage: '46% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '15 / 16' })"
+  },
+  "scene-vacances": {
+    "nom": "scene-vacances",
+    "source": "recu/scenes/scene-vacances.jpg",
+    "role": "vignette",
+    "alt": "L'intérieur de la boîte « Laponie Finlandaise »",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "b164c6e3ee7d06b0",
+    "ratio": "15:16",
+    "largeurs": [
+      480,
+      900
+    ],
+    "mobile": null,
+    "cadrage": "53% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 900,
+      "height": 960,
+      "source": [
+        900,
+        960
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "900 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "scene-vacances-480.webp",
+      "scene-vacances-900.webp"
+    ],
+    "poids": {
+      "scene-vacances-480.webp": 31142,
+      "scene-vacances-900.webp": 64384
+    },
+    "media": "c.media({ nom: 'scene-vacances', alt: \"L'intérieur de la boîte « Laponie Finlandaise »\", cadrage: '53% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '15 / 16' })"
+  },
+  "scene-famille": {
+    "nom": "scene-famille",
+    "source": "recu/scenes/scene-famille.jpg",
+    "role": "vignette",
+    "alt": "L'intérieur de la boîte « Mon Papa et Moi »",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "2d23a6ff1304082f",
+    "ratio": "15:16",
+    "largeurs": [
+      480,
+      900
+    ],
+    "mobile": null,
+    "cadrage": "48% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.38,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 900,
+      "height": 960,
+      "source": [
+        900,
+        960
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "900 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "scene-famille-480.webp",
+      "scene-famille-900.webp"
+    ],
+    "poids": {
+      "scene-famille-480.webp": 23450,
+      "scene-famille-900.webp": 52954
+    },
+    "media": "c.media({ nom: 'scene-famille', alt: \"L'intérieur de la boîte « Mon Papa et Moi »\", cadrage: '48% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '15 / 16' })"
+  },
+  "scene-amis": {
+    "nom": "scene-amis",
+    "source": "recu/scenes/scene-amis.jpg",
+    "role": "vignette",
+    "alt": "L'intérieur de la boîte « The love cats »",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "228b8c6cc026739d",
+    "ratio": "15:16",
+    "largeurs": [
+      480,
+      900
+    ],
+    "mobile": null,
+    "cadrage": "50% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 900,
+      "height": 960,
+      "source": [
+        900,
+        960
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "900 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "scene-amis-480.webp",
+      "scene-amis-900.webp"
+    ],
+    "poids": {
+      "scene-amis-480.webp": 32770,
+      "scene-amis-900.webp": 92710
+    },
+    "media": "c.media({ nom: 'scene-amis', alt: \"L'intérieur de la boîte « The love cats »\", cadrage: '50% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '15 / 16' })"
+  },
+  "boite-face": {
+    "nom": "boite-face",
+    "source": "recu/scenes/boite-face.jpg",
+    "role": "vignette",
+    "alt": "La boîte « Un jour… en Australie », de face",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "af481fb42bb100db",
+    "ratio": "16:21",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "44% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 640,
+      "height": 840,
+      "source": [
+        640,
+        840
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "640 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "boite-face-320.webp",
+      "boite-face-640.webp"
+    ],
+    "poids": {
+      "boite-face-320.webp": 20476,
+      "boite-face-640.webp": 54306
+    },
+    "media": "c.media({ nom: 'boite-face', alt: \"La boîte « Un jour… en Australie », de face\", cadrage: '44% 51%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '16 / 21' })"
+  },
+  "grok/atelier-ouverture": {
+    "nom": "grok/atelier-ouverture",
+    "source": "recu/grok/atelier-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Des mains découpent une photo imprimée au cutter sur un tapis de coupe",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "a2ba8c6182d0adca",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 56%"
+    },
+    "cadrage": "58% 50%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.44,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 12,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/atelier-ouverture-640.webp",
+      "grok/atelier-ouverture-1280.webp",
+      "grok/atelier-ouverture-1920.webp",
+      "grok/atelier-ouverture-mobile-640.webp",
+      "grok/atelier-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/atelier-ouverture-640.webp": 20308,
+      "grok/atelier-ouverture-1280.webp": 58724,
+      "grok/atelier-ouverture-1920.webp": 99514,
+      "grok/atelier-ouverture-mobile-640.webp": 52860,
+      "grok/atelier-ouverture-mobile-1080.webp": 102878
+    },
+    "media": "c.media({ nom: 'grok/atelier-ouverture', alt: \"Des mains découpent une photo imprimée au cutter sur un tapis de coupe\", cadrage: '58% 50%', cadrageMobile: '50% 56%', sizes: '100vw', priorite: true })"
+  },
+  "grok/etape-boitier": {
+    "nom": "grok/etape-boitier",
+    "source": "recu/grok/etape-boitier.jpg",
+    "role": "carte-service",
+    "alt": "Une planche de carton blanc rainurée au cutter le long d'une règle",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "8521135b02219b3e",
+    "ratio": "16:10",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "48% 46%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1000,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/etape-boitier-1168.webp"
+    ],
+    "poids": {
+      "grok/etape-boitier-1168.webp": 51602
+    },
+    "media": "c.media({ nom: 'grok/etape-boitier', alt: \"Une planche de carton blanc rainurée au cutter le long d'une règle\", cadrage: '48% 46%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 10' })"
+  },
+  "grok/etape-verre": {
+    "nom": "grok/etape-verre",
+    "source": "recu/grok/etape-verre.jpg",
+    "role": "carte-service",
+    "alt": "Une petite vitre rayée au coupe-verre le long d'une règle",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "17c930008b48af3f",
+    "ratio": "16:10",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "56% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1000,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/etape-verre-1168.webp"
+    ],
+    "poids": {
+      "grok/etape-verre-1168.webp": 66946
+    },
+    "media": "c.media({ nom: 'grok/etape-verre', alt: \"Une petite vitre rayée au coupe-verre le long d'une règle\", cadrage: '56% 47%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 10' })"
+  },
+  "grok/etape-plans": {
+    "nom": "grok/etape-plans",
+    "source": "recu/grok/etape-plans.jpg",
+    "role": "carte-service",
+    "alt": "Des éléments découpés dans des photos, rangés sur l'établi, une pince fine",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "4a34cb3f7c69fc9f",
+    "ratio": "16:10",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "44% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 26,
+      "width": 1600,
+      "height": 1000,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/etape-plans-1168.webp"
+    ],
+    "poids": {
+      "grok/etape-plans-1168.webp": 54924
+    },
+    "media": "c.media({ nom: 'grok/etape-plans', alt: \"Des éléments découpés dans des photos, rangés sur l'établi, une pince fine\", cadrage: '44% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 10' })"
+  },
+  "grok/etape-matieres": {
+    "nom": "grok/etape-matieres",
+    "source": "recu/grok/etape-matieres.jpg",
+    "role": "carte-service",
+    "alt": "Une pincée de sable versée dans un petit plateau, des coquillages et du gazon à côté",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "966c4ceb23a4025c",
+    "ratio": "16:10",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "49% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.11,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1000,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/etape-matieres-1168.webp"
+    ],
+    "poids": {
+      "grok/etape-matieres-1168.webp": 47948
+    },
+    "media": "c.media({ nom: 'grok/etape-matieres', alt: \"Une pincée de sable versée dans un petit plateau, des coquillages et du gazon à côté\", cadrage: '49% 48%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 10' })"
+  },
+  "grok/matiere-sable": {
+    "nom": "grok/matiere-sable",
+    "source": "recu/grok/matiere-sable.jpg",
+    "role": "vignette",
+    "alt": "Du sable fin et doré, en gros plan",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 3,
+    "empreinte": "9056ce2857284572",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 30%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 77.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.05,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 100,
+      "top": 0,
+      "width": 1432,
+      "height": 1074,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/matiere-sable-640.webp",
+      "grok/matiere-sable-800.webp"
+    ],
+    "poids": {
+      "grok/matiere-sable-640.webp": 60472,
+      "grok/matiere-sable-800.webp": 83904
+    },
+    "media": "c.media({ nom: 'grok/matiere-sable', alt: \"Du sable fin et doré, en gros plan\", cadrage: '50% 30%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "grok/matiere-coquillages": {
+    "nom": "grok/matiere-coquillages",
+    "source": "recu/grok/matiere-coquillages.jpg",
+    "role": "vignette",
+    "alt": "De petits coquillages clairs",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "f9693ebeb1fd443e",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 4.5,
+      "l": 100,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 164,
+      "top": 0,
+      "width": 1432,
+      "height": 1074,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/matiere-coquillages-640.webp",
+      "grok/matiere-coquillages-800.webp"
+    ],
+    "poids": {
+      "grok/matiere-coquillages-640.webp": 71354,
+      "grok/matiere-coquillages-800.webp": 96938
+    },
+    "media": "c.media({ nom: 'grok/matiere-coquillages', alt: \"De petits coquillages clairs\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "grok/matiere-gazon": {
+    "nom": "grok/matiere-gazon",
+    "source": "recu/grok/matiere-gazon.jpg",
+    "role": "vignette",
+    "alt": "Du gazon synthétique vert, en gros plan",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 3,
+    "empreinte": "f2beebe710bd5a3e",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "61% 47%",
+    "sujet": {
+      "x": 16.2,
+      "y": 22.7,
+      "l": 80.3,
+      "h": 45.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.29,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 168,
+      "top": 0,
+      "width": 1432,
+      "height": 1074,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/matiere-gazon-640.webp",
+      "grok/matiere-gazon-800.webp"
+    ],
+    "poids": {
+      "grok/matiere-gazon-640.webp": 70478,
+      "grok/matiere-gazon-800.webp": 95872
+    },
+    "media": "c.media({ nom: 'grok/matiere-gazon', alt: \"Du gazon synthétique vert, en gros plan\", cadrage: '61% 47%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "grok/matiere-fourrure": {
+    "nom": "grok/matiere-fourrure",
+    "source": "recu/grok/matiere-fourrure.jpg",
+    "role": "vignette",
+    "alt": "De la fausse fourrure crème, toute douce",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "dede5eac8fc75162",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.18,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 132,
+      "top": 0,
+      "width": 1432,
+      "height": 1074,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/matiere-fourrure-640.webp",
+      "grok/matiere-fourrure-800.webp"
+    ],
+    "poids": {
+      "grok/matiere-fourrure-640.webp": 38976,
+      "grok/matiere-fourrure-800.webp": 56726
+    },
+    "media": "c.media({ nom: 'grok/matiere-fourrure', alt: \"De la fausse fourrure crème, toute douce\", cadrage: '50% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "grok/atelier-etabli": {
+    "nom": "grok/atelier-etabli",
+    "source": "recu/grok/atelier-etabli.jpg",
+    "role": "galerie",
+    "alt": "Un coin d'établi : bocaux de sable et de coquillages, chutes de carton blanc, cutter et tapis de coupe",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "81c57d5fae616cd5",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "31% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 86.4,
+      "h": 94.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.39,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 99,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,21 fois (source de 1320 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/atelier-etabli-1024.webp",
+      "grok/atelier-etabli-1168.webp",
+      "grok/atelier-etabli-1600.webp"
+    ],
+    "poids": {
+      "grok/atelier-etabli-1024.webp": 65898,
+      "grok/atelier-etabli-1168.webp": 78388,
+      "grok/atelier-etabli-1600.webp": 114794
+    },
+    "media": "c.media({ nom: 'grok/atelier-etabli', alt: \"Un coin d'établi : bocaux de sable et de coquillages, chutes de carton blanc, cutter et tapis de coupe\", cadrage: '31% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "grok/contact-ouverture": {
+    "nom": "grok/contact-ouverture",
+    "source": "recu/grok/contact-ouverture.jpg",
+    "role": "galerie",
+    "alt": "Une enveloppe kraft, des photos imprimées retournées et un stylo sur un bureau clair",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "d542c734471f8aa2",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "51% 52%",
+    "sujet": {
+      "x": 18.2,
+      "y": 21.8,
+      "l": 54.5,
+      "h": 48.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.73,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.58,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.57,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.55,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 317,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,21 fois (source de 1320 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/contact-ouverture-1024.webp",
+      "grok/contact-ouverture-1168.webp",
+      "grok/contact-ouverture-1600.webp"
+    ],
+    "poids": {
+      "grok/contact-ouverture-1024.webp": 108328,
+      "grok/contact-ouverture-1168.webp": 130164,
+      "grok/contact-ouverture-1600.webp": 190086
+    },
+    "media": "c.media({ nom: 'grok/contact-ouverture', alt: \"Une enveloppe kraft, des photos imprimées retournées et un stylo sur un bureau clair\", cadrage: '51% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "grok/404": {
+    "nom": "grok/404",
+    "source": "recu/grok/404.jpg",
+    "role": "404",
+    "alt": "Un carton kraft ouvert et vide, du papier de soie froissé",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "b9210960ac03c24a",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 63%"
+    },
+    "cadrage": "48% 66%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 18,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/404-640.webp",
+      "grok/404-1280.webp",
+      "grok/404-1920.webp",
+      "grok/404-mobile-640.webp",
+      "grok/404-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/404-640.webp": 16320,
+      "grok/404-1280.webp": 39554,
+      "grok/404-1920.webp": 67346,
+      "grok/404-mobile-640.webp": 42136,
+      "grok/404-mobile-1080.webp": 83592
+    },
+    "media": "c.media({ nom: 'grok/404', alt: \"Un carton kraft ouvert et vide, du papier de soie froissé\", cadrage: '48% 66%', cadrageMobile: '50% 63%', sizes: '100vw', ratio: '16 / 9' })"
+  }
+}

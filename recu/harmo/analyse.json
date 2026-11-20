@@ -1,0 +1,1194 @@
+{
+  "dossier": "/home/claude/projet/c-est-dans-la-boite-maquette/recu/harmo",
+  "date": "2026-11-20T19:36:22.642Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "amour-sophie-edited.jpg",
+      "nom": "amour-sophie-edited",
+      "drapeau": null,
+      "largeur": 1325,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.663,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 434481,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 86.4,
+        "h": 93.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        47
+      ],
+      "cadrage_css": "49% 47%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.79
+        },
+        {
+          "cote": "droite",
+          "score": 0.04,
+          "ton": "clair",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.79
+        }
+      ],
+      "qualite": {
+        "nettete": 22.2,
+        "bruit": 0.62,
+        "compression": 1.01,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "da0323ab83d3c420",
+      "drapeaux": []
+    },
+    {
+      "fichier": "amour-virgul-1.jpg",
+      "nom": "amour-virgul-1",
+      "drapeau": null,
+      "largeur": 1325,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.663,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 476741,
+      "transparence": false,
+      "sujet": {
+        "x": 9.1,
+        "y": 6.3,
+        "l": 77.3,
+        "h": 81.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        52
+      ],
+      "cadrage_css": "45% 52%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "droite",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "haut",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "gauche",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.63
+        }
+      ],
+      "qualite": {
+        "nettete": 29.8,
+        "bruit": 0.84,
+        "compression": 1.01,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c03139694d3f84a0",
+      "drapeaux": []
+    },
+    {
+      "fichier": "big-apple-1-edited.jpg",
+      "nom": "big-apple-1-edited",
+      "drapeau": null,
+      "largeur": 1325,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.663,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 409219,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        45
+      ],
+      "cadrage_css": "42% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 36.1,
+        "bruit": 0.77,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "2a3a5b5313dce949",
+      "drapeaux": []
+    },
+    {
+      "fichier": "big-apple-edited.jpg",
+      "nom": "big-apple-edited",
+      "drapeau": null,
+      "largeur": 2000,
+      "hauteur": 1325,
+      "ratio": "3:2",
+      "ratio_valeur": 1.509,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 344865,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        48
+      ],
+      "cadrage_css": "46% 48%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 32.3,
+        "bruit": 0.63,
+        "compression": 1.14,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "b29a988d9d8c60ea",
+      "drapeaux": []
+    },
+    {
+      "fichier": "boite-meuh-1-edited.jpg",
+      "nom": "boite-meuh-1-edited",
+      "drapeau": null,
+      "largeur": 1325,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.663,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 558337,
+      "transparence": false,
+      "sujet": {
+        "x": 9.1,
+        "y": 12.5,
+        "l": 77.3,
+        "h": 75,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        43
+      ],
+      "cadrage_css": "49% 43%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "droite",
+          "score": 0.08,
+          "ton": "clair",
+          "recouvre_sujet": 0.49
+        },
+        {
+          "cote": "haut",
+          "score": 0.08,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "gauche",
+          "score": 0.07,
+          "ton": "clair",
+          "recouvre_sujet": 0.58
+        }
+      ],
+      "qualite": {
+        "nettete": 28.5,
+        "bruit": 0.69,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c2193d031bcc3412",
+      "drapeaux": []
+    },
+    {
+      "fichier": "cimg4933-edited.jpg",
+      "nom": "cimg4933-edited",
+      "drapeau": null,
+      "largeur": 1500,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 425962,
+      "transparence": false,
+      "sujet": {
+        "x": 20.8,
+        "y": 9.4,
+        "l": 70.8,
+        "h": 56.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        42
+      ],
+      "cadrage_css": "54% 42%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "gauche",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "haut",
+          "score": 0.43,
+          "ton": "moyen",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "moyen",
+          "recouvre_sujet": 0.44
+        }
+      ],
+      "qualite": {
+        "nettete": 21.4,
+        "bruit": 0.7,
+        "compression": 0.95,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "09390d0d0d3101f0",
+      "drapeaux": [
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "cimg4934-edited.jpg",
+      "nom": "cimg4934-edited",
+      "drapeau": null,
+      "largeur": 1500,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 361476,
+      "transparence": false,
+      "sujet": {
+        "x": 25,
+        "y": 40.6,
+        "l": 66.7,
+        "h": 37.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        58
+      ],
+      "cadrage_css": "52% 58%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.75,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "gauche",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "droite",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        }
+      ],
+      "qualite": {
+        "nettete": 10.7,
+        "bruit": 0.55,
+        "compression": 0.95,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "b87f71390f03e2b8",
+      "drapeaux": [
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "copains-comme-cochon-1.jpg",
+      "nom": "copains-comme-cochon-1",
+      "drapeau": null,
+      "largeur": 1325,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.663,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 539309,
+      "transparence": false,
+      "sujet": {
+        "x": 9.1,
+        "y": 6.3,
+        "l": 86.4,
+        "h": 90.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        48
+      ],
+      "cadrage_css": "53% 48%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.79
+        }
+      ],
+      "qualite": {
+        "nettete": 33.2,
+        "bruit": 0.84,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "dc1b434159bfb6b8",
+      "drapeaux": []
+    },
+    {
+      "fichier": "insoumis-5-edited-edited.jpg",
+      "nom": "insoumis-5-edited-edited",
+      "drapeau": null,
+      "largeur": 1325,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.663,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 365510,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        52
+      ],
+      "cadrage_css": "49% 52%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 31.5,
+        "bruit": 0.4,
+        "compression": 0.95,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c082b28c8c92f0f0",
+      "drapeaux": []
+    },
+    {
+      "fichier": "jour-australie-2-edited.jpg",
+      "nom": "jour-australie-2-edited",
+      "drapeau": null,
+      "largeur": 1325,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.663,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 460878,
+      "transparence": false,
+      "sujet": {
+        "x": 4.5,
+        "y": 3.1,
+        "l": 90.9,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        49
+      ],
+      "cadrage_css": "49% 49%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.07,
+          "ton": "clair",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.77
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.83
+        }
+      ],
+      "qualite": {
+        "nettete": 23.4,
+        "bruit": 0.64,
+        "compression": 1.01,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "a4bab686d2d27489",
+      "drapeaux": []
+    },
+    {
+      "fichier": "just-married-again.jpg",
+      "nom": "just-married-again",
+      "drapeau": null,
+      "largeur": 1867,
+      "hauteur": 2000,
+      "ratio": "0.93",
+      "ratio_valeur": 0.934,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 871376,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        46
+      ],
+      "cadrage_css": "50% 46%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 37.3,
+        "bruit": 1.39,
+        "compression": 0.98,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c13171d9919bd8d0",
+      "drapeaux": []
+    },
+    {
+      "fichier": "kangourou-centre-rouge-edited.jpg",
+      "nom": "kangourou-centre-rouge-edited",
+      "drapeau": null,
+      "largeur": 1325,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.663,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 485530,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 95.5,
+        "h": 93.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        52
+      ],
+      "cadrage_css": "43% 52%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 22.2,
+        "bruit": 0.75,
+        "compression": 0.95,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "5fa8b53139bdb4f2",
+      "drapeaux": []
+    },
+    {
+      "fichier": "kangourou-ocean-road-1.jpg",
+      "nom": "kangourou-ocean-road-1",
+      "drapeau": null,
+      "largeur": 1325,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.663,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 610984,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 95.5,
+        "h": 93.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        48
+      ],
+      "cadrage_css": "48% 48%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 36.6,
+        "bruit": 0.99,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "d07f7b7b7b83f02e",
+      "drapeaux": []
+    },
+    {
+      "fichier": "laponie-finlandaise-1.jpg",
+      "nom": "laponie-finlandaise-1",
+      "drapeau": null,
+      "largeur": 1325,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.663,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 494761,
+      "transparence": false,
+      "sujet": {
+        "x": 9.1,
+        "y": 21.9,
+        "l": 77.3,
+        "h": 59.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        49
+      ],
+      "cadrage_css": "47% 49%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.4,
+          "ton": "moyen",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "haut",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "droite",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.39
+        },
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.46
+        }
+      ],
+      "qualite": {
+        "nettete": 30.2,
+        "bruit": 0.64,
+        "compression": 1.04,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f8fc399ba7bbccbc",
+      "drapeaux": []
+    },
+    {
+      "fichier": "lautrec-1-edited.jpg",
+      "nom": "lautrec-1-edited",
+      "drapeau": null,
+      "largeur": 1325,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.663,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 596049,
+      "transparence": false,
+      "sujet": {
+        "x": 4.5,
+        "y": 15.6,
+        "l": 90.9,
+        "h": 78.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        53
+      ],
+      "cadrage_css": "47% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.75
+        }
+      ],
+      "qualite": {
+        "nettete": 35.7,
+        "bruit": 0.83,
+        "compression": 1.03,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "d3f03fa3e682d25c",
+      "drapeaux": []
+    },
+    {
+      "fichier": "lautrec-2-edited.jpg",
+      "nom": "lautrec-2-edited",
+      "drapeau": null,
+      "largeur": 1325,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.663,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 580899,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 9.4,
+        "l": 95.5,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        50
+      ],
+      "cadrage_css": "46% 50%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 37.2,
+        "bruit": 0.78,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "5c8189a9a38ea0c9",
+      "drapeaux": []
+    },
+    {
+      "fichier": "lautrec-edited.jpg",
+      "nom": "lautrec-edited",
+      "drapeau": null,
+      "largeur": 1325,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.663,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 605848,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 12.5,
+        "l": 95.5,
+        "h": 75,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        49
+      ],
+      "cadrage_css": "44% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.61
+        }
+      ],
+      "qualite": {
+        "nettete": 34.9,
+        "bruit": 0.84,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e4eb49e9c5c98458",
+      "drapeaux": []
+    },
+    {
+      "fichier": "love-cats.jpg",
+      "nom": "love-cats",
+      "drapeau": null,
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 656517,
+      "transparence": false,
+      "sujet": {
+        "x": 21.9,
+        "y": 0,
+        "l": 65.6,
+        "h": 95.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        48
+      ],
+      "cadrage_css": "50% 48%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "gauche",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.66
+        }
+      ],
+      "qualite": {
+        "nettete": 29.1,
+        "bruit": 1.05,
+        "compression": 1.21,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "cd87b7878b896860",
+      "drapeaux": []
+    },
+    {
+      "fichier": "papa-moi.jpg",
+      "nom": "papa-moi",
+      "drapeau": null,
+      "largeur": 1325,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.663,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 375432,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 18.8,
+        "l": 95.5,
+        "h": 81.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        65
+      ],
+      "cadrage_css": "46% 65%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.36,
+          "ton": "moyen",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "droite",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.72
+        },
+        {
+          "cote": "gauche",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "bas",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 14,
+        "bruit": 0.57,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "73b8f0e99594dcfc",
+      "drapeaux": []
+    }
+  ]
+}

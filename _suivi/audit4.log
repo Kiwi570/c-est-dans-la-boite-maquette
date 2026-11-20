@@ -1,0 +1,19 @@
+… mesures
+  18/234
+  44/234
+  74/234
+  94/234
+  122/234
+  151/234
+  171/234
+  199/234
+  222/234
+  fait en 286 s
+… mesures:balayage
+  fait en 47 s
+… ecran
+  fait en 13 s
+
+Échecs : 1 · À regarder : 0 · Non lancé : 0
+Relancer seulement ce qui a échoué : node _audit/audit.mjs --complet --pages=/ --seulement=fichiers,mesures
+Rapport : /home/claude/projet/c-est-dans-la-boite-maquette/_audit/rapport/rapport.md (passe 20261120-204315-complet-partiel)

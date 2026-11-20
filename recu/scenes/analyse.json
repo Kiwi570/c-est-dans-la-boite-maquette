@@ -1,0 +1,408 @@
+{
+  "dossier": "/home/claude/projet/c-est-dans-la-boite-maquette/recu/scenes",
+  "date": "2026-11-20T19:55:16.504Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "boite-face.jpg",
+      "nom": "boite-face",
+      "drapeau": null,
+      "largeur": 640,
+      "hauteur": 840,
+      "ratio": "3:4",
+      "ratio_valeur": 0.762,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 143141,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        51
+      ],
+      "cadrage_css": "44% 51%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.9
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 27.2,
+        "bruit": 1.06,
+        "compression": 1.08,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "24347571797db2b6",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "scene-amis.jpg",
+      "nom": "scene-amis",
+      "drapeau": null,
+      "largeur": 900,
+      "hauteur": 960,
+      "ratio": "0.94",
+      "ratio_valeur": 0.938,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 212771,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        49
+      ],
+      "cadrage_css": "50% 49%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 23.6,
+        "bruit": 1.15,
+        "compression": 1.1,
+        "faible": true,
+        "raisons": [
+          "900 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "87eac9c9cade5c9c",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "scene-animal.jpg",
+      "nom": "scene-animal",
+      "drapeau": null,
+      "largeur": 900,
+      "hauteur": 960,
+      "ratio": "0.94",
+      "ratio_valeur": 0.938,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 213132,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        49
+      ],
+      "cadrage_css": "46% 49%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 23.8,
+        "bruit": 0.93,
+        "compression": 1.09,
+        "faible": true,
+        "raisons": [
+          "900 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "74d859c2ca8e2c63",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "scene-famille.jpg",
+      "nom": "scene-famille",
+      "drapeau": null,
+      "largeur": 900,
+      "hauteur": 960,
+      "ratio": "0.94",
+      "ratio_valeur": 0.938,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 151177,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        48
+      ],
+      "cadrage_css": "48% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 9.7,
+        "bruit": 0.58,
+        "compression": 1.2,
+        "faible": true,
+        "raisons": [
+          "900 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "f5d9dae2a6b2b267",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "scene-mariage.jpg",
+      "nom": "scene-mariage",
+      "drapeau": null,
+      "largeur": 900,
+      "hauteur": 960,
+      "ratio": "0.94",
+      "ratio_valeur": 0.938,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 270332,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 6.3,
+        "l": 100,
+        "h": 93.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        49
+      ],
+      "cadrage_css": "47% 49%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 44.8,
+        "bruit": 1.9,
+        "compression": 1.05,
+        "faible": true,
+        "raisons": [
+          "900 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "16f8f4d494101c9c",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "scene-vacances.jpg",
+      "nom": "scene-vacances",
+      "drapeau": null,
+      "largeur": 900,
+      "hauteur": 960,
+      "ratio": "0.94",
+      "ratio_valeur": 0.938,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 167464,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        52
+      ],
+      "cadrage_css": "53% 52%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 12.9,
+        "bruit": 0.6,
+        "compression": 1.14,
+        "faible": true,
+        "raisons": [
+          "900 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "6cf072291dce493d",
+      "drapeaux": [
+        "petite"
+      ]
+    }
+  ]
+}

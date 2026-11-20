@@ -1,0 +1,14 @@
+import { chromium } from 'playwright';
+import { demarrerServeur } from '../_audit/serveur.mjs';
+const srv = await demarrerServeur(process.cwd());
+const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
+p.on('pageerror', (e) => console.log('ERR', String(e)));
+await p.goto(srv.adresse + '/sur-mesure?occasion=vacances#composer'); await p.waitForTimeout(3000);
+await p.click('input[value=sable]'); await p.click('input[value=coquillages]');
+await p.fill('#legende', 'Nos vacances à Biarritz');
+await p.click('input[value=retrait]');
+await p.waitForTimeout(1500);
+await p.locator('.composeur-grille').screenshot({ path: '/home/claude/comp.png' });
+console.log(await p.getAttribute('[data-email]', 'href'));
+console.log(await p.textContent('.apercu-legende'), '|', await p.textContent('[data-port]'));
+await b.close(); await srv.fermer(); process.exit(0);

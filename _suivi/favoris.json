@@ -1,0 +1,254 @@
+{
+ "explication": "Maquettes favorites de l'utilisateur : le niveau et le style visés, sur l'accueil ET les pages intérieures. Jamais à copier (ni leur idée, ni leur mise en page) : même harmonie, même fluidité, même soin.",
+ "activite": [
+  "artisanat"
+ ],
+ "metier": "photomontage 3D boîte polaroïd encadrement créatrice art",
+ "besoin": [],
+ "ton": [
+  "ludique"
+ ],
+ "univers": [],
+ "ambiance": [],
+ "concept": [],
+ "depot": "c-est-dans-la-boite-maquette",
+ "favorites_dans_la_bibliotheque": 22,
+ "favorites": [
+  {
+   "rang": 1,
+   "maquette": "pierre-becq-lanterne-maquette",
+   "client": "antiquaire à Metz (mobilier et objets d'art du XVIe au XXe siècle, expertise, achat de successions)",
+   "metier": "antiquaire",
+   "pourquoi": "Antiquaire : bois sombre et or, Bodoni italique, objets mis en scène.",
+   "proche": [
+    "même métier"
+   ],
+   "lumiere": "sombre",
+   "note_maquette": 89,
+   "en_ligne": "https://pierre-becq-lanterne-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "pierre-becq-lanterne-maquette/haut",
+     "note_section": 5,
+     "titre": "Flamme sur la boiserie",
+     "capture": "medias/pierre-becq-lanterne-maquette/haut-p1440.jpg",
+     "video": "medias/pierre-becq-lanterne-maquette/haut-p720.mp4",
+     "fiche": "sections/pierre-becq-lanterne-maquette/haut.json",
+     "en_ligne": "https://pierre-becq-lanterne-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "produits",
+     "id": "pierre-becq-lanterne-maquette/coups-de-coeur",
+     "note_section": 5,
+     "titre": "Salle des coups de cœur",
+     "capture": "medias/pierre-becq-lanterne-maquette/coups-de-coeur-p1440.jpg",
+     "video": "medias/pierre-becq-lanterne-maquette/coups-de-coeur-p720.mp4",
+     "fiche": "sections/pierre-becq-lanterne-maquette/coups-de-coeur.json",
+     "en_ligne": "https://pierre-becq-lanterne-maquette.vercel.app"
+    },
+    {
+     "page": "expertise",
+     "role": "ouverture",
+     "id": "pierre-becq-lanterne-maquette/expertise-entree",
+     "note_section": 4,
+     "titre": "Loupe d'expert sur le bureau",
+     "capture": "medias/pierre-becq-lanterne-maquette/expertise-entree-p1440.jpg",
+     "video": "medias/pierre-becq-lanterne-maquette/expertise-entree-p720.mp4",
+     "fiche": "sections/pierre-becq-lanterne-maquette/expertise-entree.json",
+     "en_ligne": "https://pierre-becq-lanterne-maquette.vercel.app/expertise"
+    },
+    {
+     "page": "galerie",
+     "role": "produits",
+     "id": "pierre-becq-lanterne-maquette/galerie-galerie-bloc",
+     "note_section": 4,
+     "titre": "Vitrine filtrable",
+     "capture": "medias/pierre-becq-lanterne-maquette/galerie-galerie-bloc-p1440.jpg",
+     "video": "medias/pierre-becq-lanterne-maquette/galerie-galerie-bloc-p720.mp4",
+     "fiche": "sections/pierre-becq-lanterne-maquette/galerie-galerie-bloc.json",
+     "en_ligne": "https://pierre-becq-lanterne-maquette.vercel.app/galerie"
+    }
+   ]
+  },
+  {
+   "rang": 2,
+   "maquette": "laure-polin-maquette",
+   "client": "sculptrice (ardoise taillée, bronze, pneu recyclé), atelier à Bagnolet, vente d'œuvres",
+   "metier": "sculptrice",
+   "pourquoi": "Sculptrice : sombre et minimal, œuvres en grand, Cormorant Garamond.",
+   "proche": [
+    "même activité"
+   ],
+   "lumiere": "sombre",
+   "note_maquette": 90,
+   "en_ligne": "https://laure-polin-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "laure-polin-maquette/hero",
+     "note_section": 5,
+     "titre": "Œuvres recomposées en poussière d'ardoise",
+     "capture": "medias/laure-polin-maquette/hero-p1440.jpg",
+     "video": "medias/laure-polin-maquette/hero-p720.mp4",
+     "fiche": "sections/laure-polin-maquette/hero.json",
+     "en_ligne": "https://laure-polin-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "manifeste",
+     "id": "laure-polin-maquette/manifeste",
+     "note_section": 4,
+     "titre": "Manifeste au portrait collant",
+     "capture": "medias/laure-polin-maquette/manifeste-p1440.jpg",
+     "video": "medias/laure-polin-maquette/manifeste-p720.mp4",
+     "fiche": "sections/laure-polin-maquette/manifeste.json",
+     "en_ligne": "https://laure-polin-maquette.vercel.app"
+    },
+    {
+     "page": "oeuvre",
+     "role": "ouverture",
+     "id": "laure-polin-maquette/oeuvre-fiche-entree",
+     "note_section": 3,
+     "titre": "Entrée de la fiche d'œuvre",
+     "capture": "medias/laure-polin-maquette/oeuvre-fiche-entree-p1440.jpg",
+     "video": null,
+     "fiche": "sections/laure-polin-maquette/oeuvre-fiche-entree.json",
+     "en_ligne": "https://laure-polin-maquette.vercel.app/oeuvre"
+    },
+    {
+     "page": "salle",
+     "role": "galerie",
+     "id": "laure-polin-maquette/salle-salle-zone",
+     "note_section": 4,
+     "titre": "Salle horizontale à l'échelle",
+     "capture": "medias/laure-polin-maquette/salle-salle-zone-p1440.jpg",
+     "video": "medias/laure-polin-maquette/salle-salle-zone-p720.mp4",
+     "fiche": "sections/laure-polin-maquette/salle-salle-zone.json",
+     "en_ligne": "https://laure-polin-maquette.vercel.app/salle"
+    }
+   ]
+  },
+  {
+   "rang": 3,
+   "maquette": "lemoy-premium-maquette",
+   "client": "pâtisserie, chocolaterie, boulangerie et traiteur rue François de Curel à Metz, commande en ligne et retrait en boutique",
+   "metier": "pâtissier chocolatier",
+   "pourquoi": "Pâtisserie à Metz : cacao, crème et or, superbes photos de produits, vitrine claire et utile, commande en ligne.",
+   "proche": [
+    "même activité"
+   ],
+   "lumiere": "mixte",
+   "note_maquette": 84,
+   "en_ligne": "https://lemoy-premium-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "lemoy-premium-maquette/heros",
+     "note_section": 3,
+     "titre": "Les grands classiques, revisités.",
+     "capture": "medias/lemoy-premium-maquette/heros-p1440.jpg",
+     "video": null,
+     "fiche": "sections/lemoy-premium-maquette/heros.json",
+     "en_ligne": "https://lemoy-premium-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "produits",
+     "id": "lemoy-premium-maquette/vitrine",
+     "note_section": 4,
+     "titre": "Sous les cloches, ce matin",
+     "capture": "medias/lemoy-premium-maquette/vitrine-p1440.jpg",
+     "video": null,
+     "fiche": "sections/lemoy-premium-maquette/vitrine.json",
+     "en_ligne": "https://lemoy-premium-maquette.vercel.app"
+    },
+    {
+     "page": "boulangerie",
+     "role": "ouverture",
+     "id": "lemoy-premium-maquette/boulangerie-tete",
+     "note_section": 3,
+     "titre": "Pains au levain, viennoiseries pur beurre",
+     "capture": "medias/lemoy-premium-maquette/boulangerie-tete-p1440.jpg",
+     "video": null,
+     "fiche": "sections/lemoy-premium-maquette/boulangerie-tete.json",
+     "en_ligne": "https://lemoy-premium-maquette.vercel.app/boulangerie"
+    },
+    {
+     "page": "carte-cadeau",
+     "role": "outil-interactif",
+     "id": "lemoy-premium-maquette/carte-cadeau-cc-titre",
+     "note_section": 4,
+     "titre": "Votre carte",
+     "capture": "medias/lemoy-premium-maquette/carte-cadeau-cc-titre-p1440.jpg",
+     "video": null,
+     "fiche": "sections/lemoy-premium-maquette/carte-cadeau-cc-titre.json",
+     "en_ligne": "https://lemoy-premium-maquette.vercel.app/carte-cadeau"
+    }
+   ]
+  },
+  {
+   "rang": 4,
+   "maquette": "depannage-60-maquette",
+   "client": "dépannage plomberie et électricité, rénovation, autour de Longueil-Sainte-Marie (Oise)",
+   "metier": "plombier électricien dépanneur",
+   "pourquoi": "Plombier électricien : clair, bleu et jaune, prix visibles, grandes photos, estimation.",
+   "proche": [
+    "activité proche"
+   ],
+   "lumiere": "mixte",
+   "note_maquette": 87,
+   "en_ligne": "https://depannage-60-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "depannage-60-maquette/debut",
+     "note_section": 5,
+     "titre": "Fuite, panne, WC bouché ? On s’en occupe.",
+     "capture": "medias/depannage-60-maquette/debut-p1440.jpg",
+     "video": "medias/depannage-60-maquette/debut-p720.mp4",
+     "fiche": "sections/depannage-60-maquette/debut.json",
+     "en_ligne": "https://depannage-60-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "outil-interactif",
+     "id": "depannage-60-maquette/probleme",
+     "note_section": 5,
+     "titre": "Rallumez la lumière sur votre panne.",
+     "capture": "medias/depannage-60-maquette/probleme-p1440.jpg",
+     "video": "medias/depannage-60-maquette/probleme-p720.mp4",
+     "fiche": "sections/depannage-60-maquette/probleme.json",
+     "en_ligne": "https://depannage-60-maquette.vercel.app"
+    },
+    {
+     "page": "prestations",
+     "role": "ouverture",
+     "id": "depannage-60-maquette/prestations-tarifs",
+     "note_section": 4,
+     "titre": "69 prestations,tarifs en clair.",
+     "capture": "medias/depannage-60-maquette/prestations-tarifs-p1440.jpg",
+     "video": null,
+     "fiche": "sections/depannage-60-maquette/prestations-tarifs.json",
+     "en_ligne": "https://depannage-60-maquette.vercel.app/prestations"
+    },
+    {
+     "page": "decrivez-votre-besoin",
+     "role": "outil-interactif",
+     "id": "depannage-60-maquette/decrivez-votre-besoin-questionnaire",
+     "note_section": 5,
+     "titre": "Qu’est-ce qui ne va pas ?",
+     "capture": "medias/depannage-60-maquette/decrivez-votre-besoin-questionnaire-p1440.jpg",
+     "video": "medias/depannage-60-maquette/decrivez-votre-besoin-questionnaire-p720.mp4",
+     "fiche": "sections/depannage-60-maquette/decrivez-votre-besoin-questionnaire.json",
+     "en_ligne": "https://depannage-60-maquette.vercel.app/decrivez-votre-besoin"
+    }
+   ]
+  }
+ ]
+}
