@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/fraunces-latin-soft-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/instrument-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F7F3EC">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -136,6 +136,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </div>
     <div class="composeur-grille">
       <div class="apercu" aria-live="polite">
+        <div class="apercu-vol">
         <div class="apercu-boite" data-effet="legende">
           <div class="apercu-fenetre">
             <figure data-scene="scene-mariage" class="media dev apercu-scene actif" style="--cadrage:50% 50%;aspect-ratio:15 / 16">
@@ -166,7 +167,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
           </div>
           <p class="apercu-legende main">Votre légende ici</p>
         </div>
-        <p class="apercu-mention"><strong>Aperçu illustratif</strong> · <span class="apercu-exemple">Exemple d&#39;une vraie boîte : la vôtre sera composée avec vos photos.</span></p>
+        </div>
+        <p class="apercu-mention"><strong>Aperçu illustratif</strong><span class="apercu-exemple">Exemple d&#39;une vraie boîte : la vôtre sera composée avec vos photos.</span></p>
       </div>
       <form id="composeur" class="composeur-form" novalidate>
         <fieldset class="choix">
@@ -197,13 +199,17 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <div class="recap">
           <p class="recap-titre">Votre demande <span class="recap-prix" data-prix>35 € <span data-port>+ frais de port</span></span></p>
           <dl class="recap-liste" data-recap></dl>
-          <a class="bouton bouton--large" data-email href="mailto:carineschwalm@orange.fr">Préparer mon e-mail à Carine</a>
+          <div class="envoi-ligne">
+            <a class="bouton bouton--large" data-email data-grille="retour" href="mailto:carineschwalm@orange.fr">Préparer mon e-mail à Carine</a>
+            <span class="enveloppe" aria-hidden="true"><svg viewBox="0 0 64 44" focusable="false"><rect x="2" y="2" width="60" height="40" rx="3" fill="#F7F3EC" stroke="#1B1714" stroke-width="2.5"/><path d="M3 4 L32 26 L61 4" fill="none" stroke="#1B1714" stroke-width="2.5" stroke-linejoin="round"/><rect x="44" y="8" width="12" height="9" fill="#C8322B"/></svg></span>
+          </div>
+          <p class="envoi-note main" data-envoi-note aria-live="polite"></p>
           <p class="choix-aide">Votre messagerie s&#39;ouvre avec la demande écrite : joignez vos photos et envoyez. Ou appelez le <a href="tel:+33687826299">06 87 82 62 99</a>.</p>
         </div>
       </form>
     </div>
   </div>
-  <script type="application/json" id="composeur-textes">{"email":"carineschwalm@orange.fr","scenes":{"mariage":{"image":"scene-mariage","legende":"Just married… again !"},"anniversaire":{"image":"scene-amis","legende":"The love cats"},"vacances":{"image":"scene-vacances","legende":"Laponie Finlandaise"},"animal":{"image":"scene-animal","legende":"Un amour de Virgul"},"autre":{"image":"scene-famille","legende":"Mon Papa et Moi"}},"occasions":{"mariage":"Un mariage","anniversaire":"Un anniversaire","vacances":"Des vacances","animal":"Un animal de compagnie","autre":"Un autre moment"},"matieres":{"sable":"Sable","coquillages":"Coquillages","gazon":"Gazon","fourrure":"Fausse fourrure"},"remises":{"envoi":"Envoi à domicile (frais de port en plus)","retrait":"Click & collect à Lingolsheim, sans frais"},"l":{"occasion":"Occasion","matieres":"Éléments ludiques","legende":"Légende","remise":"Remise"},"port":"+ frais de port","retrait":"retrait sans frais","aucun":"à votre idée","legendeVide":"à définir ensemble","exemple":"Exemple : {legende}","apercu":"Exemple d'une vraie boîte : la vôtre sera composée avec vos photos.","sujet":"Ma boîte sur mesure : {occasion}","corps":"Bonjour Carine,\n\nJe voudrais une boîte sur mesure.\n\nOccasion : {occasion}\nÉléments ludiques : {matieres}\nLégende : {legende}\nRemise : {remise}\n\nJe joins mes photos et quelques mots sur ce souvenir.\n\nMerci !"}</script>
+  <script type="application/json" id="composeur-textes">{"email":"carineschwalm@orange.fr","scenes":{"mariage":{"image":"scene-mariage","legende":"Just married… again !"},"anniversaire":{"image":"scene-amis","legende":"The love cats"},"vacances":{"image":"scene-vacances","legende":"Laponie Finlandaise"},"animal":{"image":"scene-animal","legende":"Un amour de Virgul"},"autre":{"image":"scene-famille","legende":"Mon Papa et Moi"}},"occasions":{"mariage":"Un mariage","anniversaire":"Un anniversaire","vacances":"Des vacances","animal":"Un animal de compagnie","autre":"Un autre moment"},"matieres":{"sable":"Sable","coquillages":"Coquillages","gazon":"Gazon","fourrure":"Fausse fourrure"},"remises":{"envoi":"Envoi à domicile (frais de port en plus)","retrait":"Click & collect à Lingolsheim, sans frais"},"l":{"occasion":"Occasion","matieres":"Éléments ludiques","legende":"Légende","remise":"Remise"},"port":"+ frais de port","retrait":"retrait sans frais","aucun":"à votre idée","legendeVide":"à définir ensemble","exemple":"Exemple : {legende}","apercu":"Exemple d'une vraie boîte : la vôtre sera composée avec vos photos.","sujet":"Ma boîte sur mesure : {occasion}","corps":"Bonjour Carine,\n\nJe voudrais une boîte sur mesure.\n\nOccasion : {occasion}\nÉléments ludiques : {matieres}\nLégende : {legende}\nRemise : {remise}\n\nJe joins mes photos et quelques mots sur ce souvenir.\n\nMerci !","envoiNote":"C’est parti ! Votre messagerie s’ouvre : joignez vos photos."}</script>
 </section>
 <section class="delais" id="delais">
   <div class="conteneur delais-grille">
@@ -270,8 +276,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/creations" data-libelle="Créations">Créations</a></li><li><a href="/atelier" data-libelle="L&#39;atelier">L&#39;atelier</a></li><li><a href="/sur-mesure" data-libelle="Sur mesure" aria-current="page">Sur mesure</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
     </nav>
     <div>
-      <p class="pied-titre">Retour en haut</p>
-      <ul><li><a href="#haut" data-sans-transition>Retour en haut ↑</a></li></ul>
+      <p class="pied-titre">Commander</p>
+      <ul><li><a href="/sur-mesure#composer" data-libelle="Sur mesure">Composer ma boîte</a></li><li><a href="#haut" data-sans-transition>Retour en haut ↑</a></li></ul>
     </div>
   </div>
   <div class="conteneur pied-bas"><p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p><p>Maquette de présentation : formulaire simulé, rien n&#39;est envoyé.</p><p>© C&#39;est dans la boîte</p></div>

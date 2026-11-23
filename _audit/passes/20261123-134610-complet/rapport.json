@@ -1,0 +1,216 @@
+{
+  "echecs": [],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "« à compléter » visible",
+      "detail": "1 fois hors du pied de page : remplacer par une phrase vraie qui oriente le visiteur (« Tarifs selon la saison, donnés à la réservation ») ou retirer l'élément, et le noter dans la fiche du README (sauf sens propre : « dossier à compléter »)",
+      "etape": "fichiers",
+      "page": "contact.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : rien ne relie les sections (point 4)",
+      "detail": "absent de cette page : élément du métier qui relie les sections et les pages (fil dans la marge, objet unique qui change, lumière qui passe, carte, folio, frise), marqué data-grille=\"fil\"",
+      "etape": "grille",
+      "page": "/atelier",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : rien ne relie les sections (point 4)",
+      "detail": "absent de cette page : élément du métier qui relie les sections et les pages (fil dans la marge, objet unique qui change, lumière qui passe, carte, folio, frise), marqué data-grille=\"fil\"",
+      "etape": "grille",
+      "page": "/contact",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : rien ne relie les sections (point 4)",
+      "detail": "absent de cette page : élément du métier qui relie les sections et les pages (fil dans la marge, objet unique qui change, lumière qui passe, carte, folio, frise), marqué data-grille=\"fil\"",
+      "etape": "grille",
+      "page": "/sur-mesure",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : aucun titre ne fait l’événement (point 5)",
+      "detail": "absent de cette page : titre fabriqué par le métier, axe de police animé ou titre joué avec l’image (modules axes-au-defilement, titre-cousu, texte-grave-en-direct), marqué data-grille=\"typo\"",
+      "etape": "grille",
+      "page": "/atelier",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : aucun titre ne fait l’événement (point 5)",
+      "detail": "absent de cette page : titre fabriqué par le métier, axe de police animé ou titre joué avec l’image (modules axes-au-defilement, titre-cousu, texte-grave-en-direct), marqué data-grille=\"typo\"",
+      "etape": "grille",
+      "page": "/contact",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : aucun titre ne fait l’événement (point 5)",
+      "detail": "absent de cette page : titre fabriqué par le métier, axe de police animé ou titre joué avec l’image (modules axes-au-defilement, titre-cousu, texte-grave-en-direct), marqué data-grille=\"typo\"",
+      "etape": "grille",
+      "page": "/creations",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : aucun titre ne fait l’événement (point 5)",
+      "detail": "absent de cette page : titre fabriqué par le métier, axe de police animé ou titre joué avec l’image (modules axes-au-defilement, titre-cousu, texte-grave-en-direct), marqué data-grille=\"typo\"",
+      "etape": "grille",
+      "page": "/sur-mesure",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "effet qui ne bouge pas au défilement",
+      "detail": "developpement : il ne bouge ni au défilement ni tout seul à cette taille (effet au survol, au clic, ou réservé à l'ordinateur ?) ; il ne compte pas comme effet de section",
+      "etape": "mouvement",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "img",
+      "lieux": [
+        "390×844 normal"
+      ]
+    }
+  ],
+  "nonLances": [
+    {
+      "controle": "Safari (WebKit)",
+      "raison": "WebKit ne peut pas s’installer ici : vérification à faire dans Safari sur le Mac (liste dans le rapport)",
+      "etape": "safari"
+    }
+  ],
+  "oks": {
+    "vercel.json": 1,
+    ".vercelignore": 1,
+    "robots.txt": 1,
+    "numéro de version": 1,
+    "langues": 1,
+    "grille wouahou": 5,
+    "mesures": 234,
+    "balayage": 5,
+    "films d’ouverture": 10,
+    "films de transition": 10,
+    "bords de l’écran": 6,
+    "intro accélérable et passable": 7,
+    "menu": 1,
+    "clavier": 6,
+    "liens et boutons": 6,
+    "liens profonds": 10,
+    "liens vers la page en cours": 5,
+    "changements de hauteur": 5,
+    "fluidité": 10,
+    "défilement selon l’appareil": 5,
+    "mouvement": 10,
+    "effets du plan": 7,
+    "souris immobile": 5,
+    "vitesse": 5,
+    "captures": 1
+  },
+  "infos": [
+    "Numéro de version des fichiers : ?v=2",
+    "Journal v2 : 3 étape(s) notée(s), 21 min de travail pour 75 min de budget, 0 min d’attente de l’utilisateur.",
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.",
+    "Ouverture / (1366×768) : 2637 ms depuis le premier octet",
+    "Ouverture /atelier (1366×768) : 2512 ms depuis le premier octet",
+    "Ouverture /contact (1366×768) : 2583 ms depuis le premier octet",
+    "Ouverture /creations (1366×768) : 2893 ms depuis le premier octet",
+    "Ouverture /sur-mesure (1366×768) : 2581 ms depuis le premier octet",
+    "Ouverture / (390×844) : 2645 ms depuis le premier octet",
+    "Ouverture /atelier (390×844) : 2539 ms depuis le premier octet",
+    "film de l'ouverture /atelier 390×844 : réussi à la tentative 2 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "Ouverture /contact (390×844) : 2593 ms depuis le premier octet",
+    "Ouverture /creations (390×844) : 2910 ms depuis le premier octet",
+    "Ouverture /sur-mesure (390×844) : 2628 ms depuis le premier octet",
+    "bords de l’écran / 1366×768 : réussi à la tentative 2 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "bords de l’écran /creations 1366×768 : réussi à la tentative 2 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "Bords de l’écran : 565 images d’intro, 34 de voile et 134 de menu jugées (panneau immobile couvrant tout l’écran), barre de défilement classique de 15 px.",
+    "Aucun parcours propre au projet (_audit/parcours.mjs) : filtres, calculateurs, panier, réservation, fenêtres testés seulement par les contrôles généraux.",
+    "Tient dans l'écran / : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /atelier : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /contact : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /creations : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /sur-mesure : aucune section épinglée ou plein écran.",
+    "Fluidité / 1366×768 (molette) : 0 % d'images lentes sur 435, tâche la plus longue 51 ms",
+    "Fluidité /atelier 1366×768 (molette) : 0 % d'images lentes sur 275, tâche la plus longue 59 ms",
+    "Fluidité /contact 1366×768 (molette) : 0 % d'images lentes sur 152, tâche la plus longue 0 ms",
+    "Fluidité /creations 1366×768 (molette) : 0 % d'images lentes sur 229, tâche la plus longue 0 ms",
+    "Fluidité /sur-mesure 1366×768 (molette) : 0 % d'images lentes sur 221, tâche la plus longue 0 ms",
+    "Fluidité / 390×844 (doigt) : 0 % d'images lentes sur 1344, tâche la plus longue 0 ms",
+    "Fluidité /atelier 390×844 (doigt) : 0 % d'images lentes sur 1342, tâche la plus longue 0 ms",
+    "Fluidité /contact 390×844 (doigt) : 0 % d'images lentes sur 1340, tâche la plus longue 0 ms",
+    "Fluidité /creations 390×844 (doigt) : 0 % d'images lentes sur 1345, tâche la plus longue 0 ms",
+    "Fluidité /sur-mesure 390×844 (doigt) : 0 % d'images lentes sur 1342, tâche la plus longue 0 ms",
+    "Vitesse / : 0.46 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /atelier : 0.31 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /contact : 0.26 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /creations : 0.33 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /sur-mesure : 0.34 s de calcul au chargement (téléphone ralenti)."
+  ],
+  "grille": [
+    {
+      "cle": "manipuler",
+      "nom": "1. L’effet signature se manipule",
+      "statut": "présent",
+      "detail": "accueil"
+    },
+    {
+      "cle": "intro",
+      "nom": "2. L’intro devient la page",
+      "statut": "présent",
+      "detail": "objet d’ouverture sur 5 page(s), versObjet dans l’intro"
+    },
+    {
+      "cle": "voile",
+      "nom": "3. La transition reprend le motif",
+      "statut": "présent",
+      "detail": "voile en iris"
+    },
+    {
+      "cle": "fil",
+      "nom": "4. Quelque chose relie les sections et les pages",
+      "statut": "à regarder",
+      "detail": "présent sur /creations, / ; absent sur /atelier, /contact, /sur-mesure"
+    },
+    {
+      "cle": "typo",
+      "nom": "5. Un titre fait l’événement sur chaque page",
+      "statut": "à regarder",
+      "detail": "présent sur / ; absent sur /atelier, /contact, /creations, /sur-mesure"
+    },
+    {
+      "cle": "scene",
+      "nom": "6. La scène est un geste du métier",
+      "statut": "sans objet",
+      "detail": "aucune scène épinglée marquée ni galerie générique"
+    },
+    {
+      "cle": "retour",
+      "nom": "7. L’action principale a un retour physique",
+      "statut": "présent",
+      "detail": "sur /sur-mesure"
+    }
+  ]
+}

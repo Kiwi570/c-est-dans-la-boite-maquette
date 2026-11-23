@@ -105,8 +105,8 @@ function pied(c) {
       <ul>${navigation(c).map((k) => html`<li>${c.lien(k)}</li>`)}</ul>
     </nav>
     <div>
-      <p class="pied-titre">${c.t('commun.retourHaut')}</p>
-      <ul><li><a href="#haut" data-sans-transition>${c.t('commun.retourHaut')} ↑</a></li></ul>
+      <p class="pied-titre">${c.t('commun.commander')}</p>
+      <ul><li>${c.lien('sur-mesure', { ancre: 'composer', texte: c.t('commun.composer') })}</li><li><a href="#haut" data-sans-transition>${c.t('commun.retourHaut')} ↑</a></li></ul>
     </div>
   </div>
   <div class="conteneur pied-bas"><p>${c.t('commun.mentions')} · ${c.t('commun.confidentialite')}</p><p>${c.t('commun.maquette')}</p><p>© ${c.site.nom}</p></div>

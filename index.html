@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/fraunces-latin-soft-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/instrument-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F7F3EC">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -117,22 +117,27 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </div>
     <p class="hero-info" data-info-cle data-anime="gsap">35 € · 21 × 16 cm · prête en 10 à 15 jours</p>
   </div>
-  <div class="pile">
-    <figure class="media dev pile-carte pile-carte--g" data-effet="profondeur" data-souris style="--cadrage:50% 50%;aspect-ratio:2 / 3">
+  <div class="pile-zone">
+    <div class="pile" data-grille="manipuler">
+      <div class="pile-carte pile-carte--g"><figure class="media dev pile-photo" data-legende="Laponie Finlandaise" style="--cadrage:50% 50%;aspect-ratio:2 / 3">
   <picture>
     <img data-effet="developpement" src="/assets/images/boite-laponie-1300.webp" srcset="/assets/images/boite-laponie-480.webp 480w, /assets/images/boite-laponie-800.webp 800w, /assets/images/boite-laponie-1300.webp 1300w" sizes="(max-width: 760px) 40vw, 18vw" alt="Boîte « Laponie Finlandaise, janvier 2020 » : deux voyageurs emmitouflés, des rennes et des branches enneigées" width="1300" height="1950" loading="lazy" decoding="async">
   </picture><span class="dev-voile" aria-hidden="true"></span>
-</figure>
-    <figure class="media dev pile-carte pile-carte--d" style="--cadrage:50% 50%;aspect-ratio:2 / 3">
+</figure></div>
+      <div class="pile-carte pile-carte--d"><figure class="media dev pile-photo" data-legende="Copains comme cochons !" style="--cadrage:50% 50%;aspect-ratio:2 / 3">
   <picture>
     <img data-effet="developpement" src="/assets/images/boite-cochons-1300.webp" srcset="/assets/images/boite-cochons-480.webp 480w, /assets/images/boite-cochons-800.webp 800w, /assets/images/boite-cochons-1300.webp 1300w" sizes="(max-width: 760px) 40vw, 18vw" alt="Boîte « Copains comme cochons ! » : trois cochons dans les fleurs, des oiseaux dans l&#39;arbre" width="1300" height="1950" loading="lazy" decoding="async">
   </picture><span class="dev-voile" aria-hidden="true"></span>
-</figure>
-    <figure class="media dev pile-carte pile-carte--avant" data-iris-centre style="--cadrage:50% 50%;aspect-ratio:2 / 3">
+</figure></div>
+      <div class="pile-carte pile-carte--avant" data-effet="profondeur"><figure class="media dev pile-photo" data-iris-centre data-souris data-legende="Un amour de Virgul" style="--cadrage:50% 50%;aspect-ratio:2 / 3">
   <picture>
     <img data-effet="developpement" src="/assets/images/boite-virgul-1300.webp" srcset="/assets/images/boite-virgul-480.webp 480w, /assets/images/boite-virgul-800.webp 800w, /assets/images/boite-virgul-1300.webp 1300w" sizes="(max-width: 760px) 60vw, 26vw" alt="Boîte « Un amour de Virgul » : un couple et son cocker dans l&#39;herbe fleurie, une cigogne en vol" width="1300" height="1950" fetchpriority="high" loading="eager" decoding="async">
   </picture><span class="dev-voile" aria-hidden="true"></span>
-</figure>
+</figure></div>
+      <button type="button" class="pile-bouton" data-melanger data-superpose aria-label="Mélanger la pile : montrer une autre boîte"></button>
+    </div>
+    <p class="pile-note main" aria-hidden="true"><svg class="pile-fleche" viewBox="0 0 90 60" focusable="false"><path d="M84 6 C60 2 30 10 18 40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M10 30 L18 42 L28 32" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="aide-souris">Cliquez, la pile se mélange !</span><span class="aide-tactile">Touchez, la pile se mélange !</span></p>
+    <p class="pile-legende main" aria-live="polite" data-pile-legende>Un amour de Virgul</p>
   </div>
 </section>
 <section class="occasions" id="occasions">
@@ -171,10 +176,10 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <a class="occasion" href="/sur-mesure?occasion=vacances#composer" data-libelle="Sur mesure">
           <figure class="media dev occasion-media" style="--cadrage:50% 50%;aspect-ratio:2 / 3">
   <picture>
-    <img data-effet="developpement" src="/assets/images/boite-kangourous-desert-1300.webp" srcset="/assets/images/boite-kangourous-desert-480.webp 480w, /assets/images/boite-kangourous-desert-800.webp 800w, /assets/images/boite-kangourous-desert-1300.webp 1300w" sizes="(max-width: 760px) 46vw, 20vw" alt="Boîte « Un jour… en Australie » : des kangourous sur la terre rouge, un panneau de route" width="1300" height="1950" loading="lazy" decoding="async">
+    <img data-effet="developpement" src="/assets/images/boite-big-apple-1300.webp" srcset="/assets/images/boite-big-apple-480.webp 480w, /assets/images/boite-big-apple-800.webp 800w, /assets/images/boite-big-apple-1300.webp 1300w" sizes="(max-width: 760px) 46vw, 20vw" alt="Boîte « Big Apple » : la statue de la Liberté devant Manhattan, dans une pomme" width="1300" height="1950" loading="lazy" decoding="async">
   </picture><span class="dev-voile" aria-hidden="true"></span>
 </figure>
-          <span class="occasion-legende main">Un jour… en Australie</span>
+          <span class="occasion-legende main">Big Apple</span>
           <span class="occasion-titre">Des vacances <span aria-hidden="true">→</span></span>
         </a>
       </li><li>
@@ -203,7 +208,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <div class="conteneur plans-grille">
       <div class="plans-texte">
         <p class="surtitre">Dans la boîte</p>
-        <h2 class="titre-l" data-anime="lignes">Un souvenir en <em>relief</em>, plan par plan</h2>
+        <h2 class="titre-l" data-anime="lignes">Un souvenir en <em class="mot-relief" data-texte="relief" data-grille="typo">relief</em>, plan par plan</h2>
         <p class="chapeau masque-ecran-bas">Vos photos sont découpées puis posées sur plusieurs plans : c&#39;est ce qui donne la profondeur. Faites défiler pour ouvrir la boîte.</p>
         <p class="plans-liste-titre" id="plans-liste-titre">De l&#39;avant vers le fond</p>
         <ol class="plans-liste" aria-labelledby="plans-liste-titre">
@@ -247,16 +252,40 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <section class="offre" id="format">
   <div class="conteneur offre-grille">
     <div class="offre-visuels">
-      <figure class="media offre-dos" data-effet="balancier" style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+      <div class="b3-scene" data-visuel data-grille="manipuler" role="img" aria-label="Une boîte de 21 × 16 cm vue en relief, avec sa profondeur">
+        <div class="b3-tourne">
+        <div class="b3" data-effet="boite3d">
+          <div class="b3-face b3-face--avant">
+            <figure class="media b3-photo" style="--cadrage:50% 50%;aspect-ratio:16 / 21">
   <picture>
-    <img src="/assets/images/boite-dos-1300.webp" srcset="/assets/images/boite-dos-480.webp 480w, /assets/images/boite-dos-800.webp 800w, /assets/images/boite-dos-1300.webp 1300w" sizes="(max-width: 760px) 70vw, 30vw" alt="Le dos d&#39;une boîte : l&#39;anneau pour l&#39;accrocher, l&#39;étiquette « Mis en boîte par » et la carte de Carine Schwalm" width="1300" height="1625" loading="lazy" decoding="async">
-  </picture><figcaption class="media-legende">Vue de dos : l&#39;anneau et la carte de Carine</figcaption>
-</figure>
-      <figure class="media offre-carton" data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 50%;aspect-ratio:3 / 4">
-  <picture>
-    <img src="/assets/images/emballage-face-1300.webp" srcset="/assets/images/emballage-face-480.webp 480w, /assets/images/emballage-face-800.webp 800w, /assets/images/emballage-face-1300.webp 1300w" sizes="(max-width: 760px) 40vw, 16vw" alt="Le carton d&#39;envoi en kraft, avec l&#39;étiquette « C&#39;est dans la boite ! »" width="1300" height="1733" loading="lazy" decoding="async">
+    <img src="/assets/images/boite-face-640.webp" srcset="/assets/images/boite-face-320.webp 320w, /assets/images/boite-face-640.webp 640w" sizes="(max-width: 760px) 60vw, 300px" alt="" width="640" height="840" loading="lazy" decoding="async">
   </picture>
 </figure>
+            <span class="b3-cote b3-cote--l" aria-hidden="true"><span>16 cm</span></span>
+            <span class="b3-cote b3-cote--h" aria-hidden="true"><span>21 cm</span></span>
+            <span class="b3-verre" aria-hidden="true"><span class="b3-reflet"></span></span>
+          </div>
+          <div class="b3-face b3-face--dos" data-face="dos"><span class="b3-anneau"></span></div>
+          <div class="b3-face b3-face--droite"></div>
+          <div class="b3-face b3-face--gauche" data-face="dos"></div>
+          <div class="b3-face b3-face--haut"></div>
+          <div class="b3-face b3-face--bas" data-face="dos"></div>
+        </div>
+        </div>
+        <p class="b3-aide main" aria-hidden="true"><span class="aide-souris">Attrapez-la pour la faire tourner</span><span class="aide-tactile">Glissez pour la faire tourner</span></p>
+      </div>
+      <ul class="offre-vignettes">
+        <li><figure class="media offre-vignette" style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/boite-dos-1300.webp" srcset="/assets/images/boite-dos-480.webp 480w, /assets/images/boite-dos-800.webp 800w, /assets/images/boite-dos-1300.webp 1300w" sizes="140px" alt="Le dos d&#39;une boîte : l&#39;anneau pour l&#39;accrocher, l&#39;étiquette « Mis en boîte par » et la carte de Carine Schwalm" width="1300" height="1625" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Vue de dos : l&#39;anneau et la carte de Carine</figcaption>
+</figure></li>
+        <li><figure class="media offre-vignette" style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/emballage-face-1300.webp" srcset="/assets/images/emballage-face-480.webp 480w, /assets/images/emballage-face-800.webp 800w, /assets/images/emballage-face-1300.webp 1300w" sizes="140px" alt="Le carton d&#39;envoi en kraft, avec l&#39;étiquette « C&#39;est dans la boite ! »" width="1300" height="1733" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Le carton d&#39;envoi</figcaption>
+</figure></li>
+      </ul>
     </div>
     <div class="offre-texte">
       <p class="surtitre">Le format</p>
@@ -327,15 +356,6 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </figure>
             <span class="rangee-legende main">Boîte à Meuh</span>
           </a>
-        </li><li class="rangee-carte">
-          <a href="/creations?boite=big-apple" data-libelle="Créations">
-            <figure class="media dev rangee-media" style="--cadrage:50% 50%;aspect-ratio:2 / 3">
-  <picture>
-    <img data-effet="developpement" src="/assets/images/boite-big-apple-1300.webp" srcset="/assets/images/boite-big-apple-480.webp 480w, /assets/images/boite-big-apple-800.webp 800w, /assets/images/boite-big-apple-1300.webp 1300w" sizes="(max-width: 760px) 62vw, 24vw" alt="Boîte « Big Apple » : la statue de la Liberté devant Manhattan, dans une pomme" width="1300" height="1950" loading="lazy" decoding="async">
-  </picture><span class="dev-voile" aria-hidden="true"></span>
-</figure>
-            <span class="rangee-legende main">Big Apple</span>
-          </a>
         </li>
       <li class="rangee-carte rangee-carte--fin">
         <a href="/creations" class="rangee-tout" data-libelle="Créations"><span class="titre-m">Toutes les créations</span><span>Mariages, voyages, animaux : la galerie complète.</span><span class="rond-fleche" aria-hidden="true">→</span></a>
@@ -349,21 +369,24 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="surtitre">Commander</p>
       <h2 class="titre-l" data-anime="lignes">Trois étapes, <em>sans bouger</em> de chez vous</h2>
     </div>
-    <ol class="etapes-liste" data-anime="cascade">
+    <div class="etapes-fil-zone">
+    <svg class="etapes-fil" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true" focusable="false" data-fx="trace" data-grille="fil"><path data-fx-trait d="M0 6 C 300 46 900 46 1200 6" fill="none" stroke="#8C7A66" stroke-width="2"/></svg>
+    <ol class="etapes-liste">
       <li class="etape">
-        <span class="instantane dev" data-visuel aria-hidden="true"><span class="instantane-fenetre" data-effet="developpement"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><rect x="10" y="18" width="44" height="30" rx="3" fill="none" stroke="#F7F3EC" stroke-width="2.5"/><path d="M10 20 L32 36 L54 20" fill="none" stroke="#F7F3EC" stroke-width="2.5" stroke-linejoin="round"/><rect x="38" y="8" width="16" height="13" rx="1" fill="#C8322B" transform="rotate(12 46 14)"/></svg></span><span class="instantane-num main">1</span><span class="dev-voile"></span></span>
+        <span class="instantane dev" data-visuel aria-hidden="true" data-effet="balancier"><span class="pince"></span><span class="instantane-fenetre"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><rect x="10" y="18" width="44" height="30" rx="3" fill="none" stroke="#F7F3EC" stroke-width="2.5"/><path d="M10 20 L32 36 L54 20" fill="none" stroke="#F7F3EC" stroke-width="2.5" stroke-linejoin="round"/><rect x="38" y="8" width="16" height="13" rx="1" fill="#C8322B" transform="rotate(12 46 14)"/></svg></span><span class="instantane-num main">1</span><span class="dev-voile"></span></span>
         <h3 class="titre-s">Racontez-moi</h3>
         <p>Envoyez vos photos et votre histoire par e-mail. Pas besoin de vous déplacer.</p>
       </li><li class="etape">
-        <span class="instantane dev" data-visuel aria-hidden="true"><span class="instantane-fenetre" data-effet="developpement"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M14 50 L46 14" stroke="#F7F3EC" stroke-width="3" stroke-linecap="round"/><path d="M40 12 l8-4 l4 8 l-6 4z" fill="#C8322B"/><path d="M12 40 h22 M12 46 h14" stroke="#F7F3EC" stroke-width="2" stroke-dasharray="3 3"/></svg></span><span class="instantane-num main">2</span><span class="dev-voile"></span></span>
+        <span class="instantane dev" data-visuel aria-hidden="true" data-effet="balancier"><span class="pince"></span><span class="instantane-fenetre"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M14 50 L46 14" stroke="#F7F3EC" stroke-width="3" stroke-linecap="round"/><path d="M40 12 l8-4 l4 8 l-6 4z" fill="#C8322B"/><path d="M12 40 h22 M12 46 h14" stroke="#F7F3EC" stroke-width="2" stroke-dasharray="3 3"/></svg></span><span class="instantane-num main">2</span><span class="dev-voile"></span></span>
         <h3 class="titre-s">Carine compose</h3>
         <p>Découpe, plans, éléments ludiques, verre : tout est fait main à l&#39;atelier, en 10 à 15 jours.</p>
       </li><li class="etape">
-        <span class="instantane dev" data-visuel aria-hidden="true"><span class="instantane-fenetre" data-effet="developpement"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M10 22 L32 12 L54 22 V44 L32 54 L10 44Z M10 22 L32 32 L54 22 M32 32 V54" fill="none" stroke="#F7F3EC" stroke-width="2.5" stroke-linejoin="round"/><rect x="36" y="34" width="12" height="9" fill="#C8322B" transform="skewY(-24) translate(0 24)"/></svg></span><span class="instantane-num main">3</span><span class="dev-voile"></span></span>
+        <span class="instantane dev" data-visuel aria-hidden="true" data-effet="balancier"><span class="pince"></span><span class="instantane-fenetre"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M10 22 L32 12 L54 22 V44 L32 54 L10 44Z M10 22 L32 32 L54 22 M32 32 V54" fill="none" stroke="#F7F3EC" stroke-width="2.5" stroke-linejoin="round"/><rect x="36" y="34" width="12" height="9" fill="#C8322B" transform="skewY(-24) translate(0 24)"/></svg></span><span class="instantane-num main">3</span><span class="dev-voile"></span></span>
         <h3 class="titre-s">La boîte arrive</h3>
         <p>Envoi à l&#39;adresse de votre choix (frais de port en plus), ou retrait en click &amp; collect.</p>
       </li>
     </ol>
+    </div>
     <p class="etapes-action" data-anime><a href="/sur-mesure#composer" class="bouton" data-libelle="Sur mesure" data-survol="magnetique">Commencer par l&#39;étape 1</a></p>
   </div>
 </section>
@@ -416,8 +439,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/creations" data-libelle="Créations">Créations</a></li><li><a href="/atelier" data-libelle="L&#39;atelier">L&#39;atelier</a></li><li><a href="/sur-mesure" data-libelle="Sur mesure">Sur mesure</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
     </nav>
     <div>
-      <p class="pied-titre">Retour en haut</p>
-      <ul><li><a href="#haut" data-sans-transition>Retour en haut ↑</a></li></ul>
+      <p class="pied-titre">Commander</p>
+      <ul><li><a href="/sur-mesure#composer" data-libelle="Sur mesure">Composer ma boîte</a></li><li><a href="#haut" data-sans-transition>Retour en haut ↑</a></li></ul>
     </div>
   </div>
   <div class="conteneur pied-bas"><p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p><p>Maquette de présentation : formulaire simulé, rien n&#39;est envoyé.</p><p>© C&#39;est dans la boîte</p></div>

@@ -107,8 +107,9 @@ html.js:not(.secours):not([data-arrivee="retour"]) .hero-ligne { transform: tran
 .hero-info::before { content: ''; width: 9px; height: 9px; border-radius: 50%; background: var(--rouge); flex: none; }
 
 .pile { position: relative; height: min(76svh, 720px); perspective: 1400px; }
-.pile .media { position: absolute; box-shadow: var(--ombre); background: #d9d2c4; will-change: transform; }
-.pile-carte--avant { width: min(64%, 400px); left: 50%; top: 50%; translate: -50% -50%; z-index: 3; }
+.pile .pile-carte { position: absolute; will-change: transform; }
+.pile-photo { box-shadow: var(--ombre); background: #d9d2c4; }
+.pile-carte--avant { width: min(64%, 400px); inset: 0; margin: auto; height: fit-content; z-index: 3; }
 .pile-carte--g { width: min(46%, 290px); left: 4%; top: 6%; rotate: -7deg; z-index: 1; }
 .pile-carte--d { width: min(46%, 290px); right: 2%; bottom: 3%; rotate: 6deg; z-index: 2; }
 
@@ -285,11 +286,11 @@ html.js:not(.secours):not([data-arrivee="retour"]) .hero-ligne { transform: tran
 .ouv-mur-texte .hero-actions { justify-content: center; }
 .mur { position: relative; display: flex; justify-content: center; align-items: flex-start; gap: clamp(14px, 2.6vw, 40px); padding: 44px var(--gouttiere) 0; }
 .mur-fil { position: absolute; left: 0; right: 0; top: 20px; height: 2px; background: color-mix(in srgb, var(--encre) 35%, var(--papier)); }
-.mur-boite { position: relative; width: clamp(110px, 15vw, 210px); padding: clamp(7px, 1vw, 14px) clamp(7px, 1vw, 14px) 0; background: var(--blanc); box-shadow: var(--ombre); border-radius: 2px; flex: none; }
+.mur-boite { position: relative; width: clamp(110px, 15.5vw, 225px); padding: clamp(7px, 1vw, 14px) clamp(7px, 1vw, 14px) 0; background: var(--blanc); box-shadow: var(--ombre); border-radius: 2px; flex: none; }
 .mur-boite::before { content: ''; position: absolute; left: 50%; top: -26px; width: 2px; height: 26px; background: color-mix(in srgb, var(--encre) 45%, var(--papier)); }
 .mur-boite::after { content: ''; position: absolute; left: calc(50% - 5px); top: -30px; width: 10px; height: 10px; border-radius: 50%; background: var(--rouge); }
 .mur-boite--2, .mur-boite--4 { margin-top: 26px; }
-.mur-boite--3 { width: clamp(130px, 18vw, 250px); }
+.mur-boite--3 { width: clamp(130px, 18.5vw, 265px); }
 .mur-media { border-radius: 0; }
 .mur-legende { display: block; padding: .35em 0 .5em; text-align: center; font-size: clamp(.82rem, 1.3vw, 1.3rem); line-height: 1.1; color: var(--encre); text-wrap: balance; }
 @media (max-width: 760px) {
@@ -343,7 +344,7 @@ html.visionneuse-ouverte { overflow: hidden; }
 .echelle-scene { --k: min(.85svh, 8.6px); position: relative; height: calc(60 * var(--k)); max-width: 560px; width: 100%; justify-self: center; background: linear-gradient(#F3ECE1, #EDE3D4); border-radius: var(--rayon); box-shadow: inset 0 0 0 1px #d8cbb6; overflow: hidden; }
 .echelle-etagere { position: absolute; left: 12%; right: 12%; bottom: calc(12 * var(--k)); height: calc(2.2 * var(--k)); background: #8A6A4C; border-radius: 2px; box-shadow: 0 10px 14px -8px rgba(0,0,0,.45); }
 .echelle-interrupteur { position: absolute; right: 10%; bottom: calc(30 * var(--k)); width: calc(8 * var(--k)); height: calc(8 * var(--k)); background: #fbf9f5; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,.18), inset 0 0 0 1px #e1d9cc; }
-.echelle-interrupteur span { position: absolute; top: calc(100% + 6px); left: 50%; translate: -50% 0; font-size: 12px; font-weight: 600; color: var(--texte-doux); white-space: nowrap; }
+.echelle-interrupteur span { position: absolute; bottom: calc(100% + 6px); left: 50%; translate: -50% 0; font-size: 12px; font-weight: 600; color: var(--texte-doux); white-space: nowrap; }
 .echelle-clou { position: absolute; left: calc(50% - 4px); bottom: calc(48 * var(--k)); width: 8px; height: 8px; border-radius: 50%; background: #6d6258; transition: opacity .3s; }
 .echelle-scene[data-etat="pose"] .echelle-clou { opacity: 0; }
 .echelle-boite { position: absolute; left: 50%; width: calc(16 * var(--k)); translate: -50% 0; bottom: calc(14.2 * var(--k)); transform-origin: 50% 0; }
@@ -533,3 +534,113 @@ html.visionneuse-ouverte { overflow: hidden; }
 .faq-media { width: min(70%, 240px); margin-top: 28px; box-shadow: var(--ombre); }
 @media (max-width: 760px) { .faq-media { width: 40%; } .contact-carton { display: block; width: 46%; } }
 @media (max-height: 620px) and (min-width: 761px) { .ouv-accueil .hero-intro { display: none; } }
+
+/* =================== v2 : plus ludique =================== */
+/* Pile de l'ouverture : on la mélange. */
+.pile-zone { position: relative; display: grid; }
+.pile-bouton { position: absolute; inset: 8% 14%; z-index: 5; border: 0; background: transparent; border-radius: 12px; cursor: pointer; }
+.pile-bouton:focus-visible { outline: 3px solid var(--rouge); outline-offset: 6px; }
+.pile-note { position: absolute; right: -4px; top: 0; z-index: 6; display: flex; align-items: flex-start; gap: 4px; margin: 0; max-width: 11em; font-size: 1.35rem; line-height: 1.05; color: var(--rouge); rotate: 4deg; pointer-events: none; }
+.pile-fleche { width: 70px; height: 46px; flex: none; order: 2; margin-top: 18px; }
+.pile-legende { margin: 6px 0 0; text-align: center; font-size: 1.5rem; color: var(--texte-doux); min-height: 1.4em; }
+@media (hover: hover) and (pointer: fine) { .pile-zone:hover .pile-carte--g .pile-photo { rotate: -3deg; } .pile-zone:hover .pile-carte--d .pile-photo { rotate: 3deg; } .pile-carte--g .pile-photo, .pile-carte--d .pile-photo { transition: rotate .5s var(--courbe); } }
+@media (max-width: 760px) { .pile-note { position: static; justify-self: end; margin: 4px 0 -14px; font-size: 1.15rem; max-width: 12em; } .pile-fleche { width: 48px; height: 32px; margin-top: 12px; } .pile-legende { font-size: 1.3rem; } }
+@media (max-height: 820px) and (min-width: 761px) { .pile-note { font-size: 1.15rem; } .pile-legende { font-size: 1.25rem; margin-top: 0; } .pile { height: min(68svh, 560px); } }
+@media (max-height: 500px) and (min-width: 761px) { .pile-note, .pile-legende { display: none; } }
+
+/* La boîte en relief (format) : tourne au défilement et à la main. */
+.offre-visuels { padding-bottom: 0; display: grid; justify-items: center; gap: 28px; }
+.b3-scene { --w: min(26vw, 320px, 42svh); --h: calc(var(--w) * 21 / 16); --d: calc(var(--w) * .24); position: relative; display: grid; place-items: center; width: 100%; padding: 46px 40px 30px; perspective: 1300px; touch-action: pan-y; cursor: grab; user-select: none; }
+.b3-scene:active { cursor: grabbing; }
+.b3-scene img { -webkit-user-drag: none; user-select: none; pointer-events: none; }
+.b3-tourne, .b3 { position: relative; width: var(--w); height: var(--h); transform-style: preserve-3d; }
+.b3 { transform: rotateX(8deg) rotateY(-16deg); }
+.b3-face { position: absolute; left: 0; top: 0; width: var(--w); height: var(--h); backface-visibility: hidden; }
+.b3-face--avant { transform: translateZ(calc(var(--d) / 2)); box-shadow: 0 0 0 1px #e8e2d8; }
+.b3-face--avant .media { border-radius: 2px; }
+.b3-face--dos { transform: rotateY(180deg) translateZ(calc(var(--d) / 2)); background: #F2EEE7; display: grid; place-items: start center; }
+.b3-anneau { width: 18px; height: 18px; margin-top: 14%; border-radius: 50%; border: 3px solid #9b928a; }
+.b3-face--droite, .b3-face--gauche { width: var(--d); left: calc((var(--w) - var(--d)) / 2); background: linear-gradient(90deg, #E4DDD2, #F4F0EA); }
+.b3-face--droite { transform: rotateY(90deg) translateZ(calc(var(--w) / 2)); }
+.b3-face--gauche { transform: rotateY(-90deg) translateZ(calc(var(--w) / 2)); }
+.b3-face--haut, .b3-face--bas { height: var(--d); top: calc((var(--h) - var(--d)) / 2); background: linear-gradient(#FBF9F5, #E9E3DA); }
+.b3-face--haut { transform: rotateX(90deg) translateZ(calc(var(--h) / 2)); }
+.b3-face--bas { transform: rotateX(-90deg) translateZ(calc(var(--h) / 2)); }
+.b3-verre { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+.b3-reflet { position: absolute; top: 0; bottom: 0; left: -60%; width: 60%; background: linear-gradient(105deg, transparent 20%, rgba(255,255,255,.42) 48%, transparent 76%); transform: translateX(calc(var(--reflet, 0) * 1%)); }
+.b3-cote { position: absolute; color: var(--encre); font-size: 13px; font-weight: 650; pointer-events: none; }
+.b3-cote--l { left: 0; right: 0; top: -26px; height: 12px; border: solid #8C7A66; border-width: 0 1.5px; }
+.b3-cote--l::before { content: ''; position: absolute; left: 0; right: 0; top: 50%; border-top: 1.5px solid #8C7A66; }
+.b3-cote--l span { position: absolute; left: 50%; top: 50%; translate: -50% -50%; padding: 0 6px; background: var(--papier); white-space: nowrap; }
+.b3-cote--h { top: 0; bottom: 0; right: -28px; width: 12px; border: solid #8C7A66; border-width: 1.5px 0; }
+.b3-cote--h::before { content: ''; position: absolute; top: 0; bottom: 0; left: 50%; border-left: 1.5px solid #8C7A66; }
+.b3-cote--h span { position: absolute; left: 50%; top: 50%; translate: -50% -50%; rotate: 90deg; padding: 0 6px; background: var(--papier); white-space: nowrap; }
+html.js:not(.secours):not([data-arrivee="retour"]) .b3-scene:not(.vu) .b3-cote { opacity: 0; }
+.b3-scene.vu .b3-cote { opacity: 1; transition: opacity .8s .4s; }
+.b3-aide { margin: 8px 0 0; font-size: 1.3rem; color: var(--texte-doux); }
+.b3-scene::after { content: ''; position: absolute; left: 22%; right: 22%; bottom: 18px; height: 22px; border-radius: 50%; background: radial-gradient(rgba(27,23,20,.28), transparent 70%); z-index: -1; }
+.offre-vignettes { list-style: none; margin: 0; padding: 0; display: flex; gap: 18px; }
+.offre-vignettes li { width: 130px; }
+.offre-vignette { box-shadow: var(--ombre); overflow: visible; }
+.offre-vignette picture { overflow: hidden; border-radius: var(--rayon); }
+.offre-vignette .media-legende { display: block; padding-top: 6px; font-family: var(--police-main); font-size: 1.1rem; line-height: 1.1; color: var(--texte-doux); }
+@media (max-width: 760px) { .b3-scene { --w: min(54vw, 240px); padding: 40px 34px 20px; } .offre-vignettes li { width: 38vw; } }
+@media (max-height: 820px) and (min-width: 761px) { .b3-scene { --w: min(22vw, 250px, 36svh); } }
+
+/* Les trois étapes sur un fil, avec des pinces. */
+.etapes-fil-zone { position: relative; padding-top: 6px; }
+.etapes-fil { position: absolute; left: -2%; width: 104%; top: 0; height: 60px; overflow: visible; }
+.etapes-liste .etape { padding-top: 18px; }
+.etapes-liste .etape:nth-child(2) { padding-top: 30px; }
+.instantane { overflow: visible; }
+.instantane .instantane-fenetre { overflow: hidden; }
+.pince { position: absolute; left: 50%; top: -16px; translate: -50% 0; width: 12px; height: 30px; border-radius: 2px; background: linear-gradient(90deg, #C29A6B, #D8B587 50%, #C29A6B); box-shadow: 0 2px 3px rgba(0,0,0,.25); z-index: 3; }
+.pince::after { content: ''; position: absolute; left: 50%; top: 0; bottom: 0; border-left: 1px solid rgba(70,45,20,.45); }
+@media (max-width: 760px) {
+  .etapes-fil { display: none; }
+  .etapes-liste .etape, .etapes-liste .etape:nth-child(2) { padding-top: 0; display: grid; grid-template-columns: 104px minmax(0, 1fr); column-gap: 18px; justify-items: start; text-align: left; align-items: start; }
+  .etape .instantane { grid-row: span 2; width: 104px; margin: 6px 0 0; }
+  .etape .instantane-num { font-size: 1.5rem; }
+  .etape h3 { margin: 4px 0 4px; }
+  .etape p { margin: 0; }
+  .etapes-liste { gap: 28px; }
+}
+
+/* Secouer comme un Polaroïd, au survol. */
+@keyframes secouer { 0% { rotate: 0deg; } 20% { rotate: -2.2deg; } 45% { rotate: 2deg; } 70% { rotate: -1.2deg; } 100% { rotate: 0deg; } }
+@media (hover: hover) and (pointer: fine) {
+  .occasion:hover .occasion-media, .rangee-carte a:hover .rangee-media, .creation-bouton:hover .creation-media { animation: secouer .55s var(--courbe); }
+}
+
+/* Créations : le fil se tend et les instantanés tombent dessus. */
+.mur-fil { transform-origin: 0 50%; }
+html.js:not(.secours):not([data-arrivee="retour"]) .mur-fil { transform: scaleX(0); }
+html.js:not(.secours):not([data-arrivee="retour"]) .mur-boite:not([data-iris-centre]) { opacity: 0; }
+.creation-appel-lien { display: grid; gap: 6px; text-decoration: none; color: inherit; }
+.creation-appel-lien .idee-cadre { transition: transform .45s var(--courbe); }
+.creation-appel-lien:hover .idee-cadre { transform: translateY(-6px) rotate(1deg); }
+.creation-appel .creation-cat { color: var(--rouge); }
+/* À l'échelle : une tasse, une plante, du papier peint. */
+.echelle-scene { background: repeating-linear-gradient(90deg, #F4EDE2 0 calc(5 * var(--k)), #EFE6D8 calc(5 * var(--k)) calc(10 * var(--k))); }
+.echelle-tasse { position: absolute; left: 17%; bottom: calc(14.2 * var(--k)); width: calc(10 * var(--k)); height: calc(9.5 * var(--k)); }
+.echelle-plante { position: absolute; right: 16%; bottom: calc(14.2 * var(--k)); width: calc(10 * var(--k)); height: calc(22 * var(--k)); }
+.echelle-interrupteur { right: auto; left: 9%; }
+.echelle-repere { position: absolute; font-size: 12px; font-weight: 600; color: var(--texte-doux); white-space: nowrap; }
+.echelle-repere--tasse { left: 17%; bottom: calc(24.5 * var(--k)); }
+@media (max-width: 760px) { .echelle-tasse { left: 12%; } .echelle-repere--tasse { left: 10%; } .echelle-plante { right: 10%; } }
+
+/* Sur mesure : la boîte part dans l'enveloppe. */
+.apercu-vol { display: grid; justify-items: center; width: 100%; }
+.envoi-ligne { position: relative; display: flex; align-items: center; gap: 14px; }
+.envoi-ligne .bouton--large { flex: 1; }
+.enveloppe { position: absolute; right: 6px; bottom: calc(100% + 10px); width: 54px; height: 38px; opacity: 0; pointer-events: none; }
+.enveloppe svg { width: 100%; height: 100%; display: block; }
+.envoi-note { margin: 10px 0 0; min-height: 1.3em; font-size: 1.35rem; line-height: 1.1; color: #F4A592; }
+/* Contact : copier l'adresse. */
+.coord-email { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; }
+.copier { min-height: 44px; min-width: 44px; padding: 0 16px; border-radius: 999px; border: 1.5px solid color-mix(in srgb, var(--encre) 30%, transparent); background: transparent; font-weight: 650; color: var(--encre); transition: background-color .2s, color .2s, border-color .2s; }
+.copier:hover { border-color: var(--encre); }
+.copier.copie { background: var(--rouge); color: var(--blanc); border-color: var(--rouge); font-family: var(--police-main); font-size: 1.2rem; }
+
+/* « relief » : le mot prend du relief, plan par plan, pendant que la boîte s'ouvre. */
+.mot-relief { text-shadow: calc(var(--relief, 0) * 2px) calc(var(--relief, 0) * 2px) 0 #E9A797, calc(var(--relief, 0) * 4px) calc(var(--relief, 0) * 4px) 0 #DDB9A2, calc(var(--relief, 0) * 6px) calc(var(--relief, 0) * 6px) 0 #CDB291; }

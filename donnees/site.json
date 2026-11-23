@@ -2,14 +2,40 @@
   "nom": "C'est dans la boîte",
   "adresse": "https://c-est-dans-la-boite-maquette.vercel.app",
   "siteActuel": "www.c-est-dans-la-boite.fr",
-  "version": 1,
-  "langues": ["fr"],
-  "navigation": ["accueil", "creations", "atelier", "sur-mesure", "contact"],
-  "actionEntete": { "page": "sur-mesure", "ancre": "composer" },
-  "couleurs": { "fond": "#F7F3EC", "texte": "#1B1714", "voile": "#1B1714", "ouverture": "#1B1714", "menu": "#F7F3EC", "theme": "#F7F3EC" },
+  "version": 2,
+  "langues": [
+    "fr"
+  ],
+  "navigation": [
+    "accueil",
+    "creations",
+    "atelier",
+    "sur-mesure",
+    "contact"
+  ],
+  "actionEntete": {
+    "page": "sur-mesure",
+    "ancre": "composer"
+  },
+  "couleurs": {
+    "fond": "#F7F3EC",
+    "texte": "#1B1714",
+    "voile": "#1B1714",
+    "ouverture": "#1B1714",
+    "menu": "#F7F3EC",
+    "theme": "#F7F3EC"
+  },
   "formeVoile": "iris",
-  "contact": { "telephone": "06 87 82 62 99", "telephoneLien": "+33687826299", "email": "carineschwalm@orange.fr", "adresse": "Lingolsheim (67380), Alsace" },
-  "polices": ["/assets/fonts/fraunces-latin-soft-normal.woff2", "/assets/fonts/instrument-sans-latin-wght-normal.woff2"],
+  "contact": {
+    "telephone": "06 87 82 62 99",
+    "telephoneLien": "+33687826299",
+    "email": "carineschwalm@orange.fr",
+    "adresse": "Lingolsheim (67380), Alsace"
+  },
+  "polices": [
+    "/assets/fonts/fraunces-latin-soft-normal.woff2",
+    "/assets/fonts/instrument-sans-latin-wght-normal.woff2"
+  ],
   "imagePartage": "boite-virgul-1300.webp",
   "curseur": false
 }

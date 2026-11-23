@@ -21,7 +21,9 @@
     "schema": "Schéma illustratif",
     "fermerVisionneuse": "Fermer",
     "precedente": "Boîte précédente",
-    "suivante": "Boîte suivante"
+    "suivante": "Boîte suivante",
+    "commander": "Commander",
+    "composer": "Composer ma boîte"
   },
   "pages": {
     "accueil": {
@@ -75,7 +77,10 @@
       "texte": "Carine découpe vos photos, les pose sur plusieurs plans et les met en boîte : un souvenir en relief, sous verre, à accrocher ou à poser.",
       "action": "Raconter mon souvenir",
       "secondaire": "Voir les créations",
-      "info": "35 € · 21 × 16 cm · prête en 10 à 15 jours"
+      "info": "35 € · 21 × 16 cm · prête en 10 à 15 jours",
+      "melangerSouris": "Cliquez, la pile se mélange !",
+      "melangerTactile": "Touchez, la pile se mélange !",
+      "melangerAria": "Mélanger la pile : montrer une autre boîte"
     },
     "occasions": {
       "rangee1": "Mariage · Anniversaire · Vacances ·",
@@ -94,7 +99,7 @@
     },
     "plans": {
       "surtitre": "Dans la boîte",
-      "titre": "Un souvenir en <em>relief</em>, plan par plan",
+      "titre": "Un souvenir en <em class=\"mot-relief\" data-texte=\"relief\" data-grille=\"typo\">relief</em>, plan par plan",
       "texte": "Vos photos sont découpées puis posées sur plusieurs plans : c'est ce qui donne la profondeur. Faites défiler pour ouvrir la boîte.",
       "listeTitre": "De l'avant vers le fond",
       "c1": "Le verre",
@@ -123,7 +128,10 @@
       "delais": "Sur mesure : 10 à 15 jours. Pièce en stock : 24 à 48 h. Envoi à l'adresse de votre choix (frais de port en plus) ou click & collect.",
       "action": "Composer ma boîte",
       "dosLegende": "Vue de dos : l'anneau et la carte de Carine",
-      "emballageLegende": "Le carton d'envoi"
+      "emballageLegende": "Le carton d'envoi",
+      "boiteAria": "Une boîte de 21 × 16 cm vue en relief, avec sa profondeur",
+      "tourner": "Attrapez-la pour la faire tourner",
+      "tournerTactile": "Glissez pour la faire tourner"
     },
     "rangee": {
       "surtitre": "Créations",
@@ -178,7 +186,10 @@
       "art": "Hommage à l'art",
       "nombre": "{n} boîtes",
       "ouvrir": "Voir en grand : {legende}",
-      "lienPropre": "Lien vers cette boîte"
+      "lienPropre": "Lien vers cette boîte",
+      "appelCadre": "Votre souvenir ici",
+      "appelTitre": "La prochaine, la vôtre ?",
+      "appelLien": "Composer la mienne"
     },
     "echelle": {
       "surtitre": "À la vraie taille",
@@ -187,11 +198,11 @@
       "mur": "Accrochée",
       "pose": "Posée",
       "choix": "Pose de la boîte",
-      "cartel": "Boîte de 21 × 16 cm, {pose}, à côté d'un interrupteur de 8 cm.",
+      "cartel": "Boîte de 21 × 16 cm, {pose}, à côté d’une tasse de 9,5 cm et d’un interrupteur de 8 cm.",
       "poseMur": "accrochée au mur par son anneau",
       "posePose": "posée sur une étagère",
       "note": "Échelle indicative.",
-      "aria": "La boîte à sa vraie taille, à côté d'un interrupteur"
+      "aria": "La boîte à sa vraie taille, à côté d’une tasse, d’une plante et d’un interrupteur"
     },
     "fin": {
       "titre": "Et la <em>vôtre</em> ?",
@@ -299,7 +310,8 @@
       "sujet": "Ma boîte sur mesure : {occasion}",
       "corps": "Bonjour Carine,\n\nJe voudrais une boîte sur mesure.\n\nOccasion : {occasion}\nÉléments ludiques : {matieres}\nLégende : {legende}\nRemise : {remise}\n\nJe joins mes photos et quelques mots sur ce souvenir.\n\nMerci !",
       "aucun": "à votre idée",
-      "legendeVide": "à définir ensemble"
+      "legendeVide": "à définir ensemble",
+      "envoiNote": "C’est parti ! Votre messagerie s’ouvre : joignez vos photos."
     },
     "delais": {
       "surtitre": "Délais et livraison",
@@ -329,7 +341,10 @@
       "texte": "Pour une boîte sur mesure, une question ou un retrait en click & collect : elle vous répond par e-mail ou par téléphone.",
       "email": "E-mail",
       "telephone": "Téléphone",
-      "info": "Lingolsheim (67380), près de Strasbourg"
+      "info": "Lingolsheim (67380), près de Strasbourg",
+      "copier": "Copier",
+      "copie": "Copiée !",
+      "copierAria": "Copier l’adresse e-mail"
     },
     "formulaire": {
       "surtitre": "Formulaire",

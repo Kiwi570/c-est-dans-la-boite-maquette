@@ -23,7 +23,7 @@ export default (c) => {
     </div>
   </div>
   <div class="mur" aria-hidden="true" data-visuel>
-    <span class="mur-fil"></span>
+    <span class="mur-fil" data-grille="fil"></span>
     ${mur.map(([nom, legende], i) => html`<div class="mur-boite mur-boite--${i + 1}" data-effet="balancier"${i === 2 ? brut(' data-iris-centre') : ''}>
       ${c.media({ nom, alt: '', classe: 'mur-media', sizes: '(max-width: 760px) 30vw, 15vw', ratio: '15 / 16', priorite: i === 2 })}
       <span class="mur-legende main">${legende}</span>
@@ -51,6 +51,9 @@ export default (c) => {
           <span class="creation-cat">${c.t('creations.galerie.' + cr.categorie)}</span>
         </button>
       </li>`)}
+      <li class="creation-appel">
+        ${c.lien('sur-mesure', { ancre: 'composer', classe: 'creation-appel-lien', texte: html`<span class="idee-cadre" aria-hidden="true"><span class="idee-fenetre"><span class="main">?</span></span><span class="idee-bord main">${c.t('creations.galerie.appelCadre')}</span></span><span class="creation-legende main">${c.t('creations.galerie.appelTitre')}</span><span class="creation-cat">${c.t('creations.galerie.appelLien')} →</span>` })}
+      </li>
     </ul>
   </div>
 </section>
@@ -84,7 +87,10 @@ export default (c) => {
     <div class="echelle-scene" data-etat="mur" role="img" aria-label="${c.s('creations.echelle.aria')}" data-visuel>
       <span class="echelle-clou" aria-hidden="true"></span>
       <span class="echelle-interrupteur" aria-hidden="true"><span>8&nbsp;cm</span></span>
+      <span class="echelle-repere echelle-repere--tasse" aria-hidden="true">9,5&nbsp;cm</span>
       <span class="echelle-etagere" aria-hidden="true"></span>
+      <svg class="echelle-tasse" viewBox="0 0 100 95" aria-hidden="true" focusable="false"><path d="M8 4 H76 V78 Q76 92 62 92 H22 Q8 92 8 78 Z" fill="#C8322B"/><path d="M76 20 Q96 20 96 40 Q96 60 76 60" fill="none" stroke="#C8322B" stroke-width="8"/><path d="M8 4 H76 V14 H8 Z" fill="#A82A24"/></svg>
+      <svg class="echelle-plante" viewBox="0 0 100 220" aria-hidden="true" focusable="false"><path d="M50 130 C40 90 10 80 6 40 C30 60 44 80 50 130 Z" fill="#5E8A5C"/><path d="M50 130 C58 80 86 60 94 20 C70 50 58 80 50 130 Z" fill="#4F7F52"/><path d="M50 130 C46 100 40 60 52 4 C62 60 56 100 50 130 Z" fill="#6E9A6A"/><path d="M14 130 H86 L78 218 H22 Z" fill="#B9774E"/><rect x="10" y="126" width="80" height="14" rx="3" fill="#A5653F"/></svg>
       <div class="echelle-boite" data-effet="balancier">
         ${c.media({ nom: 'boite-face', alt: '', classe: 'echelle-media', sizes: '200px', ratio: '16 / 21' })}
         <span class="echelle-cote echelle-cote--h" aria-hidden="true">21&nbsp;cm</span>

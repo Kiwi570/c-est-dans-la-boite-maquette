@@ -14,10 +14,10 @@ const img = (c, nom) => c.donnees.images[nom] || {};
 const occasions = [
   { cle: 'mariage', image: 'boite-mariage', legende: 'Just married… again !' },
   { cle: 'animal', image: 'boite-love-cats', legende: 'The love cats' },
-  { cle: 'vacances', image: 'boite-kangourous-desert', legende: 'Un jour… en Australie' },
+  { cle: 'vacances', image: 'boite-big-apple', legende: 'Big Apple' },
   { cle: 'famille', image: 'boite-papa', legende: 'Mon Papa et Moi', occasion: 'autre' },
 ];
-const rangee = ['boite-girafes', 'boite-kangourous-cascade', 'boite-lautrec', 'boite-koala', 'boite-meuh', 'boite-big-apple'];
+const rangee = ['boite-girafes', 'boite-kangourous-cascade', 'boite-lautrec', 'boite-koala', 'boite-meuh'];
 
 /* Les six plans de la boîte, de l'avant vers le fond. */
 const couches = [1, 2, 3, 4, 5, 6];
@@ -34,10 +34,15 @@ export default (c) => html`
     </div>
     <p class="hero-info" data-info-cle data-anime="gsap">${c.t('accueil.hero.info')}</p>
   </div>
-  <div class="pile">
-    ${dev(c, { nom: 'boite-laponie', alt: img(c, 'boite-laponie').alt, classe: 'pile-carte pile-carte--g', sizes: '(max-width: 760px) 40vw, 18vw', ratio: '2 / 3', attrs: 'data-effet="profondeur" data-souris' })}
-    ${dev(c, { nom: 'boite-cochons', alt: img(c, 'boite-cochons').alt, classe: 'pile-carte pile-carte--d', sizes: '(max-width: 760px) 40vw, 18vw', ratio: '2 / 3' })}
-    ${dev(c, { nom: 'boite-virgul', alt: img(c, 'boite-virgul').alt, classe: 'pile-carte pile-carte--avant', sizes: '(max-width: 760px) 60vw, 26vw', ratio: '2 / 3', priorite: true, attrs: 'data-iris-centre' })}
+  <div class="pile-zone">
+    <div class="pile" data-grille="manipuler">
+      <div class="pile-carte pile-carte--g">${dev(c, { nom: 'boite-laponie', alt: img(c, 'boite-laponie').alt, classe: 'pile-photo', sizes: '(max-width: 760px) 40vw, 18vw', ratio: '2 / 3', attrs: 'data-legende="Laponie Finlandaise"' })}</div>
+      <div class="pile-carte pile-carte--d">${dev(c, { nom: 'boite-cochons', alt: img(c, 'boite-cochons').alt, classe: 'pile-photo', sizes: '(max-width: 760px) 40vw, 18vw', ratio: '2 / 3', attrs: 'data-legende="Copains comme cochons\u00a0!"' })}</div>
+      <div class="pile-carte pile-carte--avant" data-effet="profondeur">${dev(c, { nom: 'boite-virgul', alt: img(c, 'boite-virgul').alt, classe: 'pile-photo', sizes: '(max-width: 760px) 60vw, 26vw', ratio: '2 / 3', priorite: true, attrs: 'data-iris-centre data-souris data-legende="Un amour de Virgul"' })}</div>
+      <button type="button" class="pile-bouton" data-melanger data-superpose aria-label="${c.s('accueil.hero.melangerAria')}"></button>
+    </div>
+    <p class="pile-note main" aria-hidden="true"><svg class="pile-fleche" viewBox="0 0 90 60" focusable="false"><path d="M84 6 C60 2 30 10 18 40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M10 30 L18 42 L28 32" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="aide-souris">${c.t('accueil.hero.melangerSouris')}</span><span class="aide-tactile">${c.t('accueil.hero.melangerTactile')}</span></p>
+    <p class="pile-legende main" aria-live="polite" data-pile-legende>Un amour de Virgul</p>
   </div>
 </section>
 
@@ -101,8 +106,28 @@ export default (c) => html`
 <section class="offre" id="format">
   <div class="conteneur offre-grille">
     <div class="offre-visuels">
-      ${c.media({ nom: 'boite-dos', alt: img(c, 'boite-dos').alt, classe: 'offre-dos', sizes: '(max-width: 760px) 70vw, 30vw', ratio: '4 / 5', attrs: 'data-effet="balancier"', legende: c.t('accueil.offre.dosLegende') })}
-      ${c.media({ nom: 'emballage-face', alt: img(c, 'emballage-face').alt, classe: 'offre-carton', sizes: '(max-width: 760px) 40vw, 16vw', ratio: '3 / 4', attrs: 'data-fx="parallaxe" data-fx-force="8"' })}
+      <div class="b3-scene" data-visuel data-grille="manipuler" role="img" aria-label="${c.s('accueil.offre.boiteAria')}">
+        <div class="b3-tourne">
+        <div class="b3" data-effet="boite3d">
+          <div class="b3-face b3-face--avant">
+            ${c.media({ nom: 'boite-face', alt: '', classe: 'b3-photo', sizes: '(max-width: 760px) 60vw, 300px', ratio: '16 / 21' })}
+            <span class="b3-cote b3-cote--l" aria-hidden="true"><span>16 cm</span></span>
+            <span class="b3-cote b3-cote--h" aria-hidden="true"><span>21 cm</span></span>
+            <span class="b3-verre" aria-hidden="true"><span class="b3-reflet"></span></span>
+          </div>
+          <div class="b3-face b3-face--dos" data-face="dos"><span class="b3-anneau"></span></div>
+          <div class="b3-face b3-face--droite"></div>
+          <div class="b3-face b3-face--gauche" data-face="dos"></div>
+          <div class="b3-face b3-face--haut"></div>
+          <div class="b3-face b3-face--bas" data-face="dos"></div>
+        </div>
+        </div>
+        <p class="b3-aide main" aria-hidden="true"><span class="aide-souris">${c.t('accueil.offre.tourner')}</span><span class="aide-tactile">${c.t('accueil.offre.tournerTactile')}</span></p>
+      </div>
+      <ul class="offre-vignettes">
+        <li>${c.media({ nom: 'boite-dos', alt: img(c, 'boite-dos').alt, classe: 'offre-vignette', sizes: '140px', ratio: '4 / 5', legende: c.t('accueil.offre.dosLegende') })}</li>
+        <li>${c.media({ nom: 'emballage-face', alt: img(c, 'emballage-face').alt, classe: 'offre-vignette', sizes: '140px', ratio: '4 / 5', legende: c.t('accueil.offre.emballageLegende') })}</li>
+      </ul>
     </div>
     <div class="offre-texte">
       <p class="surtitre">${c.t('accueil.offre.surtitre')}</p>
@@ -151,13 +176,16 @@ export default (c) => html`
       <p class="surtitre">${c.t('accueil.etapes.surtitre')}</p>
       <h2 class="titre-l" data-anime="lignes">${c.tb('accueil.etapes.titre')}</h2>
     </div>
-    <ol class="etapes-liste" data-anime="cascade">
+    <div class="etapes-fil-zone">
+    <svg class="etapes-fil" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true" focusable="false" data-fx="trace" data-grille="fil"><path data-fx-trait d="M0 6 C 300 46 900 46 1200 6" fill="none" stroke="#8C7A66" stroke-width="2"/></svg>
+    <ol class="etapes-liste">
       ${[1, 2, 3].map((i) => html`<li class="etape">
-        <span class="instantane dev" data-visuel aria-hidden="true"><span class="instantane-fenetre" data-effet="developpement">${brut(ICONE['etape' + i])}</span><span class="instantane-num main">${i}</span><span class="dev-voile"></span></span>
+        <span class="instantane dev" data-visuel aria-hidden="true" data-effet="balancier"><span class="pince"></span><span class="instantane-fenetre">${brut(ICONE['etape' + i])}</span><span class="instantane-num main">${i}</span><span class="dev-voile"></span></span>
         <h3 class="titre-s">${c.t('accueil.etapes.e' + i)}</h3>
         <p>${c.t('accueil.etapes.e' + i + 't')}</p>
       </li>`)}
     </ol>
+    </div>
     <p class="etapes-action" data-anime>${c.lien('sur-mesure', { ancre: 'composer', classe: 'bouton', texte: c.t('accueil.etapes.action'), attrs: 'data-survol="magnetique"' })}</p>
   </div>
 </section>

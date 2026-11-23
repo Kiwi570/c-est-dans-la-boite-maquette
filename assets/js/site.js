@@ -1,7 +1,7 @@
 /* C'est dans la boîte · effets propres au client. Le socle gère l'ouverture, les transitions, l'en-tête, le menu,
    les mesures et la bibliothèque d'effets (lignes, mots, cascade, parallaxe, mots géants, vitesse, magnétique…).
    Effets du plan (data-effet) : developpement, profondeur, plans, balancier, glissement, legende. */
-import { demarrer, etat, versObjet, quand, suivre, lacher } from './socle/index.js?v=1';
+import { demarrer, etat, versObjet, quand, suivre, lacher } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const ST = () => window.ScrollTrigger;
@@ -27,17 +27,17 @@ function initProfondeur() {
   if (!pile || !gsap || !ST()) return;
   const g = $('.pile-carte--g', pile), d = $('.pile-carte--d', pile), a = $('.pile-carte--avant', pile);
   gsap.timeline({ scrollTrigger: { trigger: pile, start: 'top top+=10%', end: 'bottom top', scrub: 0.6 } })
-    .fromTo(g, { x: 0, y: 0, rotation: 0 }, { x: '-14%', y: '-22%', rotation: -6, ease: 'none' }, 0)
-    .fromTo(d, { x: 0, y: 0, rotation: 0 }, { x: '14%', y: '-4%', rotation: 5, ease: 'none' }, 0)
+    .fromTo(g, { x: 0, y: 0, rotation: -7 }, { x: '-14%', y: '-22%', rotation: -13, ease: 'none' }, 0)
+    .fromTo(d, { x: 0, y: 0, rotation: 6 }, { x: '14%', y: '-4%', rotation: 11, ease: 'none' }, 0)
     .fromTo(a, { y: 0, scale: 1 }, { y: '-12%', scale: 1.04, ease: 'none' }, 0);
   if (!souris.matches) return;
-  /* Parallaxe à la souris : chaque plan bouge selon sa profondeur, et s'arrête quand la souris s'arrête. */
-  const plans = [[g, 10], [d, 16], [a, 26]].map(([el, f]) => ({ f, x: gsap.quickTo(el, 'xPercent', { duration: 0.9, ease: 'power3' }), y: gsap.quickTo(el, 'yPercent', { duration: 0.9, ease: 'power3' }) }));
+  /* Parallaxe à la souris sur les photos (pas sur les cadres, qui suivent le défilement) : s'arrête avec la souris. */
+  const plans = [[g, 10], [d, 16], [a, 26]].map(([el, f]) => { const ph = $('.pile-photo', el); return { f, x: gsap.quickTo(ph, 'x', { duration: 0.9, ease: 'power3' }), y: gsap.quickTo(ph, 'y', { duration: 0.9, ease: 'power3' }) }; });
   const zone = $('.ouv-accueil');
   zone.addEventListener('pointermove', (e) => {
     const r = zone.getBoundingClientRect();
     const nx = (e.clientX - r.left) / r.width - 0.5, ny = (e.clientY - r.top) / r.height - 0.5;
-    plans.forEach((p) => { p.x(nx * p.f * 0.25); p.y(ny * p.f * 0.2); });
+    plans.forEach((p) => { p.x(nx * p.f * 1.6); p.y(ny * p.f * 1.2); });
   });
   zone.addEventListener('pointerleave', () => plans.forEach((p) => { p.x(0); p.y(0); }));
 }
@@ -64,6 +64,7 @@ function initPlans() {
     /* Zone morte au début, puis la boîte s'ouvre ; les plans s'allument de l'avant vers le fond. */
     const q = gsap.utils.clamp(0, 1, (p - 0.04) / 0.5);
     tl.progress(q);
+    section.style.setProperty('--relief', q.toFixed(3));
     allumer(p < 0.06 ? 0 : Math.min(6, 1 + Math.floor(((p - 0.06) / 0.88) * 6)));
   };
   gsap.matchMedia().add({ grand: '(min-width: 900px) and (min-height: 600px)', petit: '(max-width: 899px), (max-height: 599px)' }, (ctx) => {
@@ -77,7 +78,7 @@ function initPlans() {
 /* ---------- balancier : une boîte accrochée qui se balance sur son anneau ---------- */
 function balancer(el, force = 5) {
   if (!gsap) return;
-  gsap.fromTo(el, { rotation: force }, { rotation: 0, duration: 2.4, ease: 'elastic.out(1.1, 0.28)', overwrite: true });
+  gsap.fromTo(el, { rotation: force }, { rotation: 0, duration: 2.4, ease: 'elastic.out(1.1, 0.28)', overwrite: 'auto' });
 }
 function initBalancier() {
   const els = $$('[data-effet="balancier"]').filter((el) => !el.closest('[data-ouverture-page]'));
@@ -259,6 +260,7 @@ function initComposeur() {
     else if (occ !== derniereOccasion || source === 'init') ecrire(propre || scene.legende);
     $('.apercu-exemple').textContent = propre ? T.apercu : texte;
     if (occ !== derniereOccasion && derniereOccasion !== null) {
+      if (gsap) gsap.fromTo('.apercu-vol', { rotation: 0 }, { keyframes: { rotation: [-3, 3, -2, 1.5, 0] }, duration: 0.6, ease: 'none' });
       const f = $(`.apercu-scene[data-scene="${scene.image}"]`, apercu);
       f.classList.remove('developpe'); void f.offsetWidth; f.classList.add('developpe');
     }
@@ -278,9 +280,107 @@ function initComposeur() {
   form.addEventListener('change', (e) => maj(e.target.name === 'legende' ? 'legende' : 'choix'));
   champ.addEventListener('input', () => maj('legende'));
   form.addEventListener('submit', (e) => e.preventDefault());
+  /* Retour physique : la boîte file dans l'enveloppe, puis la messagerie s'ouvre. */
+  const vol = $('.apercu-vol'), env = $('.enveloppe'), note = $('[data-envoi-note]');
+  lien.addEventListener('click', () => {
+    if (note) note.textContent = T.envoiNote;
+    if (!gsap || !vol || !env) return;
+    const r1 = vol.getBoundingClientRect(), r2 = env.getBoundingClientRect();
+    const dx = r2.left + r2.width / 2 - (r1.left + r1.width / 2), dy = r2.top + r2.height / 2 - (r1.top + r1.height / 2);
+    gsap.timeline()
+      .fromTo(env, { opacity: 0, scale: 0.4, rotation: -8 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.35, ease: 'back.out(2)' })
+      .to(vol, { x: dx, y: dy, scale: 0.08, rotation: -20, duration: 0.7, ease: 'power2.in' }, 0.1)
+      .to(vol, { opacity: 0, duration: 0.1 }, 0.72)
+      .to(env, { x: 40, y: -18, rotation: 12, duration: 0.45, ease: 'power2.in' }, 0.9)
+      .to(env, { opacity: 0, duration: 0.2 }, 1.15)
+      .set(vol, { x: 0, y: 0, scale: 1, rotation: 0 }, 1.45)
+      .to(vol, { opacity: 1, duration: 0.5 }, 1.45)
+      .set(env, { x: 0, y: 0, rotation: 0 }, 1.5);
+  });
   maj('init');
   /* L'aperçu s'incline doucement pendant qu'on fait défiler le composeur. */
   if (gsap && ST()) gsap.fromTo('.apercu-boite', { rotation: 3, y: 20 }, { rotation: -2, y: -10, ease: 'none', scrollTrigger: { trigger: '.composeur', start: 'top bottom', end: 'bottom top', scrub: true, invalidateOnRefresh: true } });
+}
+
+
+/* ---------- Pile à mélanger (accueil) : la boîte de devant part derrière, la suivante passe devant ---------- */
+function initMelange() {
+  const pile = $('.pile'), bouton = $('[data-melanger]');
+  if (!pile || !bouton || !gsap) return;
+  const A = $('.pile-carte--avant .pile-photo', pile), G = $('.pile-carte--g .pile-photo', pile), D = $('.pile-carte--d .pile-photo', pile);
+  const legende = $('[data-pile-legende]'), note = $('.pile-note');
+  let occupe = false;
+  const redevelopper = (f) => { f.classList.remove('developpe'); void f.offsetWidth; f.classList.add('developpe'); };
+  bouton.addEventListener('click', () => {
+    if (occupe) return;
+    occupe = true;
+    const pa = $('picture', A), pg = $('picture', G), pd = $('picture', D);
+    const la = A.dataset.legende, lg = G.dataset.legende, ld = D.dataset.legende;
+    gsap.timeline({ onComplete: () => { occupe = false; } })
+      .to(A, { xPercent: 62, yPercent: 10, rotation: 16, duration: 0.3, ease: 'power2.in' })
+      .call(() => {
+        A.prepend(pg); G.prepend(pd); D.prepend(pa);
+        A.dataset.legende = lg; G.dataset.legende = ld; D.dataset.legende = la;
+        redevelopper(G); redevelopper(D);
+        if (legende) {
+          legende.textContent = lg;
+          gsap.fromTo(legende, { clipPath: 'inset(0 100% 0 0)' }, { clipPath: 'inset(0 0% 0 0)', duration: 0.7, ease: 'power2.out', clearProps: 'clipPath' });
+        }
+      })
+      .fromTo(A, { xPercent: -58, yPercent: -8, rotation: -12 }, { xPercent: 0, yPercent: 0, rotation: 0, duration: 0.6, ease: 'back.out(1.6)' });
+    if (note && !note.dataset.vu) { note.dataset.vu = '1'; gsap.to(note, { opacity: 0, y: -8, duration: 0.5, delay: 1.2 }); }
+  });
+}
+
+/* ---------- boite3d : la boîte en relief tourne au défilement, et à la main ---------- */
+function initBoite3d() {
+  const scene = $('.b3-scene');
+  if (!scene || !gsap || !ST()) return;
+  const b3 = $('.b3', scene), tourne = $('.b3-tourne', scene);
+  gsap.timeline({ scrollTrigger: { trigger: scene, start: 'top 85%', end: 'bottom 15%', scrub: true, invalidateOnRefresh: true } })
+    .fromTo(b3, { rotationY: -20, rotationX: 9 }, { rotationY: -48, rotationX: 3, ease: 'none' }, 0)
+    .fromTo(scene, { '--reflet': 0 }, { '--reflet': 330, ease: 'none' }, 0);
+  ST().create({ trigger: scene, start: 'top 75%', once: true, onEnter: () => scene.classList.add('vu') });
+  const rot = { y: 0 };
+  const poser = gsap.quickSetter(tourne, 'rotationY', 'deg');
+  let x0 = null, depart = 0, retour = null;
+  scene.addEventListener('dragstart', (e) => e.preventDefault());
+  scene.addEventListener('pointerdown', (e) => {
+    if (e.pointerType === 'mouse') e.preventDefault();
+    x0 = e.clientX; depart = rot.y;
+    if (retour) retour.kill();
+    scene.setPointerCapture(e.pointerId);
+  });
+  scene.addEventListener('pointermove', (e) => {
+    if (x0 === null) return;
+    rot.y = gsap.utils.clamp(-170, 170, depart + (e.clientX - x0) * 0.6);
+    poser(rot.y);
+  });
+  const lacherBoite = () => {
+    if (x0 === null) return;
+    x0 = null;
+    retour = gsap.to(rot, { y: 0, duration: 1.8, delay: 0.9, ease: 'elastic.out(1, 0.45)', onUpdate: () => poser(rot.y) });
+  };
+  scene.addEventListener('pointerup', lacherBoite);
+  scene.addEventListener('pointercancel', lacherBoite);
+}
+
+/* ---------- Contact : copier l'adresse e-mail ---------- */
+function initCopier() {
+  $$('[data-copier]').forEach((b) => {
+    const span = $('span', b), base = span.textContent;
+    b.addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(b.dataset.copier); }
+      catch {
+        const r = document.createRange(); r.selectNodeContents(b.previousElementSibling);
+        const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); if (document.execCommand) document.execCommand('copy'); sel.removeAllRanges();
+      }
+      span.textContent = b.dataset.texteCopie;
+      b.classList.add('copie');
+      if (gsap) gsap.fromTo(b, { rotation: -6, scale: 1.12 }, { rotation: 0, scale: 1, duration: 0.5, ease: 'back.out(3)' });
+      setTimeout(() => { span.textContent = base; b.classList.remove('copie'); }, 2200);
+    });
+  });
 }
 
 /* ---------- Ouvertures des pages intérieures (marquées data-ouverture-page) ---------- */
@@ -294,20 +394,28 @@ function ouverturePage(tl, t0 = 0) {
   if (autres.length) tl.fromTo(autres, { y: 18, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, stagger: 0.08, ease: 'power2.out' }, t0 + 0.15);
   const devs = $$('.dev', o);
   devs.forEach((d, i) => tl.call(() => developper(d), null, t0 + 0.05 + i * 0.18));
+  const fil = $('.mur-fil', o);
+  if (fil) tl.fromTo(fil, { scaleX: 0 }, { scaleX: 1, duration: 0.7, ease: 'power2.inOut' }, t0);
+  const tombent = $$('.mur-boite:not([data-iris-centre])', o);
+  if (tombent.length) tl.fromTo(tombent, { y: -90, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, stagger: 0.09, ease: 'bounce.out' }, t0 + 0.25);
   const mur = $$('[data-effet="balancier"]', o);
-  mur.forEach((b, i) => tl.call(() => balancer(b, i % 2 ? -7 : 7), null, t0 + 0.1 + i * 0.08));
+  mur.forEach((b, i) => tl.call(() => balancer(b, i % 2 ? -7 : 7), null, t0 + 0.55 + i * 0.09));
 }
 function ouverturePageFinale() {
   const o = $('[data-ouverture-page]');
   if (!o || !gsap) return;
   gsap.set($$('[data-anime="gsap"]', o), { opacity: 1, clearProps: 'transform' });
   gsap.set($$('.hero-ligne', o), { y: 0, yPercent: 0 });
+  gsap.set($$('.mur-fil', o), { scaleX: 1 });
+  gsap.set($$('.mur-boite', o), { y: 0, opacity: 1 });
   $$('.dev', o).forEach(developper);
 }
 
 demarrer({
   preparer() {
     initProfondeur();
+    initMelange();
+    initBoite3d();
     initPlans();
     initBalancier();
     initGlissement();
@@ -315,6 +423,7 @@ demarrer({
     initGalerie();
     initEchelle();
     initComposeur();
+    initCopier();
     quand('pret', initDeveloppement);
   },
   /* Intro (moins de 3 s) : le cadre du logo sort « laiteux », se développe, file vers l'objet d'ouverture de la page,

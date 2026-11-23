@@ -1,0 +1,10 @@
+import { chromium } from 'playwright';
+import { demarrerServeur } from '../_audit/serveur.mjs';
+const srv = await demarrerServeur(process.cwd());
+const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
+await p.goto(srv.adresse + '/'); await p.waitForTimeout(3600);
+const f = () => p.evaluate(() => { const a = document.querySelector('.pile-carte--avant'); const cs = getComputedStyle(a); return { tr: cs.translate, rot: cs.rotate, style: a.getAttribute('style'), transform: cs.transform, cls: a.className }; });
+console.log(await f());
+await p.click('[data-melanger]'); await p.waitForTimeout(1500);
+console.log(await f());
+await b.close(); await srv.fermer(); process.exit(0);

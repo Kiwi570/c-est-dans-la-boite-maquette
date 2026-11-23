@@ -103,6 +103,64 @@
       "effetsRetires": [],
       "grilleDispenses": {},
       "notes": "Galeries de personnages et de célébrités sous droits non reprises (Snoopy, Shadoks, Beatles, Marilyn…). Safari non lancé ici (WebKit indisponible)."
+    },
+    {
+      "version": 2,
+      "skill": "v11.1.1",
+      "perimetre": [
+        "accueil",
+        "creations",
+        "atelier",
+        "sur-mesure",
+        "contact",
+        "404"
+      ],
+      "etapes": [
+        {
+          "etape": "analyse complète de la v1",
+          "budget": 15,
+          "debut": "2026-11-23T14:21:30+01:00",
+          "fin": "2026-11-23T14:32:00+01:00"
+        },
+        {
+          "etape": "améliorations : accueil",
+          "budget": 30,
+          "debut": "2026-11-23T14:32:00+01:00",
+          "fin": "2026-11-23T14:36:00+01:00"
+        },
+        {
+          "etape": "améliorations : pages intérieures",
+          "budget": 30,
+          "debut": "2026-11-23T14:36:00+01:00",
+          "fin": "2026-11-23T14:42:00+01:00"
+        },
+        {
+          "etape": "audit complet, regard neuf et corrections",
+          "budget": 45,
+          "debut": "2026-11-23T14:42:00+01:00",
+          "fin": "2026-11-23T15:14:00+01:00"
+        },
+        {
+          "etape": "livraison",
+          "budget": 10,
+          "debut": "2026-11-23T15:14:00+01:00",
+          "fin": "2026-11-23T15:18:00+01:00"
+        }
+      ],
+      "attentes": [],
+      "allersRetours": 0,
+      "modules": [],
+      "audit": {
+        "niveau": "complet",
+        "echecsPremierPassage": 0,
+        "relances": 0,
+        "corrections": [
+          "audit rapide intermédiaire : note de la pile qui chevauchait l'information clé à 320 px sans JavaScript"
+        ]
+      },
+      "effetsRetires": [],
+      "grilleDispenses": {},
+      "notes": "Demande : dernier audit complet, analyse de chaque page et section, version plus ludique et de haut niveau. Safari non lancé ici (WebKit indisponible)."
     }
   ]
 }

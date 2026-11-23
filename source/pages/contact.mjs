@@ -14,7 +14,7 @@ export default (c) => {
       <h1 class="titre-xl" data-anime="gsap"><span class="ligne-masque"><span class="hero-ligne">${c.tb('contact.tete.titre')}</span></span></h1>
       <p class="chapeau" data-anime="gsap">${c.t('contact.tete.texte')}</p>
       <dl class="coordonnees" data-anime="gsap">
-        <div><dt>${c.t('contact.tete.email')}</dt><dd><a class="coord-lien" href="mailto:${k.email}" data-action-principale>${k.email}</a></dd></div>
+        <div><dt>${c.t('contact.tete.email')}</dt><dd class="coord-email"><a class="coord-lien" href="mailto:${k.email}" data-action-principale>${k.email}</a> <button type="button" class="copier" data-copier="${k.email}" aria-label="${c.s('contact.tete.copierAria')}" data-texte-copie="${c.s('contact.tete.copie')}"><span>${c.t('contact.tete.copier')}</span></button></dd></div>
         <div><dt>${c.t('contact.tete.telephone')}</dt><dd><a class="coord-lien" href="tel:${k.telephoneLien}">${k.telephone}</a></dd></div>
       </dl>
       <p class="hero-info" data-info-cle data-anime="gsap">${c.t('contact.tete.info')}</p>

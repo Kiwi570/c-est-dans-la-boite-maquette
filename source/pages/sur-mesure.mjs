@@ -28,7 +28,7 @@ export default (c) => {
     remises: { envoi: 'Envoi à domicile (frais de port en plus)', retrait: 'Click & collect à Lingolsheim, sans frais' },
     l: { occasion: 'Occasion', matieres: 'Éléments ludiques', legende: 'Légende', remise: 'Remise' },
     port: T('recapPort'), retrait: T('recapRetrait'), aucun: T('aucun'), legendeVide: T('legendeVide'),
-    exemple: T('exemple'), apercu: T('apercuTexte'), sujet: T('sujet'), corps: T('corps'),
+    exemple: T('exemple'), apercu: T('apercuTexte'), sujet: T('sujet'), corps: T('corps'), envoiNote: T('envoiNote'),
   };
   return html`
 <section class="ouv ouv-prix" id="debut" data-ouverture-page>
@@ -58,6 +58,7 @@ export default (c) => {
     </div>
     <div class="composeur-grille">
       <div class="apercu" aria-live="polite">
+        <div class="apercu-vol">
         <div class="apercu-boite" data-effet="legende">
           <div class="apercu-fenetre">
             ${[...new Set(Object.values(scenes).map((v) => v[0]))].map((image) => brut(texteBrut(dev(c, { nom: image, alt: img(image).alt, classe: `apercu-scene${image === 'scene-mariage' ? ' actif' : ''}`, sizes: '(max-width: 760px) 70vw, 30vw', ratio: '15 / 16' })).replace('<figure class="media dev apercu-scene', `<figure data-scene="${image}" class="media dev apercu-scene`)))}
@@ -68,7 +69,8 @@ export default (c) => {
           </div>
           <p class="apercu-legende main">${c.t('surmesure.composer.legendeDefaut')}</p>
         </div>
-        <p class="apercu-mention"><strong>${c.t('surmesure.composer.apercu')}</strong> · <span class="apercu-exemple">${c.t('surmesure.composer.apercuTexte')}</span></p>
+        </div>
+        <p class="apercu-mention"><strong>${c.t('surmesure.composer.apercu')}</strong><span class="apercu-exemple">${c.t('surmesure.composer.apercuTexte')}</span></p>
       </div>
 
       <form id="composeur" class="composeur-form" novalidate>
@@ -100,7 +102,11 @@ export default (c) => {
         <div class="recap">
           <p class="recap-titre">${c.t('surmesure.composer.recap')} <span class="recap-prix" data-prix>${c.t('surmesure.composer.recapPrix')} <span data-port>${c.t('surmesure.composer.recapPort')}</span></span></p>
           <dl class="recap-liste" data-recap></dl>
-          <a class="bouton bouton--large" data-email href="mailto:${c.site.contact.email}">${c.t('surmesure.composer.envoyer')}</a>
+          <div class="envoi-ligne">
+            <a class="bouton bouton--large" data-email data-grille="retour" href="mailto:${c.site.contact.email}">${c.t('surmesure.composer.envoyer')}</a>
+            <span class="enveloppe" aria-hidden="true"><svg viewBox="0 0 64 44" focusable="false"><rect x="2" y="2" width="60" height="40" rx="3" fill="#F7F3EC" stroke="#1B1714" stroke-width="2.5"/><path d="M3 4 L32 26 L61 4" fill="none" stroke="#1B1714" stroke-width="2.5" stroke-linejoin="round"/><rect x="44" y="8" width="12" height="9" fill="#C8322B"/></svg></span>
+          </div>
+          <p class="envoi-note main" data-envoi-note aria-live="polite"></p>
           <p class="choix-aide">${c.t('surmesure.composer.envoyerAide')} ${c.t('surmesure.composer.ouAppeler')} <a href="tel:${c.site.contact.telephoneLien}">${c.site.contact.telephone}</a>.</p>
         </div>
       </form>

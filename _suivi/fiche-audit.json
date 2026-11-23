@@ -1,0 +1,29 @@
+{
+  "depot": "c-est-dans-la-boite-maquette",
+  "resume": "Direction « L'instantané » pour une créatrice de photomontages 3D en boîte façon Polaroïd : papier photo, kraft de l'emballage, noir et rouge du logo, Fraunces et légendes manuscrites en Caveat. Les vraies boîtes de Carine sont en grand ; les images se développent comme un Polaroïd, la boîte s'ouvre en six plans, et un composeur prépare un vrai e-mail de commande.",
+  "source": "script d'audit de la skill (standard, passe des formats, puis complet), aperçu filmé de l'accueil et lecture des captures.",
+  "c": [
+    [12, "Intro du cadre du logo qui se développe puis se pose sur la boîte d'ouverture, vue éclatée en 3D de la boîte ; beau mais sans scène spectaculaire."],
+    [13, "Palette tenue sur les six pages (papier, kraft, encre, un rouge), mêmes composants ; photos du client aux fonds hétérogènes, harmonisées mais pas détourées."],
+    [12, "Une animation par section : développement des photos, pile en profondeur, plans, mur qui se balance, rangée qui file, mots géants."],
+    [8, "Composeur avec légende écrite en direct et e-mail prérempli, galerie filtrable avec visionneuse, boîte à l'échelle accrochée ou posée."],
+    [13, "Audit standard et passe des formats sans échec ; petits téléphones et écrans bas réglés."],
+    [9, "Faits repris fidèlement ; galeries de personnages sous droits écartées et signalées ; phrases d'attente pour les frais de port et le retrait."],
+    [9, "Ouverture sous 2,7 s, 0 % d'images lentes, 0,4 s de calcul au chargement sur téléphone ralenti."],
+    [5, "noindex, images de partage, vercel.json sans blocage d'iframe, adresse courte."],
+    [4, "axe sans erreur ; mots géants en pseudo-élément ; focus gardé dans la visionneuse."]
+  ],
+  "forts": [
+    "L'effet « développement » relie l'intro, les photos, les étapes et le composeur sans envahir.",
+    "Le composeur finit sur un vrai e-mail tout écrit : Carine travaille par e-mail.",
+    "Six ouvertures différentes dans un seul système (pile, mur d'instantanés, plein cadre, prix géant, coordonnées, 404)."
+  ],
+  "bloquants": [],
+  "importants": [
+    ["Photos de fonds variés", "Les boîtes sont photographiées sur briques, bois ou papier peint végétal : un détourage ou une série de photos sur un même fond rendrait la galerie plus nette.", "moyen"]
+  ],
+  "finition": [
+    ["Scène à l'échelle", "Le mur de la boîte à l'échelle reste sobre ; une vraie photo d'intérieur calée à l'échelle serait plus parlante.", "petit"]
+  ],
+  "mesures": [["Temps de la v1", "environ 1 h 30 de travail, hors attentes"], ["Échecs au premier audit standard", "33, tous corrigés"]]
+}

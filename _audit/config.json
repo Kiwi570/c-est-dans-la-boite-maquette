@@ -1,6 +1,21 @@
 {
   "siteActuel": "www.c-est-dans-la-boite.fr",
-  "pagesTypes": ["/", "/creations", "/atelier", "/sur-mesure"],
-  "effets": ["developpement", "profondeur", "plans", "balancier", "glissement", "legende"],
-  "grille": { "dispenses": {} }
+  "pagesTypes": [
+    "/",
+    "/creations",
+    "/atelier",
+    "/sur-mesure"
+  ],
+  "effets": [
+    "developpement",
+    "profondeur",
+    "plans",
+    "balancier",
+    "glissement",
+    "legende",
+    "boite3d"
+  ],
+  "grille": {
+    "dispenses": {}
+  }
 }

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/fraunces-latin-soft-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/instrument-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F7F3EC">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -117,7 +117,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </div>
   </div>
   <div class="mur" aria-hidden="true" data-visuel>
-    <span class="mur-fil"></span>
+    <span class="mur-fil" data-grille="fil"></span>
     <div class="mur-boite mur-boite--1" data-effet="balancier">
       <figure class="media mur-media" style="--cadrage:50% 50%;aspect-ratio:15 / 16">
   <picture>
@@ -310,6 +310,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
           <span class="creation-cat">Voyages</span>
         </button>
       </li>
+      <li class="creation-appel">
+        <a href="/sur-mesure#composer" class="creation-appel-lien" data-libelle="Sur mesure"><span class="idee-cadre" aria-hidden="true"><span class="idee-fenetre"><span class="main">?</span></span><span class="idee-bord main">Votre souvenir ici</span></span><span class="creation-legende main">La prochaine, la vôtre ?</span><span class="creation-cat">Composer la mienne →</span></a>
+      </li>
     </ul>
   </div>
 </section>
@@ -335,13 +338,16 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <button type="button" class="filtre" data-pose="mur" aria-pressed="true">Accrochée</button>
         <button type="button" class="filtre" data-pose="pose" aria-pressed="false">Posée</button>
       </div>
-      <p class="echelle-cartel" data-cartel aria-live="polite" data-texte-mur="Boîte de 21 × 16 cm, accrochée au mur par son anneau, à côté d&#39;un interrupteur de 8 cm." data-texte-pose="Boîte de 21 × 16 cm, posée sur une étagère, à côté d&#39;un interrupteur de 8 cm.">Boîte de 21 × 16 cm, accrochée au mur par son anneau, à côté d&#39;un interrupteur de 8 cm.</p>
+      <p class="echelle-cartel" data-cartel aria-live="polite" data-texte-mur="Boîte de 21 × 16 cm, accrochée au mur par son anneau, à côté d’une tasse de 9,5 cm et d’un interrupteur de 8 cm." data-texte-pose="Boîte de 21 × 16 cm, posée sur une étagère, à côté d’une tasse de 9,5 cm et d’un interrupteur de 8 cm.">Boîte de 21 × 16 cm, accrochée au mur par son anneau, à côté d’une tasse de 9,5 cm et d’un interrupteur de 8 cm.</p>
       <p class="echelle-note">Échelle indicative.</p>
     </div>
-    <div class="echelle-scene" data-etat="mur" role="img" aria-label="La boîte à sa vraie taille, à côté d&#39;un interrupteur" data-visuel>
+    <div class="echelle-scene" data-etat="mur" role="img" aria-label="La boîte à sa vraie taille, à côté d’une tasse, d’une plante et d’un interrupteur" data-visuel>
       <span class="echelle-clou" aria-hidden="true"></span>
       <span class="echelle-interrupteur" aria-hidden="true"><span>8&nbsp;cm</span></span>
+      <span class="echelle-repere echelle-repere--tasse" aria-hidden="true">9,5&nbsp;cm</span>
       <span class="echelle-etagere" aria-hidden="true"></span>
+      <svg class="echelle-tasse" viewBox="0 0 100 95" aria-hidden="true" focusable="false"><path d="M8 4 H76 V78 Q76 92 62 92 H22 Q8 92 8 78 Z" fill="#C8322B"/><path d="M76 20 Q96 20 96 40 Q96 60 76 60" fill="none" stroke="#C8322B" stroke-width="8"/><path d="M8 4 H76 V14 H8 Z" fill="#A82A24"/></svg>
+      <svg class="echelle-plante" viewBox="0 0 100 220" aria-hidden="true" focusable="false"><path d="M50 130 C40 90 10 80 6 40 C30 60 44 80 50 130 Z" fill="#5E8A5C"/><path d="M50 130 C58 80 86 60 94 20 C70 50 58 80 50 130 Z" fill="#4F7F52"/><path d="M50 130 C46 100 40 60 52 4 C62 60 56 100 50 130 Z" fill="#6E9A6A"/><path d="M14 130 H86 L78 218 H22 Z" fill="#B9774E"/><rect x="10" y="126" width="80" height="14" rx="3" fill="#A5653F"/></svg>
       <div class="echelle-boite" data-effet="balancier">
         <figure class="media echelle-media" style="--cadrage:50% 50%;aspect-ratio:16 / 21">
   <picture>
@@ -387,8 +393,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/creations" data-libelle="Créations" aria-current="page">Créations</a></li><li><a href="/atelier" data-libelle="L&#39;atelier">L&#39;atelier</a></li><li><a href="/sur-mesure" data-libelle="Sur mesure">Sur mesure</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
     </nav>
     <div>
-      <p class="pied-titre">Retour en haut</p>
-      <ul><li><a href="#haut" data-sans-transition>Retour en haut ↑</a></li></ul>
+      <p class="pied-titre">Commander</p>
+      <ul><li><a href="/sur-mesure#composer" data-libelle="Sur mesure">Composer ma boîte</a></li><li><a href="#haut" data-sans-transition>Retour en haut ↑</a></li></ul>
     </div>
   </div>
   <div class="conteneur pied-bas"><p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p><p>Maquette de présentation : formulaire simulé, rien n&#39;est envoyé.</p><p>© C&#39;est dans la boîte</p></div>
